@@ -1,0 +1,10 @@
+# the code repos live here as their own repos
+/backend/
+/frontend/
+# downloaded reference art, not ours
+/sketches/
+
+.DS_Store
+__pycache__/
+*.pyc
+*.blend1

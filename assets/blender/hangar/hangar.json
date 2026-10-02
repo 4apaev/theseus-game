@@ -1,0 +1,98 @@
+[
+    {
+        "name": "police-light",
+        "category": "hangar",
+        "triangles": 17948,
+        "bytes": 992168
+    },
+    {
+        "name": "police-heavy",
+        "category": "hangar",
+        "triangles": 23136,
+        "bytes": 1268048
+    },
+    {
+        "name": "freighter",
+        "category": "hangar",
+        "triangles": 22844,
+        "bytes": 1244800
+    },
+    {
+        "name": "tanker",
+        "category": "hangar",
+        "triangles": 23980,
+        "bytes": 1255572
+    },
+    {
+        "name": "transport",
+        "category": "hangar",
+        "triangles": 16184,
+        "bytes": 896392
+    },
+    {
+        "name": "prison",
+        "category": "hangar",
+        "triangles": 23424,
+        "bytes": 1292800
+    },
+    {
+        "name": "frigate",
+        "category": "hangar",
+        "triangles": 24760,
+        "bytes": 1348708
+    },
+    {
+        "name": "corvette",
+        "category": "hangar",
+        "triangles": 7068,
+        "bytes": 397592
+    },
+    {
+        "name": "battleship",
+        "category": "hangar",
+        "triangles": 30268,
+        "bytes": 1644668
+    },
+    {
+        "name": "yacht",
+        "category": "hangar",
+        "triangles": 11312,
+        "bytes": 612936
+    },
+    {
+        "name": "research",
+        "category": "hangar",
+        "triangles": 11984,
+        "bytes": 654360
+    },
+    {
+        "name": "colony",
+        "category": "hangar",
+        "triangles": 30556,
+        "bytes": 1680328
+    },
+    {
+        "name": "tug",
+        "category": "hangar",
+        "triangles": 15488,
+        "bytes": 834288
+    },
+    {
+        "name": "liner",
+        "category": "hangar",
+        "triangles": 25564,
+        "bytes": 1442704
+    },
+    {
+        "name": "police-patrol",
+        "category": "robots",
+        "triangles": 6412,
+        "bytes": 343204
+    },
+    {
+        "name": "police-inspector",
+        "category": "robots",
+        "triangles": 5728,
+        "bytes": 313044
+    }
+]
