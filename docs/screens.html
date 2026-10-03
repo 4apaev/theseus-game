@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>theseus underway screens</title>
+    <style>
+        :root {
+            --paper: #e8dfcb;
+            --ink: #2a2620;
+            --char: #1c1a17;
+            --cream: #e8dfcb;
+            --muted: #8a8173;
+            --orange: #e8612c;
+            --teal: #3fb6a8;
+            --red: #d9483b;
+            --beam: #f2b134;
+            --line: rgba(232, 223, 203, .32);
+            color-scheme: dark;
+            font-family: 'sf mono', 'ibm plex mono', ui-monospace, monospace;
+            font-size: 13px;
+        }
+
+        * { box-sizing: border-box }
+
+        body {
+            margin: 0;
+            min-width: 1000px;
+            background: #10100e;
+            color: var(--cream);
+        }
+
+        button, input, select { font: inherit }
+        button { cursor: pointer }
+
+        .app {
+            width: min(1440px, 100vw);
+            min-height: 100vh;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0 1fr;
+            background: #151613;
+        }
+
+        .top {
+            grid-column: 1 / -1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 22px;
+            border-bottom: 1px solid var(--line);
+            background: rgba(12, 25, 35, .91);
+            letter-spacing: .08em;
+            z-index: 5;
+            display: none;
+        }
+
+        .wordmark { color: var(--paper); font-size: 18px; letter-spacing: .22em }
+        .top-readout { color: var(--muted); letter-spacing: .04em }
+        .top-readout b { color: var(--cream); font-weight: 400 }
+
+        .rail { display: none }
+
+        .rail small { display: block; color: var(--muted); margin: 2px 9px 13px; letter-spacing: .12em }
+        .rail button {
+            width: 100%;
+            padding: 10px 9px;
+            margin-bottom: 3px;
+            text-align: left;
+            color: var(--muted);
+            border: 1px solid transparent;
+            background: transparent;
+        }
+
+        .rail button:hover, .rail button.active { color: var(--cream); border-color: var(--orange); background: rgba(232, 97, 44, .09) }
+        .rail button.active::before { content: '■'; color: var(--orange); margin-right: 8px }
+        .rail button:not(.active)::before { content: '·'; color: var(--muted); margin: 0 11px 0 2px }
+
+        main { min-width: 0; background: #111210 }
+        #scene {
+            position: relative;
+            height: min(900px, 100vh);
+            min-height: 640px;
+            overflow: hidden;
+            background: #0e1418 center / cover no-repeat;
+            transition: background-image .25s ease;
+        }
+        #scene::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            background: linear-gradient(180deg, rgba(9, 20, 28, .42), transparent 24%, transparent 65%, rgba(9, 15, 16, .62));
+        }
+        canvas { display: none; width: 100%; height: 100% }
+        #ui { position: absolute; inset: 0; pointer-events: none }
+        #ui > * { pointer-events: auto }
+
+        .crumb { position: absolute; left: 34px; top: 27px; color: var(--cream); letter-spacing: .08em; text-shadow: 0 1px 12px #000 }
+        .crumb span { color: #c0c9c0 }
+        .legend { position: absolute; left: 34px; top: 54px; color: #c0c9c0; font-size: 11px; text-shadow: 0 1px 10px #000 }
+
+        .panel {
+            position: absolute;
+            top: 30px;
+            right: 28px;
+            width: 326px;
+            max-height: calc(100% - 58px);
+            overflow: auto;
+            padding: 14px;
+            border: 1px solid var(--line);
+            border-radius: 2px;
+            background: rgba(18, 25, 25, .88);
+            backdrop-filter: blur(7px);
+            box-shadow: 0 12px 26px rgba(0, 0, 0, .35);
+        }
+
+        .panel.paper { background: rgba(232, 223, 203, .97); color: var(--ink); border-color: rgba(42, 38, 32, .5) }
+        .panel.wide { width: 420px }
+        .panel.bottom { top: auto; bottom: 54px; right: 22px }
+        .panel h2 { margin: 0 0 4px; font-size: 19px; font-weight: 400; letter-spacing: .08em }
+        .panel h3 { margin: 15px 0 6px; font-size: 12px; font-weight: 400; color: var(--muted); text-transform: lowercase; letter-spacing: .08em }
+        .panel.paper h3 { color: #766c5d }
+        .panel p { margin: 5px 0; line-height: 1.55; color: var(--muted) }
+        .panel hr { border: 0; border-top: 1px solid var(--line); margin: 12px 0 }
+        .panel.paper hr { border-color: rgba(42, 38, 32, .3) }
+
+        .row { display: flex; justify-content: space-between; gap: 12px; align-items: center; min-height: 29px; border-bottom: 1px solid rgba(232, 223, 203, .16) }
+        .paper .row { border-color: rgba(42, 38, 32, .2) }
+        .row label { color: var(--muted) }
+        .row b { font-weight: 400; color: var(--cream); text-align: right }
+        .paper .row b { color: var(--ink) }
+        .row b.teal { color: var(--teal) }
+        .row b.red { color: var(--red) }
+
+        .action, .ghost, .key {
+            border: 1px solid var(--line);
+            border-radius: 2px;
+            color: var(--cream);
+            background: rgba(232, 223, 203, .06);
+            padding: 8px 10px;
+        }
+        .paper .ghost, .paper .key { color: var(--ink); border-color: rgba(42, 38, 32, .42); background: transparent }
+        .action { color: var(--ink); border-color: var(--orange); background: var(--orange) }
+        .action:hover, .ghost:hover, .key:hover { filter: brightness(1.15) }
+        .actions { display: flex; gap: 7px; margin-top: 14px }
+        .actions > * { flex: 1 }
+        .tiny { padding: 4px 7px; font-size: 11px }
+        .tag { display: inline-block; border: 1px solid currentColor; padding: 2px 5px; color: var(--muted); font-size: 10px; letter-spacing: .08em }
+        .tag.example { color: var(--beam) }
+        .tag.live { color: var(--teal) }
+        .tag.threat { color: var(--red) }
+
+        .tabs { display: flex; margin: 9px 0; border-bottom: 1px solid var(--line) }
+        .tabs button { flex: 1; border: 0; border-bottom: 2px solid transparent; color: var(--muted); background: transparent; padding: 7px 4px }
+        .tabs button.active { color: var(--cream); border-color: var(--orange) }
+        .paper .tabs { border-color: rgba(42, 38, 32, .3) }
+        .paper .tabs button.active { color: var(--ink) }
+
+        .range { display: grid; grid-template-columns: 75px 1fr 48px; gap: 8px; align-items: center; min-height: 34px }
+        input[type=range] { width: 100%; accent-color: var(--orange) }
+        select { width: 100%; padding: 7px; color: var(--cream); background: #25231e; border: 1px solid var(--line); border-radius: 2px }
+        .paper select { color: var(--ink); background: var(--paper); border-color: rgba(42, 38, 32, .4) }
+
+        .bottom-tabs { position: absolute; left: 50%; transform: translateX(-50%); bottom: 18px; display: flex; border: 1px solid var(--line); background: rgba(12, 25, 35, .9); box-shadow: 0 6px 22px rgba(0, 0, 0, .26) }
+        .bottom-tabs button { min-width: 88px; padding: 9px 11px; border: 0; border-right: 1px solid var(--line); color: var(--muted); background: transparent }
+        .bottom-tabs button:last-child { border-right: 0 }
+        .bottom-tabs button.active { color: var(--cream); background: rgba(232, 97, 44, .11); box-shadow: inset 0 -2px var(--orange) }
+        .esc { position: absolute; right: 22px; bottom: 18px; color: var(--muted); border: 1px solid var(--line); padding: 8px 11px }
+
+        .readout { display: none }
+        .readout b { color: var(--cream); font-weight: 400 }
+        .screen-note { min-height: 150px; padding: 17px 24px 30px; border-top: 1px solid var(--line); background: #171815; color: var(--muted); line-height: 1.5 }
+        .screen-note strong { color: var(--cream); font-weight: 400 }
+        .screen-note .note-title { color: var(--orange); margin-bottom: 7px; letter-spacing: .08em }
+        .note-lines { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px }
+        .note-lines div { border-left: 1px solid var(--line); padding-left: 12px }
+        .kbd { color: var(--beam); border: 1px solid currentColor; padding: 1px 4px; font-size: 11px }
+
+        @media (max-width: 1100px) {
+            .app { grid-template-columns: 142px 1fr }
+            .panel { width: 280px }
+            .panel.wide { width: 360px }
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <header class="top">
+            <div class="wordmark">theseus</div>
+            <div class="top-readout"><b>sol outpost</b> · docked · <b>12,840 ₢</b> · hold <b>38/80</b></div>
+        </header>
+        <nav class="rail" aria-label="underway screens">
+            <small>underway</small>
+            <button data-screen="chart" class="active">chart</button>
+            <button data-screen="system">system</button>
+            <button data-screen="flight">flight</button>
+            <button data-screen="encounter">encounter</button>
+            <button data-screen="adrift">adrift</button>
+            <small style="margin-top:28px">console</small>
+            <button id="console">` command</button>
+        </nav>
+        <main>
+            <section id="scene">
+                <canvas id="canvas" aria-label="interactive underway scene"></canvas>
+                <div id="ui"></div>
+            </section>
+            <section id="notes"></section>
+        </main>
+    </div>
+
+    <script>
+        const DATA = {
+            stars: [
+                ['sol.outpost', 'alpha.exchange', 4.32], ['sol.outpost', 'barnards.port', 5.95], ['alpha.exchange', 'barnards.port', 6.44],
+                ['barnards.port', 'wolf.reach', 10.93], ['alpha.exchange', 'sirius.gate', 9.52], ['alpha.exchange', 'wolf.reach', 8.27],
+                ['wolf.reach', 'sirius.gate', 9.02], ['lalande.gate', 'wolf.reach', 4.06], ['lalande.gate', 'procyon.gate', 9.68],
+                ['procyon.gate', 'sirius.gate', 5.26], ['procyon.gate', 'wolf.reach', 8.66], ['ran.gate', 'sirius.gate', 7.84],
+                ['ran.gate', 'lacaille.relay', 11.49], ['ross.beacon', 'barnards.port', 5.54], ['ross.beacon', 'alpha.exchange', 8.11],
+                ['lacaille.relay', 'ross.beacon', 9.58], ['lacaille.relay', 'alpha.exchange', 10.36],
+            ],
+            systems: {
+                sol: { name: 'Sol', orbits: { 'sol.mercury': ['Mercury Deep', .387], 'sol.venus': ['Venus Lab', .723], 'sol.outpost': ['Sol Outpost', 1], 'sol.mars': ['Mars Hub', 1.524], 'sol.ganymede': ['Ganymede Yards', 5.203], 'sol.titan': ['Titan Ring', 9.537] } },
+                'alpha.centauri': { name: 'Alpha Centauri', orbits: { 'alpha.exchange': ['Alpha Exchange', 1] } },
+                'barnards.star': { name: 'Barnards Star', orbits: { 'barnards.rama': ['Rama Dock', .23], 'barnards.port': ['Barnards Port', 1] } },
+                'wolf.359': { name: 'Wolf 359', orbits: { 'wolf.reach': ['Wolf Reach', 1], 'wolf.solaris': ['Solaris Lab', 1.85] } },
+                sirius: { name: 'Sirius', orbits: { 'sirius.gate': ['Sirius Gate', 1], 'sirius.technora': ['Technora Corp', 19.8] } },
+                ran: { name: 'Ran', orbits: { 'ran.gate': ['Ran Gate', 1], 'ran.aegir': ['Aegir Drift', 3.48], 'ran.rorschach': ['Rorschach Watch', 20] } },
+                procyon: { name: 'Procyon', orbits: { 'procyon.gate': ['Procyon Gate', 1], 'procyon.bebop': ['Bebop Docks', 4.2], 'procyon.ember': ['Ember Station', 15] } },
+                lalande: { name: 'Lalande 21185', orbits: { 'lalande.qeng': ['Qeng Ho Depot', .3], 'lalande.gate': ['Lalande Gate', 1] } },
+                'ross.154': { name: 'Ross 154', orbits: { 'ross.beacon': ['Ross Beacon', 1] } },
+                'lacaille.9352': { name: 'Lacaille 9352', orbits: { 'lacaille.relay': ['Lacaille Relay', 1] } },
+            },
+            positions: {
+                sol: [0, 0], 'alpha.centauri': [-.414, -1.157], 'barnards.star': [-1.817, .149], 'wolf.359': [.649, .292], sirius: [2.477, -.758], ran: [2.541, -.529], procyon: [3.176, .320], lalande: [.504, 1.496], 'ross.154': [-2.652, -1.200], 'lacaille.9352': [-.621, -1.919],
+            },
+            gateways: { 'sol.outpost': 'sol', 'alpha.exchange': 'alpha.centauri', 'barnards.port': 'barnards.star', 'wolf.reach': 'wolf.359', 'sirius.gate': 'sirius', 'ran.gate': 'ran', 'procyon.gate': 'procyon', 'lalande.gate': 'lalande', 'ross.beacon': 'ross.154', 'lacaille.relay': 'lacaille.9352' },
+        }
+
+        const state = { screen: 'chart', selected: 'sol', target: 'alpha.centauri', speed: .60, flip: 50, brake: 76, systemTarget: 'sol.mars', order: 'maneuver', round: 3, log: 'waiting for a plan' }
+        const canvas = document.querySelector('#canvas')
+        const ctx = canvas.getContext('2d')
+        const ui = document.querySelector('#ui')
+        const notes = document.querySelector('#notes')
+        const scene = document.querySelector('#scene')
+        const screens = ['chart', 'system', 'flight', 'encounter', 'adrift']
+        const BACKGROUNDS = {
+            chart: '../assets/underway/chart-cabin-painted-v1.png',
+            system: '../assets/underway/system-port-painted-v1.png',
+            flight: '../assets/underway/flight-cabin-painted-v1.png',
+            encounter: '../assets/underway/encounter-painted-v1.png',
+            adrift: '../assets/underway/adrift-ship-painted-v1.png',
+        }
+
+        const starOf = gid => DATA.gateways[gid]
+        const gatewayOf = sid => Object.keys(DATA.gateways).find(g => DATA.gateways[g] === sid)
+        const systemName = sid => DATA.systems[sid]?.name ?? sid
+        const esc = text => String(text).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
+
+        function resize() {
+            const box = canvas.getBoundingClientRect()
+            const ratio = window.devicePixelRatio || 1
+            canvas.width = Math.round(box.width * ratio)
+            canvas.height = Math.round(box.height * ratio)
+            ctx.setTransform(ratio, 0, 0, ratio, 0, 0)
+            draw()
+        }
+
+        function clearScene(kind = 'space') {
+            const w = canvas.clientWidth, h = canvas.clientHeight
+            const g = ctx.createLinearGradient(0, 0, 0, h)
+            if (kind === 'paper') { g.addColorStop(0, '#283238'); g.addColorStop(1, '#161b1d') }
+            else { g.addColorStop(0, '#0d1a25'); g.addColorStop(1, '#101311') }
+            ctx.fillStyle = g; ctx.fillRect(0, 0, w, h)
+            for (let i = 0; i < 150; i++) {
+                const x = (i * 137.5) % w, y = (i * 83.7) % h, r = i % 7 === 0 ? 1.2 : .55
+                ctx.fillStyle = `rgba(232,223,203,${.12 + (i % 5) * .04})`; ctx.fillRect(x, y, r, r)
+            }
+            return { w, h }
+        }
+
+        function text(t, x, y, color = '#e8dfcb', size = 12, align = 'left') {
+            ctx.fillStyle = color; ctx.font = `${size}px ui-monospace, monospace`; ctx.textAlign = align; ctx.fillText(t, x, y)
+        }
+
+        function line(x1, y1, x2, y2, color = 'rgba(232,223,203,.25)', width = 1, dash = []) {
+            ctx.strokeStyle = color; ctx.lineWidth = width; ctx.setLineDash(dash); ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke(); ctx.setLineDash([])
+        }
+
+        function circle(x, y, r, fill, stroke = null, width = 1) {
+            ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fillStyle = fill; ctx.fill(); if (stroke) { ctx.strokeStyle = stroke; ctx.lineWidth = width; ctx.stroke() }
+        }
+
+        function drawShip(x, y, angle = 0, color = '#3fb6a8', scale = 1) {
+            ctx.save(); ctx.translate(x, y); ctx.rotate(angle); ctx.fillStyle = color; ctx.strokeStyle = 'rgba(232,223,203,.8)'; ctx.lineWidth = 1
+            ctx.beginPath(); ctx.moveTo(24 * scale, 0); ctx.lineTo(-15 * scale, -8 * scale); ctx.lineTo(-21 * scale, 0); ctx.lineTo(-15 * scale, 8 * scale); ctx.closePath(); ctx.fill(); ctx.stroke()
+            ctx.fillStyle = '#e8dfcb'; ctx.fillRect(-8 * scale, -4 * scale, 13 * scale, 8 * scale); ctx.fillStyle = '#f2b134'; ctx.fillRect(-24 * scale, -2 * scale, 5 * scale, 4 * scale); ctx.restore()
+        }
+
+        function mapPoint(sid, w, h) {
+            const p = DATA.positions[sid], xs = Object.values(DATA.positions).map(v => v[0]), ys = Object.values(DATA.positions).map(v => v[1])
+            const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys)
+            return [w * .1 + (p[0] - minX) / (maxX - minX) * w * .72, h * .14 + (maxY - p[1]) / (maxY - minY) * h * .63]
+        }
+
+        function drawChart() {
+            const { w, h } = clearScene()
+            text('galaxy chart', 24, 24, '#e8dfcb', 12); text('10 systems · 17 links · catalogue positions', 24, 44, '#8a8173', 11)
+            const points = {}; for (const sid of Object.keys(DATA.positions)) points[sid] = mapPoint(sid, w, h)
+            for (const [a, b, d] of DATA.stars) { const pa = points[starOf(a)], pb = points[starOf(b)]; line(pa[0], pa[1], pb[0], pb[1], 'rgba(232,223,203,.18)'); text(`${d.toFixed(2)} ly`, (pa[0] + pb[0]) / 2, (pa[1] + pb[1]) / 2 - 4, '#6d756f', 9, 'center') }
+            const sol = points.sol; circle(sol[0], sol[1], 90, 'rgba(242,177,52,.04)', '#f2b134'); text('icarus beam · 7 ly', sol[0], sol[1] - 97, '#f2b134', 10, 'center')
+            for (const [sid, p] of Object.entries(points)) { const active = sid === state.selected || sid === state.target; circle(p[0], p[1], active ? 7 : 4, sid === state.selected ? '#3fb6a8' : sid === state.target ? '#e8612c' : '#e8dfcb', active ? '#e8dfcb' : null, 1); text(systemName(sid).toLowerCase(), p[0] + 10, p[1] + 4, active ? '#e8dfcb' : '#8a8173', active ? 12 : 10) }
+            if (points[state.selected] && points[state.target]) { const a = points[state.selected], b = points[state.target]; line(a[0], a[1], b[0], b[1], '#3fb6a8', 2, [6, 5]); drawShip((a[0] + b[0]) / 2, (a[1] + b[1]) / 2, Math.atan2(b[1] - a[1], b[0] - a[0]), '#3fb6a8', .8) }
+        }
+
+        function drawSystem() {
+            const { w, h } = clearScene(); const cx = w * .43, cy = h * .5; circle(cx, cy, 26, '#f2b134'); circle(cx, cy, 10, '#fff0c5')
+            text('sol · top-down system', 24, 24); text('orbital radii are catalogue values', 24, 44, '#8a8173', 11)
+            const scale = Math.min(w, h) * .037
+            for (const [sid, [name, au]] of Object.entries(DATA.systems.sol.orbits)) { const r = au * scale; ctx.strokeStyle = 'rgba(232,223,203,.23)'; ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.stroke(); const a = sid === state.systemTarget ? -.55 : sid.length * .9; const x = cx + Math.cos(a) * r, y = cy + Math.sin(a) * r; circle(x, y, sid === state.systemTarget ? 7 : 4, sid === state.systemTarget ? '#e8612c' : '#e8dfcb'); text(name.toLowerCase(), x + 10, y + 4, sid === state.systemTarget ? '#e8612c' : '#8a8173', 10); if (sid === 'sol.outpost') drawShip(x, y, a + Math.PI / 2, '#3fb6a8', .55) }
+            line(cx, cy, cx + Math.cos(-.55) * 5 * scale, cy + Math.sin(-.55) * 5 * scale, '#3fb6a8', 2, [7, 5]); text('burn → coast at 24 km/s → brake', cx, h - 86, '#8a8173', 11, 'center')
+        }
+
+        function drawFlight() {
+            const { w, h } = clearScene(); const y = h * .51, start = w * .19, target = w * .78, progress = Math.min(.9, .45 + (state.brake - 60) / 160); const tx = start + (target - start) * progress
+            text('in transit · interstellar leg', 24, 24); text('velocity carries over · no sharp turns', 24, 44, '#8a8173', 11)
+            line(start, y, target, y, 'rgba(232,223,203,.18)', 1, [2, 8]); line(start, y, tx, y, '#3fb6a8', 2); circle(start, y, 7, '#3fb6a8'); circle(target, y, 12, 'rgba(232,223,203,.12)', '#e8dfcb'); text(systemName(state.target).toLowerCase(), target, y - 24, '#e8dfcb', 12, 'center'); drawShip(tx, y, 0, '#3fb6a8', 1.2)
+            for (let i = 0; i < 12; i++) { const sx = (i * 97) % w; line(sx, 110 + (i * 43) % 230, sx + 18, 110 + (i * 43) % 230, i % 2 ? '#41616a' : '#7a514e', 1) }
+            line(start + (target - start) * .5, y - 50, start + (target - start) * .5, y + 50, '#f2b134', 1, [3, 4]); text('flip', start + (target - start) * .5, y + 72, '#f2b134', 10, 'center')
+            text('galaxy  04.2 y', w * .26, h - 130, '#e8dfcb', 15); text('ship  02.6 y', w * .26, h - 108, '#8a8173', 12); text('arrival  18:42:06', w * .65, h - 119, '#e8dfcb', 14)
+        }
+
+        function drawEncounter() {
+            const { w, h } = clearScene(); text('system encounter · round ' + state.round, 24, 24); text('simultaneous orders · short range flight planning', 24, 44, '#8a8173', 11)
+            ctx.strokeStyle = 'rgba(232,223,203,.2)'; ctx.setLineDash([4, 7]); ctx.beginPath(); ctx.arc(w * .48, h * .52, 190, 0, Math.PI * 2); ctx.stroke(); ctx.setLineDash([])
+            drawShip(w * .40, h * .57, -.25, '#3fb6a8', 1.6); circle(w * .40, h * .57, 65, 'rgba(63,182,168,.05)', '#3fb6a8'); drawShip(w * .68, h * .31, 2.7, '#d9483b', 1.05); drawShip(w * .76, h * .62, 2.7, '#d9483b', .75)
+            ctx.strokeStyle = 'rgba(217,72,59,.8)'; ctx.setLineDash([5, 5]); ctx.beginPath(); ctx.ellipse(w * .68, h * .31, 60, 27, -.3, 0, Math.PI * 2); ctx.stroke(); ctx.setLineDash([]); text('contact a · uncertain', w * .68, h * .31 - 40, '#d9483b', 11, 'center'); text('contact b · faint', w * .76, h * .62 + 43, '#d9483b', 10, 'center')
+            line(w * .40, h * .57, w * .54, h * .45, '#3fb6a8', 2, [7, 5]); text('proposed burn', w * .54, h * .45 - 10, '#3fb6a8', 10)
+            text('active radar exposes this ship', w * .67, h - 95, '#f2b134', 11, 'center')
+        }
+
+        function drawAdrift() {
+            const { w, h } = clearScene(); text('adrift · no destination', 24, 24); text('the ship is alive, but the tank is empty', 24, 44, '#8a8173', 11)
+            ctx.fillStyle = '#222922'; ctx.fillRect(w * .16, h * .28, w * .56, h * .32); ctx.strokeStyle = '#756f61'; ctx.strokeRect(w * .16, h * .28, w * .56, h * .32); drawShip(w * .44, h * .44, .1, '#8a8173', 2.4); line(w * .58, h * .5, w * .73, h * .5, '#d9483b', 2, [5, 6]); text('no vector to a station', w * .61, h * .5 - 15, '#d9483b', 11, 'center'); text('drift velocity  24 km/s', w * .44, h * .68, '#8a8173', 11, 'center')
+        }
+
+        function draw() {
+            ({ chart: drawChart, system: drawSystem, flight: drawFlight, encounter: drawEncounter, adrift: drawAdrift }[state.screen])()
+        }
+
+        function panel(content, paper = false, extra = '') { return `<div class="panel ${paper ? 'paper' : ''} ${extra}">${content}</div>` }
+        function inputRow(label, key, value, min, max, suffix = '') { return `<div class="range"><label>${label}</label><input type="range" data-key="${key}" min="${min}" max="${max}" value="${value}"><b data-value="${key}">${value}${suffix}</b></div>` }
+        function nav(active) { return `<div class="bottom-tabs">${screens.map(s => `<button data-screen="${s}" class="${s === active ? 'active' : ''}">${s}</button>`).join('')}</div><div class="esc"><span class="kbd">esc</span></div><div class="readout"><b>12,840 ₢</b> · hold <b>38/80</b></div>` }
+
+        const NOTES = {
+            chart: ['chart', 'touch: select a star, choose a destination, drag the three plan handles, and open the console with the backtick key.', 'reads: the 10 star catalogue, 17 links, HYG positions, beam range, and the current ship rig.', 'server: validate and store the flight plan, fuel, heat, beam reservation, capital cost, and its route.'],
+            system: ['system', 'touch: choose one of sol’s six real stations and preview burn, coast, flip, and brake.', 'reads: station orbit radii from the domain catalogue; 24 km/s is the current in-system cap.', 'server: add authoritative vector state, fuel accounting, and accepted plan events.'],
+            flight: ['flight', 'touch: adjust speed, flip, and brake handles; compare ghost escape paths before committing.', 'reads: the current flight plan and arrival clocks. the target grows as distance falls.', 'server: store plan changes, resolve arrival, and decide which contacts are visible.'],
+            encounter: ['encounter', 'touch: choose one order per round: burn, mass driver, dump junk, ping, run cold, or hail.', 'reads: sensor observations, uncertain tracks, fitted modules, and slug cargo.', 'server: resolve simultaneous orders, sensor disclosure, hits, debris, damage, and standing orders.'],
+            adrift: ['adrift', 'touch: call the tug, choose payment in cargo or modules, or inspect the insurance outcome.', 'reads: ship state, hold, module rig, nearest station, and policy.', 'server: quote and settle salvage, tow the ship, and emit the recovery event.'],
+        }
+
+        function renderChart() {
+            drawChart(); const dests = Object.keys(DATA.systems).filter(s => s !== 'sol');
+            ui.innerHTML = `<div class="crumb">chart <span>/ galaxy</span></div><div class="legend">catalogue positions · plan editor</div>` + panel(`<h2>route plan</h2><span class="tag live">live catalogue</span><h3>destination</h3><select data-key="target">${dests.map(s => `<option value="${s}" ${s === state.target ? 'selected' : ''}>${systemName(s).toLowerCase()}</option>`).join('')}</select><div class="row"><label>from</label><b>${systemName(state.selected).toLowerCase()}</b></div><div class="row"><label>distance</label><b>4.32 ly</b></div><h3>velocity / time</h3>${inputRow('cruise', 'speed', Math.round(state.speed * 100), 10, 85, '% c')}${inputRow('flip', 'flip', state.flip, 10, 90, '%')}${inputRow('brake', 'brake', state.brake, 40, 100, '%')}<hr><div class="row"><label>galaxy years</label><b>7.2 y</b></div><div class="row"><label>ship years</label><b>2.9 y</b></div><div class="row"><label>beam ends</label><b class="teal">3.8 ly along path</b></div><div class="row"><label>fuel / heat</label><b><span class="tag example">example</span> 18 / 42</b></div><div class="actions"><button class="ghost" data-screen="system">inspect system</button><button class="action" data-action="commit">commit plan</button></div>`) + nav('chart')
+        }
+
+        function renderSystem() {
+            drawSystem(); const options = Object.entries(DATA.systems.sol.orbits); ui.innerHTML = `<div class="crumb">system <span>/ sol</span></div><div class="legend">six stations · gravity well</div>` + panel(`<h2>sol transfer</h2><span class="tag live">real orbit radii</span><h3>destination</h3><select data-key="systemTarget">${options.map(([id, [name]]) => `<option value="${id}" ${id === state.systemTarget ? 'selected' : ''}>${name.toLowerCase()}</option>`).join('')}</select><div class="row"><label>profile</label><b>burn · coast · brake</b></div><div class="row"><label>cap</label><b>24 km/s</b></div><h3>maneuver preview</h3>${inputRow('burn', 'speed', Math.round(state.speed * 100), 10, 85, '% thrust')}${inputRow('flip', 'flip', state.flip, 10, 90, '%')}${inputRow('brake', 'brake', state.brake, 40, 100, '%')}<hr><div class="row"><label>transfer</label><b>04:18:22</b></div><div class="row"><label>gravity cost</label><b>inner well · high</b></div><div class="row"><label>fuel</label><b><span class="tag example">example</span> 4.2 t</b></div><div class="actions"><button class="ghost" data-screen="chart">back to chart</button><button class="action" data-action="commit">commit transfer</button></div>`) + nav('system')
+        }
+
+        function renderFlight() {
+            drawFlight(); ui.innerHTML = `<div class="crumb">flight <span>/ sol outpost → ${systemName(state.target).toLowerCase()}</span></div><div class="legend">current plan · clocks diverge</div>` + panel(`<h2>escape options</h2><span class="tag threat">contact detected</span><p>passive heat track · 00:17:40 until the next observation</p><h3>ghost trajectories</h3><button class="ghost" style="width:100%;text-align:left" data-action="escape">early flip <b style="float:right">+0.4 t · +02:10</b></button><button class="ghost" style="width:100%;text-align:left;margin-top:6px" data-action="escape">skip brake <b style="float:right">+0.0 t · flyby</b></button><button class="ghost" style="width:100%;text-align:left;margin-top:6px" data-action="escape">divert to line <b style="float:right">+1.9 t · +8:42</b></button><hr><div class="row"><label>galaxy clock</label><b>2184.04.12</b></div><div class="row"><label>ship clock</label><b>2147.09.03</b></div><div class="row"><label>relative velocity</label><b>0.60c</b></div><div class="actions"><button class="ghost" data-screen="chart">edit plan</button><button class="action" data-action="commit">accept ghost</button></div>`) + nav('flight')
+        }
+
+        function renderEncounter() {
+            drawEncounter(); ui.innerHTML = `<div class="crumb">encounter <span>/ system transfer</span></div><div class="legend">simultaneous orders · round ${state.round}</div>` + panel(`<h2>orders · ${state.round}</h2><span class="tag threat">contact a · uncertain</span><div class="row"><label>round closes</label><b id="timer">00:28</b></div><h3>choose one</h3><div class="tabs">${['maneuver', 'target', 'disengage'].map(o => `<button data-order="${o}" class="${state.order === o ? 'active' : ''}">${o}</button>`).join('')}</div><button class="ghost" style="width:100%;text-align:left" data-order="burn">burn vector <b style="float:right;color:var(--teal)">+12 Δv</b></button><button class="ghost" style="width:100%;text-align:left;margin-top:6px" data-order="fire">mass driver <b style="float:right">12 slugs</b></button><button class="ghost" style="width:100%;text-align:left;margin-top:6px" data-order="dump">dump junk <b style="float:right;color:var(--beam)">6 hold</b></button><button class="ghost" style="width:100%;text-align:left;margin-top:6px" data-order="ping">active ping <b style="float:right;color:var(--red)">exposes</b></button><hr><div class="row"><label>hull / module</label><b>92% · power</b></div><div class="row"><label>sensor mode</label><b>passive heat</b></div><div class="row"><label>standing order</label><select style="width:130px"><option>run</option><option>fight</option><option>pay</option></select></div><div class="actions"><button class="ghost" data-action="hail">hail</button><button class="action" data-action="submit">submit round</button></div>`) + nav('encounter')
+        }
+
+        function renderAdrift() {
+            drawAdrift(); ui.innerHTML = `<div class="crumb">adrift <span>/ recovery</span></div><div class="legend">no destination · no fuel</div>` + panel(`<h2>call the tug</h2><span class="tag threat">ship adrift</span><p>nearest station · sol outpost<br>estimated tow · 00:42:10</p><hr><div class="row"><label>tow price</label><b>420 ₢</b></div><div class="row"><label>insurance</label><b class="teal">active · free tow</b></div><h3>payment fallback</h3><div class="row"><label>hold first</label><b>water × 12</b></div><div class="row"><label>module salvage</label><b>disabled</b></div><p><span class="tag example">example policy</span> tug never takes the hull or bare starter rig.</p><div class="actions"><button class="ghost" data-action="inspect">inspect hold</button><button class="action" data-action="tow">call tug</button></div>`) + nav('adrift')
+        }
+
+        function renderNotes() { const n = NOTES[state.screen]; notes.innerHTML = `<div class="screen-note"><div class="note-title">${n[0]}</div><div class="note-lines"><div><strong>${n[1].split(':')[0]}:</strong>${n[1].split(':').slice(1).join(':')}</div><div><strong>${n[2].split(':')[0]}:</strong>${n[2].split(':').slice(1).join(':')}</div><div><strong>${n[3].split(':')[0]}:</strong>${n[3].split(':').slice(1).join(':')}</div></div></div>` }
+
+        function setBackdrop() { scene.style.backgroundImage = `url("${BACKGROUNDS[state.screen]}")` }
+
+        function render() { setBackdrop(); document.querySelectorAll('[data-screen]').forEach(b => b.classList.toggle('active', b.dataset.screen === state.screen)); ({ chart: renderChart, system: renderSystem, flight: renderFlight, encounter: renderEncounter, adrift: renderAdrift }[state.screen])(); renderNotes() }
+
+        document.addEventListener('click', event => {
+            const button = event.target.closest('button'); if (!button) return
+            if (button.dataset.screen) { state.screen = button.dataset.screen; render(); return }
+            if (button.dataset.order) { state.order = button.dataset.order; state.log = `order selected · ${state.order}`; render(); return }
+            if (button.dataset.action === 'commit') { state.log = 'plan queued for server validation'; button.textContent = 'queued'; button.disabled = true; return }
+            if (button.dataset.action === 'submit') { state.round += 1; state.log = 'round submitted'; render(); return }
+            if (button.dataset.action === 'escape') { state.log = 'ghost path selected'; render(); return }
+            if (button.dataset.action === 'tow') { state.log = 'tow request queued'; button.textContent = 'queued'; button.disabled = true; return }
+            if (button.dataset.action === 'hail') { state.log = 'hail queued'; render(); return }
+            if (button.dataset.action === 'inspect') { state.screen = 'chart'; render() }
+        })
+
+        function syncInput(event) {
+            const key = event.target.dataset.key; if (!key) return
+            if (key === 'target') state.target = event.target.value
+            else if (key === 'systemTarget') state.systemTarget = event.target.value
+            else if (key === 'speed') state.speed = Number(event.target.value) / 100
+            else state[key] = Number(event.target.value)
+            const value = document.querySelector(`[data-value="${key}"]`); if (value) value.textContent = key === 'speed' ? `${event.target.value}% c` : `${event.target.value}%`
+            draw();
+        }
+
+        document.addEventListener('input', syncInput)
+        document.addEventListener('change', event => { if (event.target.matches('select')) syncInput(event) })
+
+        document.querySelector('#console').addEventListener('click', () => { state.log = '> go procyon.ember · console drawer (prototype)'; alert(state.log) })
+        window.addEventListener('resize', resize)
+        resize(); render()
+    </script>
+</body>
+</html>

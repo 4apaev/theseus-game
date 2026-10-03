@@ -1,0 +1,26 @@
+{
+    "folders": [
+        {
+            "name" : "🕹️ game",
+            "path": "../"
+        },
+
+    ],
+    "settings": {
+        "files.exclude": {
+            ".git"        : true,
+            ".github"     : true,
+            ".idea"       : true,
+            ".logs"       : true,
+            ".reports"    : true,
+            "node_modules": true,
+        },
+        // "explorer.excludeGitIgnore": true,
+        "explorer.fileNesting.patterns": {
+            "package.json":  ".env*, .git*, .editor*, *rc, *.json, .*.yml, *.config.js",
+        },
+    },
+    "extensions": {
+        "recommendations": []
+    },
+}

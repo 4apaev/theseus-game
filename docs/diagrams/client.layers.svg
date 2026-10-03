@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="560" viewBox="0 0 680 560" role="img">
+<title>client layers</title>
+<desc>each layer imports only the layers below it. core talks to the gateway, content loads the assets.</desc>
+<style>
+text { font-family: -apple-system, 'SF Pro Text', system-ui, sans-serif; dominant-baseline: central }
+.th { font-size: 14px; font-weight: 500; fill: #2C2C2A }
+.ts { font-size: 12px; fill: #5F5E5A }
+rect { stroke-width: .5 }
+.arr { stroke: #888780; stroke-width: 1.5; fill: none }
+.box { fill: none; stroke: #888780; stroke-width: .5; stroke-dasharray: 4 4 }
+.gray rect { fill: #F1EFE8; stroke: #5F5E5A } .gray .th { fill: #444441 } .gray .ts { fill: #5F5E5A }
+.teal rect { fill: #E1F5EE; stroke: #0F6E56 } .teal .th { fill: #085041 } .teal .ts { fill: #0F6E56 }
+.purple rect { fill: #EEEDFE; stroke: #534AB7 } .purple .th { fill: #3C3489 } .purple .ts { fill: #534AB7 }
+.coral rect { fill: #FAECE7; stroke: #993C1D } .coral .th { fill: #712B13 } .coral .ts { fill: #993C1D }
+@media (prefers-color-scheme: dark) {
+  .th { fill: #F1EFE8 } .ts { fill: #D3D1C7 }
+  .gray rect { fill: #444441; stroke: #D3D1C7 } .gray .th { fill: #F1EFE8 } .gray .ts { fill: #D3D1C7 }
+  .teal rect { fill: #085041; stroke: #9FE1CB } .teal .th { fill: #E1F5EE } .teal .ts { fill: #9FE1CB }
+  .purple rect { fill: #3C3489; stroke: #CECBF6 } .purple .th { fill: #EEEDFE } .purple .ts { fill: #CECBF6 }
+  .coral rect { fill: #712B13; stroke: #F5C4B3 } .coral .th { fill: #FAECE7 } .coral .ts { fill: #F5C4B3 }
+}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<g class="gray"><rect x="190" y="40" width="300" height="56" rx="8"/><text class="th" x="340" y="59" text-anchor="middle">app.ts</text><text class="ts" x="340" y="78" text-anchor="middle">the shell: boot, router, fixtures</text></g>
+<line class="arr" x1="340" y1="98" x2="340" y2="128" marker-end="url(#arrow)"/>
+<g class="purple"><rect x="40" y="130" width="600" height="56" rx="8"/><text class="th" x="340" y="149" text-anchor="middle">places</text><text class="ts" x="340" y="168" text-anchor="middle">port · exchange · hold · rigging · chart · comms</text></g>
+<line class="arr" x1="133" y1="188" x2="133" y2="218" marker-end="url(#arrow)"/>
+<line class="arr" x1="340" y1="188" x2="340" y2="218" marker-end="url(#arrow)"/>
+<line class="arr" x1="547" y1="188" x2="547" y2="218" marker-end="url(#arrow)"/>
+<g class="purple"><rect x="40" y="220" width="186" height="56" rx="8"/><text class="th" x="133" y="239" text-anchor="middle">kit</text><text class="ts" x="133" y="258" text-anchor="middle">cards, tray, ₢ counter</text></g>
+<g class="purple"><rect x="247" y="220" width="186" height="56" rx="8"/><text class="th" x="340" y="239" text-anchor="middle">world</text><text class="ts" x="340" y="258" text-anchor="middle">renderer, cameras, clock</text></g>
+<g class="purple"><rect x="454" y="220" width="186" height="56" rx="8"/><text class="th" x="547" y="239" text-anchor="middle">effects</text><text class="ts" x="547" y="258" text-anchor="middle">animate the world</text></g>
+<line class="arr" x1="133" y1="278" x2="133" y2="314" marker-end="url(#arrow)"/>
+<line class="arr" x1="340" y1="278" x2="340" y2="314" marker-end="url(#arrow)"/>
+<line class="arr" x1="547" y1="278" x2="547" y2="314" marker-end="url(#arrow)"/>
+<rect class="box" x="40" y="316" width="600" height="108" rx="12"/>
+<text class="ts" x="60" y="334">the base: no dom, no three.js, node tests</text>
+<g class="teal"><rect x="60" y="352" width="270" height="56" rx="8"/><text class="th" x="195" y="371" text-anchor="middle">content</text><text class="ts" x="195" y="390" text-anchor="middle">layouts, catalogue, icons</text></g>
+<g class="teal"><rect x="350" y="352" width="270" height="56" rx="8"/><text class="th" x="485" y="371" text-anchor="middle">core</text><text class="ts" x="485" y="390" text-anchor="middle">wire, session, fold</text></g>
+<line class="arr" x1="195" y1="462" x2="195" y2="410" marker-end="url(#arrow)"/>
+<line class="arr" x1="485" y1="412" x2="485" y2="462" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<g class="gray"><rect x="92" y="464" width="206" height="56" rx="8"/><text class="th" x="195" y="483" text-anchor="middle">assets</text><text class="ts" x="195" y="502" text-anchor="middle">glb and webp exports</text></g>
+<g class="gray"><rect x="382" y="464" width="206" height="56" rx="8"/><text class="th" x="485" y="483" text-anchor="middle">gateway</text><text class="ts" x="485" y="502" text-anchor="middle">rest and websocket</text></g>
+</svg>
