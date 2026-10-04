@@ -1,0 +1,17 @@
+{
+    "kit": "gas",
+    "triangles": 15756,
+    "bytes": 834764,
+    "source": "assets/blender/stations/painted/gas/gas.blend",
+    "export": "assets/exports/painted/stations/gas.glb",
+    "berth": [
+        31.765850067138672,
+        -8.0,
+        -1.7400000095367432
+    ],
+    "coordinates": "source z up; glb y up; berth bow +x",
+    "camera": {
+        "azimuth": 42,
+        "elevation": 29
+    }
+}

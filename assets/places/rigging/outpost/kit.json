@@ -1,0 +1,58 @@
+{
+    "kit": "outpost",
+    "stations": [
+        "sol.outpost"
+    ],
+    "parts": [
+        {
+            "name": "power-rack",
+            "file": "parts/power-rack.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1028,
+                1331
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "drive-rack",
+            "file": "parts/drive-rack.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1053,
+                1358
+            ],
+            "layer": "back"
+        }
+    ],
+    "plate": "plate.webp",
+    "spots": [
+        {
+            "name": "power-rack",
+            "x": 990,
+            "y": 390
+        },
+        {
+            "name": "drive-rack",
+            "x": 1510,
+            "y": 460
+        }
+    ],
+    "place": "rigging",
+    "placements": [
+        {
+            "name": "power-rack",
+            "x": 990,
+            "y": 505,
+            "width": 370
+        },
+        {
+            "name": "drive-rack",
+            "x": 1510,
+            "y": 585,
+            "width": 390
+        }
+    ]
+}

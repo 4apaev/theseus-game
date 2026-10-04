@@ -1,0 +1,26 @@
+{
+    "dry-dock-arm": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. one angular articulated dry dock arm, thick cream beams, teal hydraulic joints, mustard clamps, square support base. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/dock/sources/dry-dock-arm.png",
+        "file": "parts/dry-dock-arm.webp",
+        "w": 2048,
+        "h": 1872
+    },
+    "fuel-mast": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. a tall fuel service mast, cream column, teal pump base, mustard hose and extended refueling boom, orange warning lamp. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/dock/sources/fuel-mast.png",
+        "file": "parts/fuel-mast.webp",
+        "w": 2048,
+        "h": 2019
+    },
+    "warehouse": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. a low wide cream freight warehouse, teal corrugated roof, olive sliding door partly open, orange bay lights. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/dock/sources/warehouse.png",
+        "file": "parts/warehouse.webp",
+        "w": 2048,
+        "h": 1365
+    }
+}

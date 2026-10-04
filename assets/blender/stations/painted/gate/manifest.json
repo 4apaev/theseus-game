@@ -1,0 +1,17 @@
+{
+    "kit": "gate",
+    "triangles": 17232,
+    "bytes": 929860,
+    "source": "assets/blender/stations/painted/gate/gate.blend",
+    "export": "assets/exports/painted/stations/gate.glb",
+    "berth": [
+        36.26585006713867,
+        -8.0,
+        -11.75
+    ],
+    "coordinates": "source z up; glb y up; berth bow +x",
+    "camera": {
+        "azimuth": 42,
+        "elevation": 29
+    }
+}

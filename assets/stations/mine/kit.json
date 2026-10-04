@@ -1,0 +1,43 @@
+{
+    "kit": "mine",
+    "stations": [
+        "sol.mercury",
+        "procyon.ember",
+        "sirius.technora"
+    ],
+    "parts": [
+        {
+            "name": "ore-crusher",
+            "file": "parts/ore-crusher.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                961,
+                1265
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "sun-shield",
+            "file": "parts/sun-shield.webp",
+            "w": 2048,
+            "h": 1872,
+            "foot": [
+                897,
+                1843
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "conveyor",
+            "file": "parts/conveyor.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1543,
+                1311
+            ],
+            "layer": "back"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "market-hall": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. reference image is for the industrial panel construction and painted style. create a new broad orbital market hall: three service bays under a low segmented teal metal barrel roof, thick cream armored panel frames, recessed vents, orange strip lights, mustard steel retractable awning brackets, counters and sealed shipping cases inside. no vegetables, banners, stone, wooden stalls, heraldry, cupola or religious architecture. clearly a pressurized space station trade module.",
+        "tool": "built-in imagegen",
+        "source": "stations/hub/sources/market-hall.png",
+        "file": "parts/market-hall.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "container-stack": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. one compact stack of six shipping containers, teal olive rust and mustard bodies, cream corner fittings. no ship or robots. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/hub/sources/container-stack.png",
+        "file": "parts/container-stack.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "cargo-lift": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. a compact cargo lift, cream vertical rails, teal motor housings, mustard lift frame with an empty low deck. no ship or robots. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/hub/sources/cargo-lift.png",
+        "file": "parts/cargo-lift.webp",
+        "w": 2048,
+        "h": 1365
+    }
+}

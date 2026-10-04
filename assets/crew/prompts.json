@@ -1,0 +1,38 @@
+{
+    "pilot": {
+        "prompt": "create one game asset: a painted bust portrait of a spacecraft pilot, a woman about 38 with dark brown skin, close cropped black hair with grey at the temples, alert steady eyes and a small eyebrow scar. worn cream pressure jacket with teal shoulder panels and mustard harness, small orange instrument light. human, practical civilian interstellar trader, no weapon. hand painted gouache miniature style, chunky shapes, visible brush texture, restrained detail, cream teal mustard olive rust palette, deep navy plain background. warm key light from upper left, cool rim from right. waist-up bust centered with all head and shoulders in frame, three quarter view facing slightly left, calm composed expression. portrait canvas 768 x 1024, 3:4. no text, frame, insignia, interface, planet or scenery. this is a crew appearance test; age is age in ship time. save the output image.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/sources/pilot.png",
+        "file": "assets/crew/pilot.webp",
+        "w": 768,
+        "h": 1024,
+        "shipAge": 38
+    },
+    "engineer": {
+        "prompt": "use case: stylized-concept. one game asset: painted bust portrait of a spacecraft engineer, a man about 56 in ship time, east asian features, weathered tan skin, short salt and pepper hair, heavy eyebrows, thoughtful expression. cream work jacket, rust shoulder pads, olive undershirt, mustard tool harness, teal welding goggles rest on forehead, small orange task lamp clipped to chest. no weapon. hand painted gouache miniature style, broad chunky brush shapes, visible paint texture, same cream teal mustard olive rust palette as theseus stations, plain deep navy background. warm key from upper left, cool blue rim from right. centered waist-up bust, full head visible, three quarter view slightly left, 3:4 portrait at 768 x 1024. no text, frame, ui, insignia, planets or scenery.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/sources/engineer.png",
+        "file": "assets/crew/engineer.webp",
+        "w": 768,
+        "h": 1024,
+        "shipAge": 56
+    },
+    "haggler": {
+        "prompt": "use case: stylized-concept. one game asset: a painted bust portrait of an interstellar cargo haggler, a woman about 64 in ship time, warm olive brown complexion, wavy silver hair tied loosely behind the head, deep laugh lines, keen eyes and a slight knowing smile. worn teal civilian coat with cream collar, muted rust scarf, olive shirt and mustard brass fasteners, tiny orange translator lamp on lapel. no weapon or jewelry display. hand painted gouache miniature style, broad chunky brush shapes, visible paint texture, same cream teal mustard olive rust palette as theseus stations, plain deep navy background. warm key from upper left, cool blue rim from right. centered waist-up bust, full head visible, three quarter view slightly left, 3:4 portrait at 768 x 1024. no text, frame, ui, insignia, planets or scenery.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/sources/haggler.png",
+        "file": "assets/crew/haggler.webp",
+        "w": 768,
+        "h": 1024,
+        "shipAge": 64
+    },
+    "gunner": {
+        "prompt": "use case: stylized-concept. one game asset: painted bust portrait of a spacecraft gunner, a man about 29 in ship time, pale freckled skin, cropped auburn hair, broad face, tired watchful eyes, calm reserved expression. worn olive padded pressure vest over a cream work jacket, teal communications ear cup with a small mustard bracket, rust collar seal, orange status light. crew member at a ship gun console, no handheld weapon or ammunition. hand painted gouache miniature style, broad chunky brush shapes, visible paint texture, same cream teal mustard olive rust palette as theseus stations, plain deep navy background. warm key from upper left, cool blue rim from right. centered waist-up bust, full head visible, three quarter view slightly left, 3:4 portrait at 768 x 1024. no text, frame, ui, insignia, planets or scenery.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/sources/gunner.png",
+        "file": "assets/crew/gunner.webp",
+        "w": 768,
+        "h": 1024,
+        "shipAge": 29
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "wide": {
+        "prompt": "edit ONLY the small freighter in this icarus scene. it is currently much too large. remove that freighter completely and restore the background behind it. at the exact same position, add ONE tiny cream and teal ship speck, maximum 8 pixels wide in this full image, with a 1 pixel orange engine light. the array is thousands of times larger than the ship. preserve the entire array, dishes, sun, framing, camera, palette, light, brush texture, dimensions and every other detail. no other changes. no text.",
+        "tool": "built-in imagegen",
+        "source": "concepts/icarus/sources/wide.png",
+        "file": "wide.webp",
+        "w": 2048,
+        "h": 1152,
+        "generationPrompt": "use case: stylized-concept. painted key art for theseus, 16:9 landscape 2048 x 1152. hand-painted industrial science fiction miniatures, chunky engineered silhouettes, cream enamel, matte teal, mustard, olive and rust, orange lamps, dark panel seams, restrained wear and brush marks. no text, ui, watermark or decorative borders. the icarus array at 0.05 au from sol, seen in a compressed cinematic wide view. the warm golden sun hangs behind an immense curved formation of thousands of engineered solar collector petals, black radiator fins and cream teal emitter dishes. foreground machinery is huge, distant rows diminish into fine pinpoints around the sun. a small cream and teal modular freighter is barely a speck near one foreground emitter, visibly much smaller than that dish. no planet. solar glare rims the machinery, warm key upper left, cool navy shadow. monumental scale, quiet industrial purpose, no battle or explosion."
+    },
+    "detail": {
+        "prompt": "edit ONLY the small freighter in this icarus scene. it is currently much too large. remove that freighter completely and restore the background behind it. at the exact same position, add ONE tiny cream and teal ship speck, maximum 8 pixels wide in this full image, with a 1 pixel orange engine light. the array is thousands of times larger than the ship. preserve the entire array, dishes, sun, framing, camera, palette, light, brush texture, dimensions and every other detail. no other changes. no text.",
+        "tool": "built-in imagegen",
+        "source": "concepts/icarus/sources/detail.png",
+        "file": "detail.webp",
+        "w": 2048,
+        "h": 1152,
+        "generationPrompt": "use case: stylized-concept. painted key art for theseus, 16:9 landscape 2048 x 1152. hand-painted industrial science fiction miniatures, chunky engineered silhouettes, cream enamel, matte teal, mustard, olive and rust, orange lamps, dark panel seams, restrained wear and brush marks. no text, ui, watermark or decorative borders. a close view of one colossal icarus beam emitter dish at 0.05 au from sol. a cream shallow parabolic reflector, thick teal rim, four dark feed struts, mustard central emitter and a squat teal pedestal, rust coolant manifolds, mustard coolant pipes. the dish is one module in endless rows of immense solar collector structures and black radiator fins. a tiny cream teal freighter, as small as a bolt, crosses near the rim and shows the scale. the golden sun fills part of the upper left background, navy space to the right. warm upper-left key, cool rim, deep engineered shadows. no physical fuel hose to the ship, no battle, no planet."
+    }
+}

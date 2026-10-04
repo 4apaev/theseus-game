@@ -1,0 +1,17 @@
+{
+    "kit": "relay",
+    "triangles": 15832,
+    "bytes": 852132,
+    "source": "assets/blender/stations/painted/relay/relay.blend",
+    "export": "assets/exports/painted/stations/relay.glb",
+    "berth": [
+        31.765850067138672,
+        -8.0,
+        -13.43864631652832
+    ],
+    "coordinates": "source z up; glb y up; berth bow +x",
+    "camera": {
+        "azimuth": 42,
+        "elevation": 29
+    }
+}

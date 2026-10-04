@@ -1,0 +1,18 @@
+{
+    "plate": {
+        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. landscape 16:9, 2048 x 1152. the roofless cargo bay inside the far treasure, a small cream and teal industrial freighter. a precise empty FIVE by FOUR cargo-cell grid spans the center floor, twenty equal rectangular cells in isometric perspective, thin dark seams and mustard corner marks. the grid contains no cargo. folded rust webbing straps and mustard tie-down rails hug the walls, no straps cross the grid. a recessed closed hatch at the back right. calm blank cream wall panels for cards. no windows, ship, robots, people, containers or ui. navy space outside the cutaway.",
+        "tool": "built-in imagegen",
+        "source": "places/hold/far-treasure/sources/plate.png",
+        "file": "plate.webp",
+        "w": 2048,
+        "h": 1152
+    },
+    "hatch": {
+        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. one isolated full object, centered with transparent margins, true transparent background. no detached shadow or glow. one compact freighter cargo hatch assembly. a closed broad teal armored door in a chunky cream frame, mustard locking wheel, four rust mechanical latches and two orange status lamps. small dark threshold, no wall, background or scenery. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "places/hold/far-treasure/sources/hatch.png",
+        "file": "parts/hatch.webp",
+        "w": 2048,
+        "h": 1686
+    }
+}

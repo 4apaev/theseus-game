@@ -1,0 +1,26 @@
+{
+    "gantry-crane": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. a tall gantry crane, twin cream support legs, teal crossbeam, mustard hoist trolley and suspended empty hook, short track bases. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/yards/sources/gantry-crane.png",
+        "file": "parts/gantry-crane.webp",
+        "w": 1945,
+        "h": 2048
+    },
+    "hull-cradle": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. an empty low ship hull cradle, two heavy curved padded support saddles on teal rail runners, adjustable mustard clamps. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/yards/sources/hull-cradle.png",
+        "file": "parts/hull-cradle.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "module-rack": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. a compact cream framed rack with three bays of teal drive and reactor modules, orange sockets, no loose parts. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/yards/sources/module-rack.png",
+        "file": "parts/module-rack.webp",
+        "w": 2048,
+        "h": 1365
+    }
+}

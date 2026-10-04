@@ -1,0 +1,26 @@
+{
+    "dome-lab": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. a compact lab under a smoked teal glass geodesic dome, cream base ring, olive access pod, orange door lamp. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/lab/sources/dome-lab.png",
+        "file": "parts/dome-lab.webp",
+        "w": 2048,
+        "h": 1707
+    },
+    "antenna-array": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. three small cream parabolic antennas on a connected teal equipment base, mustard pivots, different angles. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/lab/sources/antenna-array.png",
+        "file": "parts/antenna-array.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "tank-farm": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. three squat cream chemical tanks with teal bands on one connected skid, olive valves, mustard pipes, orange sensors. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/lab/sources/tank-farm.png",
+        "file": "parts/tank-farm.webp",
+        "w": 2048,
+        "h": 1365
+    }
+}

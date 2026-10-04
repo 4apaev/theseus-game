@@ -1,0 +1,26 @@
+{
+    "gate-ring-segment": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. one upright curved quarter segment of a massive transit gate, cream plated outer spine, teal inner coils, mustard braces, orange guide lamps, chunky foot. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/gate/sources/gate-ring-segment.png",
+        "file": "parts/gate-ring-segment.webp",
+        "w": 2048,
+        "h": 1872
+    },
+    "beacon-tower": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. a tapered cream beacon tower on a square teal plinth, stacked orange navigation lamps, antenna needles. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/gate/sources/beacon-tower.png",
+        "file": "parts/beacon-tower.webp",
+        "w": 2048,
+        "h": 1909
+    },
+    "customs-booth": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. a small cream and olive customs booth, teal window shutters, orange inspection lamp, single open service window, no writing. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/gate/sources/customs-booth.png",
+        "file": "parts/customs-booth.webp",
+        "w": 2048,
+        "h": 1365
+    }
+}

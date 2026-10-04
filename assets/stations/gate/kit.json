@@ -1,0 +1,44 @@
+{
+    "kit": "gate",
+    "stations": [
+        "sirius.gate",
+        "ran.gate",
+        "procyon.gate",
+        "lalande.gate"
+    ],
+    "parts": [
+        {
+            "name": "gate-ring-segment",
+            "file": "parts/gate-ring-segment.webp",
+            "w": 2048,
+            "h": 1872,
+            "foot": [
+                1251,
+                1811
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "beacon-tower",
+            "file": "parts/beacon-tower.webp",
+            "w": 2048,
+            "h": 1909,
+            "foot": [
+                1043,
+                1857
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "customs-booth",
+            "file": "parts/customs-booth.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                955,
+                1290
+            ],
+            "layer": "back"
+        }
+    ]
+}

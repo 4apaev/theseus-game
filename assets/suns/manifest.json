@@ -1,0 +1,43 @@
+{
+    "G": {
+        "file": "g.webp",
+        "systems": [
+            "sol",
+            "alpha-centauri"
+        ]
+    },
+    "K": {
+        "file": "k.webp",
+        "systems": [
+            "ran"
+        ]
+    },
+    "M": {
+        "file": "m.webp",
+        "systems": [
+            "barnards",
+            "wolf",
+            "lalande",
+            "ross",
+            "lacaille"
+        ]
+    },
+    "A": {
+        "file": "a.webp",
+        "systems": [
+            "sirius"
+        ]
+    },
+    "F": {
+        "file": "f.webp",
+        "systems": [
+            "procyon"
+        ]
+    },
+    "white-dwarf": {
+        "file": "white-dwarf.webp",
+        "systems": [
+            "sirius-b"
+        ]
+    }
+}

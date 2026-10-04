@@ -1,0 +1,50 @@
+{
+    "g": {
+        "prompt": "use case: stylized-concept. a painted star glow sprite for the theseus sky. 1024 x 1024 square, true transparent background. one centered circular star, warm pale golden yellow, softly painted mottled luminous surface, restrained hand-painted corona, soft radial glow that fades fully into transparency well before every image edge. star disc diameter about 360 pixels, corona within 800 pixels. no dark backdrop, scenery, planets, lens flare, diffraction spikes, text or watermark. a readable miniature star, not an explosion or nebula. the scene uses this warm star as its upper-left light source.",
+        "tool": "built-in imagegen",
+        "source": "suns/sources/g.png",
+        "file": "g.webp",
+        "w": 1024,
+        "h": 1024
+    },
+    "k": {
+        "prompt": "use case: stylized-concept. a painted star glow sprite for the theseus sky. 1024 x 1024 square, true transparent background. one centered circular star, amber orange, softly painted mottled luminous surface, restrained hand-painted corona, soft radial glow that fades fully into transparency well before every image edge. star disc diameter about 360 pixels, corona within 800 pixels. no dark backdrop, scenery, planets, lens flare, diffraction spikes, text or watermark. a readable miniature star, not an explosion or nebula. the scene uses this warm star as its upper-left light source.",
+        "tool": "built-in imagegen",
+        "source": "suns/sources/k.png",
+        "file": "k.webp",
+        "w": 1024,
+        "h": 1024
+    },
+    "m": {
+        "prompt": "use case: stylized-concept. a painted star glow sprite for the theseus sky. 1024 x 1024 square, true transparent background. one centered circular star, muted red orange, softly painted mottled luminous surface, restrained hand-painted corona, soft radial glow that fades fully into transparency well before every image edge. star disc diameter about 360 pixels, corona within 800 pixels. no dark backdrop, scenery, planets, lens flare, diffraction spikes, text or watermark. a readable miniature star, not an explosion or nebula. the scene uses this warm star as its upper-left light source.",
+        "tool": "built-in imagegen",
+        "source": "suns/sources/m.png",
+        "file": "m.webp",
+        "w": 1024,
+        "h": 1024
+    },
+    "a": {
+        "prompt": "use case: stylized-concept. a painted star glow sprite for the theseus sky. 1024 x 1024 square, true transparent background. one centered circular star, luminous blue-white with a pale ice-blue rim, softly painted mottled luminous surface, restrained hand-painted corona, soft radial glow that fades fully into transparency well before every image edge. star disc diameter about 360 pixels, corona within 800 pixels. no dark backdrop, scenery, planets, lens flare, diffraction spikes, text or watermark. a readable miniature star, not an explosion or nebula.",
+        "tool": "built-in imagegen",
+        "source": "suns/sources/a.png",
+        "file": "a.webp",
+        "w": 1024,
+        "h": 1024
+    },
+    "f": {
+        "prompt": "use case: stylized-concept. a painted star glow sprite for the theseus sky. 1024 x 1024 square, true transparent background. one centered circular star, luminous ivory-white with a light golden rim, softly painted mottled luminous surface, restrained hand-painted corona, soft radial glow that fades fully into transparency well before every image edge. star disc diameter about 360 pixels, corona within 800 pixels. no dark backdrop, scenery, planets, lens flare, diffraction spikes, text or watermark. a readable miniature star, not an explosion or nebula.",
+        "tool": "built-in imagegen",
+        "source": "suns/sources/f.png",
+        "file": "f.webp",
+        "w": 1024,
+        "h": 1024
+    },
+    "white-dwarf": {
+        "prompt": "use case: stylized-concept. a painted star glow sprite for the theseus sky. 1024 x 1024 square, true transparent background. one centered circular star, brilliant cold white with a restrained pale blue halo, softly painted mottled luminous surface, restrained hand-painted corona, soft radial glow that fades fully into transparency well before every image edge. star disc diameter about 220 pixels, corona within 800 pixels. no dark backdrop, scenery, planets, lens flare, diffraction spikes, text or watermark. a readable miniature star, not an explosion or nebula.",
+        "tool": "built-in imagegen",
+        "source": "suns/sources/white-dwarf.png",
+        "file": "white-dwarf.webp",
+        "w": 1024,
+        "h": 1024
+    }
+}

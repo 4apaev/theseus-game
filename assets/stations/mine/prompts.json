@@ -1,0 +1,26 @@
+{
+    "ore-crusher": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. a compact ore crusher, cream armored frame, teal hopper, rust crusher rollers, mustard guards. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/mine/sources/ore-crusher.png",
+        "file": "parts/ore-crusher.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "sun-shield": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. a large angled segmented sun shield, cream ceramic plates, rust backs, olive hinges on a sturdy teal support. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/mine/sources/sun-shield.png",
+        "file": "parts/sun-shield.webp",
+        "w": 2048,
+        "h": 1872
+    },
+    "conveyor": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. one short conveyor for ore, teal frame, dark empty belt, cream hood, mustard rollers and handrails. no ship, robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/mine/sources/conveyor.png",
+        "file": "parts/conveyor.webp",
+        "w": 2048,
+        "h": 1365
+    }
+}

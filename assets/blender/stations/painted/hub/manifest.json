@@ -1,0 +1,17 @@
+{
+    "kit": "hub",
+    "triangles": 14712,
+    "bytes": 801452,
+    "source": "assets/blender/stations/painted/hub/hub.blend",
+    "export": "assets/exports/painted/stations/hub.glb",
+    "berth": [
+        31.765850067138672,
+        -8.0,
+        -8.300000190734863
+    ],
+    "coordinates": "source z up; glb y up; berth bow +x",
+    "camera": {
+        "azimuth": 42,
+        "elevation": 29
+    }
+}

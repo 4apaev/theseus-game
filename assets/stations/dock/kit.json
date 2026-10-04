@@ -1,0 +1,44 @@
+{
+    "kit": "dock",
+    "stations": [
+        "barnards.rama",
+        "procyon.bebop",
+        "lalande.qeng",
+        "barnards.port"
+    ],
+    "parts": [
+        {
+            "name": "dry-dock-arm",
+            "file": "parts/dry-dock-arm.webp",
+            "w": 2048,
+            "h": 1872,
+            "foot": [
+                670,
+                1855
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "fuel-mast",
+            "file": "parts/fuel-mast.webp",
+            "w": 2048,
+            "h": 2019,
+            "foot": [
+                697,
+                1996
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "warehouse",
+            "file": "parts/warehouse.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                657,
+                1195
+            ],
+            "layer": "back"
+        }
+    ]
+}

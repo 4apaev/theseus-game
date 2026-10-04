@@ -1,0 +1,124 @@
+{
+    "maps": [
+        {
+            "id": "earth",
+            "system": "sol",
+            "file": "earth.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": false
+        },
+        {
+            "id": "mars",
+            "system": "sol",
+            "file": "mars.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": false
+        },
+        {
+            "id": "venus",
+            "system": "sol",
+            "file": "venus.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": false
+        },
+        {
+            "id": "jupiter",
+            "system": "sol",
+            "file": "jupiter.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": false
+        },
+        {
+            "id": "saturn",
+            "system": "sol",
+            "file": "saturn.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": false
+        },
+        {
+            "id": "mercury",
+            "system": "sol",
+            "file": "mercury.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": false
+        },
+        {
+            "id": "alpha-centauri",
+            "system": "alpha.centauri",
+            "file": "alpha-centauri.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": true
+        },
+        {
+            "id": "barnards-star",
+            "system": "barnards.star",
+            "file": "barnards-star.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": true
+        },
+        {
+            "id": "wolf",
+            "system": "wolf.359",
+            "file": "wolf.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": true
+        },
+        {
+            "id": "sirius",
+            "system": "sirius",
+            "file": "sirius.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": true
+        },
+        {
+            "id": "ran",
+            "system": "ran",
+            "file": "ran.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": true
+        },
+        {
+            "id": "procyon",
+            "system": "procyon",
+            "file": "procyon.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": true
+        },
+        {
+            "id": "lalande",
+            "system": "lalande",
+            "file": "lalande.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": true
+        },
+        {
+            "id": "ross",
+            "system": "ross.154",
+            "file": "ross.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": true
+        },
+        {
+            "id": "lacaille",
+            "system": "lacaille.9352",
+            "file": "lacaille.webp",
+            "w": 2048,
+            "h": 1024,
+            "fictional": true
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+(version 1)
+(allow default)
+(deny network*)
+(deny file-write* (subpath (param "HOME")))
+(allow file-write*
+    (subpath (string-append (param "ROOT") "/assets"))
+    (subpath (string-append (param "HOME") "/Library/Application Support/Blender"))
+    (subpath (string-append (param "HOME") "/Library/Caches")))

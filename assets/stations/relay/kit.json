@@ -1,0 +1,44 @@
+{
+    "kit": "relay",
+    "stations": [
+        "wolf.reach",
+        "ran.rorschach",
+        "ross.beacon",
+        "lacaille.relay"
+    ],
+    "parts": [
+        {
+            "name": "relay-mast",
+            "file": "parts/relay-mast.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1026,
+                1335
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "watch-tower",
+            "file": "parts/watch-tower.webp",
+            "w": 2048,
+            "h": 1872,
+            "foot": [
+                1245,
+                1808
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "hab-can",
+            "file": "parts/hab-can.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                765,
+                1298
+            ],
+            "layer": "back"
+        }
+    ]
+}

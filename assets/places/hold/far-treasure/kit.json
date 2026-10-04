@@ -1,0 +1,34 @@
+{
+    "kit": "far-treasure",
+    "stations": [],
+    "parts": [
+        {
+            "name": "hatch",
+            "file": "parts/hatch.webp",
+            "w": 2048,
+            "h": 1686,
+            "foot": [
+                1029,
+                1619
+            ],
+            "layer": "back"
+        }
+    ],
+    "plate": "plate.webp",
+    "spots": [
+        {
+            "name": "hatch",
+            "x": 1605,
+            "y": 315
+        }
+    ],
+    "place": "hold",
+    "placements": [
+        {
+            "name": "hatch",
+            "x": 1605,
+            "y": 440,
+            "width": 355
+        }
+    ]
+}

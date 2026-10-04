@@ -1,0 +1,66 @@
+{
+    "platform-01": {
+        "prompt": "preserve the reference platform, remove exterior haze, clean transparent edges, warm upper-left light, cool right rim",
+        "tool": "built-in imagegen",
+        "source": "stations/outpost/sources/platform-01.png",
+        "file": "parts/platform-01.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "platform-02": {
+        "prompt": "edit target: platform-02. preserve the exact design, shape and paint of the reference. clean edges and exterior transparency. remove outside haze only. use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. ",
+        "tool": "built-in imagegen",
+        "source": "stations/outpost/sources/platform-02.png",
+        "file": "parts/platform-02.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "structure-01": {
+        "prompt": "edit target: structure-01. preserve the exact design, shape and paint of the reference. clean edges and exterior transparency. remove outside haze only. use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. ",
+        "tool": "built-in imagegen",
+        "source": "stations/outpost/sources/structure-01.png",
+        "file": "parts/structure-01.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "structure-02": {
+        "prompt": "edit target: structure-02. preserve the exact design, shape and paint of the reference. clean edges and exterior transparency. remove outside haze only. use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. ",
+        "tool": "built-in imagegen",
+        "source": "stations/outpost/sources/structure-02.png",
+        "file": "parts/structure-02.webp",
+        "w": 2048,
+        "h": 1872
+    },
+    "cargo-01": {
+        "prompt": "edit target: cargo-01. preserve the exact design, shape and paint of the reference. clean edges and exterior transparency. remove outside haze only. use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. ",
+        "tool": "built-in imagegen",
+        "source": "stations/outpost/sources/cargo-01.png",
+        "file": "parts/cargo-01.webp",
+        "w": 2048,
+        "h": 2048
+    },
+    "cargo-02": {
+        "prompt": "edit target: cargo-02. preserve the exact design, shape and paint of the reference. clean edges and exterior transparency. remove outside haze only. use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. ",
+        "tool": "built-in imagegen",
+        "source": "stations/outpost/sources/cargo-02.png",
+        "file": "parts/cargo-02.webp",
+        "w": 2048,
+        "h": 2048
+    },
+    "ship-pad": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. a low octagonal ship landing pad. empty gunmetal deck, cream edge panels, teal underside, mustard landing brackets. short orange lights at far corners, no tall railing, no ship. matches the reference platform.",
+        "tool": "built-in imagegen",
+        "source": "stations/outpost/sources/ship-pad.png",
+        "file": "parts/ship-pad.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "plate": {
+        "prompt": "use case: stylized-concept. painted background plate for an orbital trade port. 16:9 landscape. deep navy space, sparse tiny stars, faint teal ether. earth large in upper right, painted blue oceans, cream clouds, muted olive continents. leave lower two thirds dark and clear for separate station sprites. warm upper-left sunlight and cool rim. no station, ships, ui, text or foreground.",
+        "tool": "built-in imagegen",
+        "source": "stations/outpost/sources/plate.png",
+        "file": "plate.webp",
+        "w": 2048,
+        "h": 1152
+    }
+}

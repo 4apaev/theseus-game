@@ -1,0 +1,17 @@
+{
+    "kit": "outpost",
+    "triangles": 14612,
+    "bytes": 794192,
+    "source": "assets/blender/stations/painted/outpost/outpost.blend",
+    "export": "assets/exports/painted/stations/outpost.glb",
+    "berth": [
+        31.765850067138672,
+        -8.0,
+        -6.845000267028809
+    ],
+    "coordinates": "source z up; glb y up; berth bow +x",
+    "camera": {
+        "azimuth": 42,
+        "elevation": 29
+    }
+}

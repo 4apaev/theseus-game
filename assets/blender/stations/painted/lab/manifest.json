@@ -1,0 +1,17 @@
+{
+    "kit": "lab",
+    "triangles": 15808,
+    "bytes": 844276,
+    "source": "assets/blender/stations/painted/lab/lab.blend",
+    "export": "assets/exports/painted/stations/lab.glb",
+    "berth": [
+        31.765850067138672,
+        -8.0,
+        -7.338504791259766
+    ],
+    "coordinates": "source z up; glb y up; berth bow +x",
+    "camera": {
+        "azimuth": 42,
+        "elevation": 29
+    }
+}

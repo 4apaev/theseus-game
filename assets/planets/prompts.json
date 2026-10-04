@@ -1,0 +1,122 @@
+{
+    "earth": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. a flat 2:1 equirectangular map, longitude spans the entire width, poles at the top and bottom. blue oceans, recognizable earth continents in muted olive and sand, polar ice, no clouds. hand-painted miniature style, broad subtle brush texture, muted palette. uniformly lit surface albedo only. no sphere, disc, perspective, stars, space, shadows, terminator, rim light, labels or border. left and right edges must match seamlessly. requested resolution 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/earth.png",
+        "file": "earth.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "mars": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. a flat 2:1 equirectangular map, longitude spans the entire width, poles at the top and bottom. rust-red dry terrain, dark basalt plains, broad canyon scars, pale polar ice. hand-painted miniature style, broad subtle brush texture, muted palette. uniformly lit surface albedo only. no sphere, disc, perspective, stars, space, shadows, terminator, rim light, labels or border. left and right edges must match seamlessly. requested resolution 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/mars.png",
+        "file": "mars.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "venus": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. a flat 2:1 equirectangular map, longitude spans the entire width, poles at the top and bottom. cream and ochre opaque cloud bands with broad swirling shapes, no continents. hand-painted miniature style, broad subtle brush texture, muted palette. uniformly lit surface albedo only. no sphere, disc, perspective, stars, space, shadows, terminator, rim light, labels or border. left and right edges must match seamlessly. requested resolution 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/venus.png",
+        "file": "venus.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "jupiter": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. cream, ochre, rust and muted teal horizontal gas bands with one large red oval storm, no moons. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/jupiter.png",
+        "file": "jupiter.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "saturn": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. pale cream and muted ochre horizontal gas bands, restrained brushed texture, no rings. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/saturn.png",
+        "file": "saturn.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "mercury": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. warm grey and olive dry cratered terrain, overlapping impact basins and pale ejecta rays. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/mercury.png",
+        "file": "mercury.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "alpha-centauri": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. fictional warm ocean world, teal seas, ochre archipelagos and olive inland terrain. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/alpha-centauri.png",
+        "file": "alpha-centauri.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "barnards-star": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. fictional dry rust and olive world, broad canyon scars and dark basalt plains. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/barnards-star.png",
+        "file": "barnards-star.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "wolf": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. fictional cold dark basalt world, muted teal ice fractures and cream polar frost. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/wolf.png",
+        "file": "wolf.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "sirius": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. fictional pale cream desert world, teal mineral basins and dark grey mountain chains. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/sirius.png",
+        "file": "sirius.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "ran": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. fictional muted olive ocean world, navy seas, scattered ochre islands. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/ran.png",
+        "file": "ran.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "procyon": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. fictional ochre rocky world, broad rust plateaus, cream salt basins. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/procyon.png",
+        "file": "procyon.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "lalande": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. fictional rust desert world, charcoal volcanic belts, muted mustard mineral flats. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/lalande.png",
+        "file": "lalande.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "ross": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. fictional cold ocean world, dark teal seas and wide cream ice shelves. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/ross.png",
+        "file": "ross.webp",
+        "w": 2048,
+        "h": 1024
+    },
+    "lacaille": {
+        "prompt": "use case: stylized-concept. painted planet texture for theseus. flat 2:1 equirectangular surface map, full longitude width, poles at top and bottom. fictional olive and ochre dry world, blue-grey mineral basins and rust crater chains. broad subtle hand-painted brush texture, muted palette. uniformly lit albedo only. no sphere, disc, perspective, stars, shadows, terminator, rim light, labels or border. left and right edges match seamlessly. 2048 by 1024.",
+        "tool": "built-in imagegen",
+        "source": "planets/sources/lacaille.png",
+        "file": "lacaille.webp",
+        "w": 2048,
+        "h": 1024
+    }
+}

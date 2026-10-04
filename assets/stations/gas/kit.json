@@ -1,0 +1,42 @@
+{
+    "kit": "gas",
+    "stations": [
+        "sol.titan",
+        "ran.aegir"
+    ],
+    "parts": [
+        {
+            "name": "skimmer",
+            "file": "parts/skimmer.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1135,
+                1314
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "hydrogen-tanks",
+            "file": "parts/hydrogen-tanks.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                581,
+                1329
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "ring-segment",
+            "file": "parts/ring-segment.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1068,
+                1176
+            ],
+            "layer": "back"
+        }
+    ]
+}

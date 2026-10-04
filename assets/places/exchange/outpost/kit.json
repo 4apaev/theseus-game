@@ -1,0 +1,75 @@
+{
+    "kit": "outpost",
+    "stations": [
+        "sol.outpost"
+    ],
+    "parts": [
+        {
+            "name": "counter",
+            "file": "parts/counter.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1034,
+                1297
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "goods-rack",
+            "file": "parts/goods-rack.webp",
+            "w": 2048,
+            "h": 1639,
+            "foot": [
+                1031,
+                1611
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "cargo-lift",
+            "file": "parts/cargo-lift.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1060,
+                1307
+            ],
+            "layer": "back"
+        }
+    ],
+    "plate": "plate.webp",
+    "spots": [
+        {
+            "name": "counter",
+            "x": 820,
+            "y": 480
+        },
+        {
+            "name": "lift",
+            "x": 1730,
+            "y": 550
+        }
+    ],
+    "place": "exchange",
+    "placements": [
+        {
+            "name": "goods-rack",
+            "x": 805,
+            "y": 470,
+            "width": 490
+        },
+        {
+            "name": "counter",
+            "x": 810,
+            "y": 565,
+            "width": 550
+        },
+        {
+            "name": "cargo-lift",
+            "x": 1740,
+            "y": 575,
+            "width": 480
+        }
+    ]
+}

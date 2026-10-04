@@ -1,0 +1,26 @@
+{
+    "skimmer": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. a compact unmanned gas skimmer on landing struts, cream body, teal intake scoops, mustard pipes, rust heat panels. no robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/gas/sources/skimmer.png",
+        "file": "parts/skimmer.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "hydrogen-tanks": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. two long horizontal insulated cream hydrogen tanks, teal ends, mustard pipe manifold on a connected steel skid. no robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/gas/sources/hydrogen-tanks.png",
+        "file": "parts/hydrogen-tanks.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "ring-segment": {
+        "prompt": "use case: stylized-concept. one isolated painted miniature sprite for theseus. chunky cream enamel, matte teal, mustard, olive and rust, fine dark outlines, restrained paint chips, tiny orange lights. warm upper-left key and cool right rim. orthographic iso camera at 42 degrees azimuth and 29 degrees elevation. entire object visible, centered, generous transparent margins. no text, no watermark, no scenery, no exterior shadows or glow, true transparent background. retro industrial science fiction orbital spaceport machinery. painted metal panels with vents, bolts and pipes. no stone masonry, wood, medieval ornament, crest or heraldry. a horizontal curved habitat ring segment, cream exterior shell, teal inset window band, mustard docking braces, orange lights. no robots or loose cargo. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "stations/gas/sources/ring-segment.png",
+        "file": "parts/ring-segment.webp",
+        "w": 2048,
+        "h": 1365
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "kit": "yards",
+    "triangles": 14528,
+    "bytes": 785504,
+    "source": "assets/blender/stations/painted/yards/yards.blend",
+    "export": "assets/exports/painted/stations/yards.glb",
+    "berth": [
+        31.765850067138672,
+        -8.0,
+        -10.550000190734863
+    ],
+    "coordinates": "source z up; glb y up; berth bow +x",
+    "camera": {
+        "azimuth": 42,
+        "elevation": 29
+    }
+}

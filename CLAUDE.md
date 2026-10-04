@@ -43,6 +43,28 @@ never run `git clean -x` here: it deletes the code repos.
 docs that follow the code (`progress.md`, `phase.*.md`, `tech.debt.md`) stay in their code repo.
 
 
+## Sessions
+
+more than one claude session works here at the same time. each session owns one lane.
+the [board](agents/board.md) lists the lanes, who holds them, and what each does now.
+
+at the start:
+1. read the board.
+2. run `git all` (status of the 3 repos).
+3. take your lane on the board: session name, branch, task, a marker from its legend.
+
+while you work:
+- change files of your lane only. for another lane, send its session a message, or ask me.
+- shared files (`CLAUDE.md`, `docs/`, `.gitattributes`): change them only when i ask.
+- a second session in the same repo works in its own git worktree and branch.
+- never stage, revert or format a change you did not make.
+- the memory folder is shared. write only facts that hold for every session.
+
+keep the marker true: change it when the lane state changes.
+
+at the end, or when i stop you: write the status, the next step and open questions under your lane.
+
+
 ## Code style
 
 Avoid snake case names (a_b), prefer camelCase.

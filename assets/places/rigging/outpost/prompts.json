@@ -1,0 +1,26 @@
+{
+    "plate": {
+        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. landscape 16:9, 2048 x 1152. a roofless pressurized ship rigging bay cutaway. a wide empty low ship cradle stands on the center floor under a tall cream and mustard gantry. the cradle has two low support rails and an open center for the separate 3d ship. the gantry crosses the upper rear area and does not block the ship. a compact tool wall occupies the left wall. two empty recessed alcoves on the back wall receive separate module racks. keep the foreground floor clear and broad blank cream wall panels for cards. no ship, modules, cargo, robots or people. no window planet. navy space outside the cutaway.",
+        "tool": "built-in imagegen",
+        "source": "places/rigging/outpost/sources/plate.png",
+        "file": "plate.webp",
+        "w": 2048,
+        "h": 1152
+    },
+    "power-rack": {
+        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. one isolated full object, centered with transparent margins, true transparent background. no detached shadow or glow. one low industrial module rack for a rigging bay. cream thick frame, teal shelves, one squat sealed olive reactor module with dark coolant sockets, mustard pipes and orange lamps. no wall or scenery. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "places/rigging/outpost/sources/power-rack.png",
+        "file": "parts/power-rack.webp",
+        "w": 2048,
+        "h": 1365
+    },
+    "drive-rack": {
+        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. one isolated full object, centered with transparent margins, true transparent background. no detached shadow or glow. one low industrial module rack for a rigging bay. cream thick frame, teal shelves, two rust and teal cylindrical propulsion modules with dark nozzles, mustard handles and orange lamps. no wall or scenery. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "places/rigging/outpost/sources/drive-rack.png",
+        "file": "parts/drive-rack.webp",
+        "w": 2048,
+        "h": 1365
+    }
+}

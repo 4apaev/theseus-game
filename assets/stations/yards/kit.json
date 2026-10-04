@@ -1,0 +1,41 @@
+{
+    "kit": "yards",
+    "stations": [
+        "sol.ganymede"
+    ],
+    "parts": [
+        {
+            "name": "gantry-crane",
+            "file": "parts/gantry-crane.webp",
+            "w": 1945,
+            "h": 2048,
+            "foot": [
+                1359,
+                2015
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "hull-cradle",
+            "file": "parts/hull-cradle.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1256,
+                1280
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "module-rack",
+            "file": "parts/module-rack.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1314,
+                1333
+            ],
+            "layer": "back"
+        }
+    ]
+}

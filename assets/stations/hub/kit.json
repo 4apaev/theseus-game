@@ -1,0 +1,42 @@
+{
+    "kit": "hub",
+    "stations": [
+        "sol.mars",
+        "alpha.exchange"
+    ],
+    "parts": [
+        {
+            "name": "market-hall",
+            "file": "parts/market-hall.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                446,
+                1299
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "container-stack",
+            "file": "parts/container-stack.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                800,
+                1309
+            ],
+            "layer": "front"
+        },
+        {
+            "name": "cargo-lift",
+            "file": "parts/cargo-lift.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1108,
+                1338
+            ],
+            "layer": "back"
+        }
+    ]
+}

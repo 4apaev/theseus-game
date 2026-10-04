@@ -1,0 +1,42 @@
+{
+    "kit": "lab",
+    "stations": [
+        "sol.venus",
+        "wolf.solaris"
+    ],
+    "parts": [
+        {
+            "name": "dome-lab",
+            "file": "parts/dome-lab.webp",
+            "w": 2048,
+            "h": 1707,
+            "foot": [
+                1259,
+                1492
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "antenna-array",
+            "file": "parts/antenna-array.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1438,
+                1292
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "tank-farm",
+            "file": "parts/tank-farm.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                415,
+                1275
+            ],
+            "layer": "back"
+        }
+    ]
+}

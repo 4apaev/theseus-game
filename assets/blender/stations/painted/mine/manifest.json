@@ -1,0 +1,17 @@
+{
+    "kit": "mine",
+    "triangles": 12532,
+    "bytes": 678316,
+    "source": "assets/blender/stations/painted/mine/mine.blend",
+    "export": "assets/exports/painted/stations/mine.glb",
+    "berth": [
+        31.765850067138672,
+        -8.0,
+        -10.203158378601074
+    ],
+    "coordinates": "source z up; glb y up; berth bow +x",
+    "camera": {
+        "azimuth": 42,
+        "elevation": 29
+    }
+}

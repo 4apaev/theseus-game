@@ -1,0 +1,21 @@
+{
+    "inside": {
+        "prompt": "edit ONLY the golden telematter path. remove its current curve, every polygon glyph and diamond symbol, and every dot on that curve. replace with ONE fine perfectly STRAIGHT golden ray from the upper-left image corner directly to the top dish on the ship. light travels on a straight line. no bend or arc anywhere. a few very small irregular light motes may follow that straight ray, no geometric symbols. preserve the ship exactly, all ship proportions, modules, color, camera, position, teal exhaust, navy sky, image dimensions and brush texture. no other changes, no text, diagrams or ui.",
+        "tool": "built-in imagegen",
+        "source": "concepts/beam/sources/inside.png",
+        "file": "inside.webp",
+        "w": 2048,
+        "h": 1152,
+        "generationPrompt": "use case: stylized-concept. create a new theseus painted key art scene, 16:9 landscape 2048 x 1152. the input image is a SHIP DESIGN REFERENCE only. preserve this exact far treasure hull: chunky cream wedge cab, teal lower chin, segmented cream modular body with dark seams, mustard belt rails, olive cargo housings, rust band at the rear reactor and small dish on top. place the ship in navy interstellar space, facing right, side three-quarter view, about one third of the image width. painterly enamel and metal, restrained brush texture and dark outlines. a fine golden luminous guide path from the upper left meets the ship, sparse light motes suggest the telematter information beam. the beam is a light cue, no solid tube or fuel hose. a short clean bright pale teal rear drive glow shows powered flight. warm upper-left key and cool right rim. clear negative space ahead, sparse stars. no planet, text, ui, watermark, battle, explosion or giant flame. no change to the ship design.",
+        "designReference": "blender/renders/painted/far-treasure-preview.png"
+    },
+    "edge": {
+        "prompt": "make the second theseus beam key frame from this image. preserve the exact far treasure ship design, every module, colors, camera, brush texture and the navy sky. the ship now leaves the telematter ray. move the ship slightly DOWN and RIGHT, with its bow pointing slightly down-right. extend the perfectly STRAIGHT fine golden ray across the upper half of the image on its original direction, passing clear ABOVE the ship with a visible gap. the golden ray does not bend, does not follow the ship, and no longer touches any ship part. remove the teal exhaust. replace it with a modest short WARM ORANGE exhaust plume from the rear reaction engine. the ship receiver is dark, no golden glow on its dish. no damage, explosion, emergency lights, diagram, ui, labels or text. this is quiet drive fallback at the edge of the beam. keep landscape 16:9.",
+        "tool": "built-in imagegen",
+        "source": "concepts/beam/sources/edge.png",
+        "file": "edge.webp",
+        "w": 2048,
+        "h": 1152,
+        "reference": "concepts/beam/sources/inside.png"
+    }
+}

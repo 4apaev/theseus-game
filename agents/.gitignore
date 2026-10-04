@@ -1,0 +1,9 @@
+log/
+lock/
+sam/builds.txt
+sam/builds.log
+sam/scratch/
+__pycache__/
+brief/*.facts.json
+brief/*.words.json
+brief/brief.html

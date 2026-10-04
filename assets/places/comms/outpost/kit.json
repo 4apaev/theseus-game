@@ -1,0 +1,58 @@
+{
+    "kit": "outpost",
+    "stations": [
+        "sol.outpost"
+    ],
+    "parts": [
+        {
+            "name": "console",
+            "file": "parts/console.webp",
+            "w": 2048,
+            "h": 1707,
+            "foot": [
+                1023,
+                1657
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "letter-rack",
+            "file": "parts/letter-rack.webp",
+            "w": 1960,
+            "h": 2048,
+            "foot": [
+                984,
+                2009
+            ],
+            "layer": "back"
+        }
+    ],
+    "plate": "plate.webp",
+    "spots": [
+        {
+            "name": "console",
+            "x": 1030,
+            "y": 450
+        },
+        {
+            "name": "rack",
+            "x": 1410,
+            "y": 440
+        }
+    ],
+    "place": "comms",
+    "placements": [
+        {
+            "name": "console",
+            "x": 1030,
+            "y": 595,
+            "width": 490
+        },
+        {
+            "name": "letter-rack",
+            "x": 1410,
+            "y": 570,
+            "width": 310
+        }
+    ]
+}

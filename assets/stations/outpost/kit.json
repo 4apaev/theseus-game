@@ -1,0 +1,85 @@
+{
+    "kit": "outpost",
+    "stations": [
+        "sol.outpost"
+    ],
+    "parts": [
+        {
+            "name": "platform-01",
+            "file": "parts/platform-01.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1024,
+                751
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "platform-02",
+            "file": "parts/platform-02.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1024,
+                819
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "structure-01",
+            "file": "parts/structure-01.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1024,
+                1228
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "structure-02",
+            "file": "parts/structure-02.webp",
+            "w": 2048,
+            "h": 1872,
+            "foot": [
+                1024,
+                1685
+            ],
+            "layer": "back"
+        },
+        {
+            "name": "cargo-01",
+            "file": "parts/cargo-01.webp",
+            "w": 2048,
+            "h": 2048,
+            "foot": [
+                1024,
+                1843
+            ],
+            "layer": "front"
+        },
+        {
+            "name": "cargo-02",
+            "file": "parts/cargo-02.webp",
+            "w": 2048,
+            "h": 2048,
+            "foot": [
+                1024,
+                1843
+            ],
+            "layer": "front"
+        },
+        {
+            "name": "ship-pad",
+            "file": "parts/ship-pad.webp",
+            "w": 2048,
+            "h": 1365,
+            "foot": [
+                1024,
+                764
+            ],
+            "layer": "back"
+        }
+    ]
+}
