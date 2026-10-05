@@ -42,6 +42,7 @@ the current plan: [plan.md](plan.md).
   - C: the chart (stars at their catalogue places, routes, courses with cost), the system map, transit (the ship underway) and the landing.
   - D: rigging (slots, preview, install, remove, rename), the traffic list. E: comms (channel, letters), the feed line and the console. F1: settings.
   - tested on the local gateway: register, login, buy at sol outpost, fly to mars hub, sell there, a letter from a second player.
+- the anchorage docks ships on a station's pads (`berth_b`… with a size) before the ring: ready for sam's dk1 outpost.
 - next: the user reviews `shell.html`. then F2 to F4, then G (index.html boots the shell, the old code goes).
 - asks: F2 needs sound files, F3 adds gltf-transform (dev dependency), F4 adds playwright: the user's call. 2 local test players exist in the dev db: keet-a5-test, keet-e1-test.
 
