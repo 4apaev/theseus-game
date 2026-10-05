@@ -184,6 +184,8 @@ cargo load / unload animations / repairs
 
 ### ΔV mechanics
 
+the numbers, the diagrams and the rocket equation: see [ΔV.md](ΔV.md).
+
 [relativistic travel calculator](https://www.overvieweffekt.com/tools/relativistic-travel-calculator)
 
 [brachistochrone rocket calculator](https://www.overvieweffekt.com/tools/brachistochrone-rocket-calculator) - how fast could you travel between planets with continuous acceleration and deceleration? ("expanse" like)
@@ -221,6 +223,9 @@ is shorter than Mars to Ganymede. physically it is the most expensive
 address in the game.
 
 one term repairs this. effective acceleration becomes `a - GM/r²`.
+
+**open:** as written, this term strands the starter at its home port.
+[ΔV.md](ΔV.md) has the numbers, and it recommends the well as ΔV.
 
 solar gravity against the starter ship, which pushes 0.002 m/s²:
 
