@@ -26,7 +26,7 @@ the current plan: [plan.md](plan.md).
 - committed 2026-10-04: `0c23cd9 client: core, fixtures, 3D port` on painted-art. not pushed.
   - `src/core/` holds the wire and the truth. `?fixture=docked|transit|full` runs with no gateway.
   - `shell.html` is the painted client beside the old app: the port in 3D, an orbit camera, a 360° sky.
-- done, uncommitted:
+- done and committed 2026-10-05 (painted-art, not pushed):
   - the port uses sam's 9 station models: the ship on each `berth`, 2 robots on the `walk_*` points, the camera fits the model. 23 stations map to the 9 kits in `src/content/stations.ts`.
   - sam's f3 models are synced (06:33): the flicker is gone.
   - colour fix, 2026-10-05: `paint.ts` converted every model colour to srgb twice, so all models looked washed out. now the client shows the painted hex.
