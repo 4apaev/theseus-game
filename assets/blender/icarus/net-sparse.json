@@ -1,0 +1,15 @@
+{
+    "name": "net-sparse",
+    "triangles": 27408,
+    "extras": {
+        "physicalRadiusMetres": 7479893535.0,
+        "metresPerUnit": 7479893.535,
+        "units": "far-view units",
+        "export_up_axis": "+y",
+        "detailModel": "assets/exports/painted/icarus/net-node.glb",
+        "strandWidthIsSchematic": true,
+        "nodes": 42,
+        "faces": 80
+    },
+    "export": "assets/exports/painted/icarus/net-sparse.glb"
+}

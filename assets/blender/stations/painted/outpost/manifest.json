@@ -1,13 +1,15 @@
 {
     "kit": "outpost",
-    "triangles": 14612,
-    "bytes": 794192,
+    "revision": "st2-st3",
+    "work_areas": 16,
+    "triangles": 172676,
+    "bytes": 9419296,
     "source": "assets/blender/stations/painted/outpost/outpost.blend",
     "export": "assets/exports/painted/stations/outpost.glb",
     "berth": [
-        31.765850067138672,
-        -8.0,
-        -6.845000267028809
+        126.26585388183594,
+        -32.0,
+        -7.2950005531311035
     ],
     "coordinates": "source z up; glb y up; berth bow +x",
     "camera": {

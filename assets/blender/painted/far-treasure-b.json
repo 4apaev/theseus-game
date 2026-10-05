@@ -1,0 +1,8 @@
+{
+    "name": "far-treasure-b",
+    "triangles": 82716,
+    "metres_per_unit": 7.2,
+    "illuminator_rows": 6,
+    "source": "assets/blender/painted/far-treasure-b.blend",
+    "export": "assets/exports/painted/far-treasure-b.glb"
+}

@@ -1,0 +1,34 @@
+{
+    "pilot": {
+        "prompt": "use case: stylized-concept. asset: theseus space trade game crew trait portrait, vertical 3:4, target 768 x 1024. expressionist oil painting, loose thick confident brush strokes, exaggerated caricature, simple bold silhouette, one idea, clear face, dark humour. use the conceptual approach of disco elysium skill portraits, copy no character or composition. this is a fun trait icon, not a serious realistic character bust. cream, teal, mustard, olive, rust, navy background; strange violet and acidic teal in shadows. warm key light upper left, cool rim right. face and ONE huge prop together fill the frame and read at 128 pixels. no text, no lettering, no border, no watermark. chest-up, no detailed setting, no small accessory clutter. an older space pilot with an enormous toothy daredevil grin and one eyebrow raised, cheeks drawn back as if acceleration itself is a joke. one huge battered steering yoke held at chest height like a trophy, clearly visible and unmistakable, worn mustard suit, wind-swept cream hair. theatrical warped proportions and joyful reckless expression. the yoke is the only big prop.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/fun/sources/pilot.png",
+        "file": "assets/crew/fun/pilot.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "engineer": {
+        "prompt": "use case: stylized-concept. asset: theseus space trade game crew trait portrait, vertical 3:4, target 768 x 1024. expressionist oil painting, loose thick confident brush strokes, exaggerated caricature, simple bold silhouette, one idea, clear face, dark humour. use the conceptual approach of disco elysium skill portraits, copy no character or composition. this is a fun trait icon, not a serious realistic character bust. cream, teal, mustard, olive, rust, navy background; strange violet and acidic teal in shadows. warm key light upper left, cool rim right. face and ONE huge prop together fill the frame and read at 128 pixels. no text, no lettering, no border, no watermark. chest-up, no detailed setting, no small accessory clutter. a stocky middle-aged space engineer with a crooked triumphant grin, soot-black nose, wildly asymmetric hair. one HUGE rusty wrench resting on the shoulder, head nearly as big as the face. olive work clothes and cream face, luminous orange paint smear, cartoon-like face planes painted in energetic oils. the wrench is the only big prop.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/fun/sources/engineer.png",
+        "file": "assets/crew/fun/engineer.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "haggler": {
+        "prompt": "use case: stylized-concept. asset: theseus space trade game crew trait portrait, vertical 3:4, target 768 x 1024. expressionist oil painting, loose thick confident brush strokes, exaggerated caricature, simple bold silhouette, one idea, clear face, dark humour. use the conceptual approach of disco elysium skill portraits, copy no character or composition. this is a fun trait icon, not a serious realistic character bust. cream, teal, mustard, olive, rust, navy background; strange violet and acidic teal in shadows. warm key light upper left, cool rim right. face and ONE huge prop together fill the frame and read at 128 pixels. no text, no lettering, no border, no watermark. chest-up, no detailed setting, no small accessory clutter. a wiry older space merchant with a sly exaggerated wink and an absurdly broad smug smile. one huge coin pinched between thumb and finger next to the cheek, a plain mustard disk with a hole, no lettering. angular nose, rust jacket, teal shadow, an expression of selling you your own shoes. the coin is the only big prop.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/fun/sources/haggler.png",
+        "file": "assets/crew/fun/haggler.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "gunner": {
+        "prompt": "use case: stylized-concept. asset: theseus space trade game crew trait portrait, vertical 3:4, target 768 x 1024. expressionist oil painting, loose thick confident brush strokes, exaggerated caricature, simple bold silhouette, one idea, clear face, dark humour. use the conceptual approach of disco elysium skill portraits, copy no character or composition. this is a fun trait icon, not a serious realistic character bust. cream, teal, mustard, olive, rust, navy background; strange violet and acidic teal in shadows. warm key light upper left, cool rim right. face and ONE huge prop together fill the frame and read at 128 pixels. no text, no lettering, no border, no watermark. chest-up, no detailed setting, no small accessory clutter. a broad-faced older space gunner with a fierce comic scowl, clenched crooked teeth and one eye squeezed closed in concentration. one oversized battered sighting scope held across the chest, its single round glass lens shines orange like an enormous second eye, clearly reads as aiming equipment. cream cropped hair and teal jacket, rust cheeks, dark comic menace. the scope is the only big prop.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/fun/sources/gunner.png",
+        "file": "assets/crew/fun/gunner.webp",
+        "w": 768,
+        "h": 1024
+    }
+}

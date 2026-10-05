@@ -1,0 +1,9 @@
+{
+    "name": "net-node",
+    "triangles": 16548,
+    "extras": {
+        "units": "metres",
+        "export_up_axis": "+y"
+    },
+    "export": "assets/exports/painted/icarus/net-node.glb"
+}

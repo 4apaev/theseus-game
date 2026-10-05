@@ -1,0 +1,34 @@
+{
+    "sparse": {
+        "prompt": "use case: stylized-concept. create a painted theseus key frame, 2048 x 1152, 16:9. an alternative icarus array: a sparse triangular geodesic net enclosing the sun at radius 0.05 au, about eleven solar radii. wide exterior view showing the entire delicate spherical net as a coherent sphere, a small fiercely bright sun at its center (about one eleventh shell radius). very open triangles, about 80 triangular faces. fine industrial teal and cream truss strands, mustard junctions; at each junction a small chunky cream beam emitter and dark olive radiator. no dishes. navy black space, warm golden key upper left, cool teal rim. painted miniature aesthetic, visible brushwork, restrained bloom, clear silhouette and vast scale. one 8 metre cargo ship only a barely visible speck near one node. no text, no labels, no ui, no planet. the shell is open construction, not a solid sphere. leave ample dark space outside. save the generated image.",
+        "tool": "built-in imagegen",
+        "source": "assets/concepts/icarus-net/sources/sparse.png",
+        "file": "sparse.webp",
+        "w": 2048,
+        "h": 1152
+    },
+    "medium": {
+        "prompt": "use case: stylized-concept. create a painted theseus key frame, 2048 x 1152, 16:9. an alternative icarus array: a medium-density triangular geodesic net enclosing the sun at radius 0.05 au, about eleven solar radii. wide exterior view showing the entire delicate spherical net as a coherent sphere, a small fiercely bright sun at its center (about one eleventh shell radius). medium open triangles, about 320 triangular faces; four times the sparse net face count. keep the sun small, one eleventh shell radius. fine industrial teal and cream truss strands, mustard junctions; at each junction a small chunky cream beam emitter and dark olive radiator. no dishes. navy black space, warm golden key upper left, cool teal rim. painted miniature aesthetic, visible brushwork, restrained bloom, clear silhouette and vast scale. one 8 metre cargo ship only a barely visible speck near one node. no text, no labels, no ui, no planet. the shell is open construction, not a solid sphere. leave ample dark space outside. save the generated image.",
+        "tool": "built-in imagegen",
+        "source": "assets/concepts/icarus-net/sources/medium.png",
+        "file": "medium.webp",
+        "w": 2048,
+        "h": 1152
+    },
+    "dense": {
+        "prompt": "use case: stylized-concept. create a painted theseus key frame, 2048 x 1152, 16:9. an alternative icarus array: a dense triangular geodesic net enclosing the sun at radius 0.05 au, about eleven solar radii. wide exterior view showing the entire delicate spherical net as a coherent sphere, a small fiercely bright sun at its center (about one eleventh shell radius). a fine mesh of about 1280 triangular faces, sixteen times the sparse net face count. the strands remain thin and the triangles remain open; the sun is small, one eleventh shell radius. fine industrial teal and cream truss strands, mustard junctions; at each junction a small chunky cream beam emitter and dark olive radiator. no dishes. navy black space, warm golden key upper left, cool teal rim. painted miniature aesthetic, visible brushwork, restrained bloom, clear silhouette and vast scale. one 8 metre cargo ship only a barely visible speck near one node. no text, no labels, no ui, no planet. the shell is open construction, not a solid sphere. leave ample dark space outside. save the generated image.",
+        "tool": "built-in imagegen",
+        "source": "assets/concepts/icarus-net/sources/dense.png",
+        "file": "dense.webp",
+        "w": 2048,
+        "h": 1152
+    },
+    "node": {
+        "prompt": "use case: stylized-concept. theseus painted key frame, 2048 x 1152, 16:9. close study of one 50 metre icarus net emitter node, cream and teal chunky ceramic housing, mustard pipework, dark olive radiator fins, a small orange outward beam aperture. six thin triangulated truss strands extend from the central node beyond the frame. one small cream and teal maintenance robot, four gripping feet clamped around a strand, crawls the strand toward the node. show a clear uninterrupted rail along that strand. sun far behind is about eleven times farther from shell center than its radius, a small dazzling warm disc in navy space upper left. warm key upper left, cool rim right. painterly miniature model, brush marks and dark seams, restrained bloom, practical construction. camera 42 degree azimuth 29 degree elevation. no parabolic dishes, no planet, no text, no interface, no people. clear robot silhouette and huge infrastructure scale.",
+        "tool": "built-in imagegen",
+        "source": "assets/concepts/icarus-net/sources/node.png",
+        "file": "node.webp",
+        "w": 2048,
+        "h": 1152
+    }
+}

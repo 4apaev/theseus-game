@@ -1,0 +1,20 @@
+{
+    "plate": {
+        "prompt": "use case: precise-object-edit. create the tanker hold variant of this theseus cargo bay plate, 2048 x 1152. preserve the exact camera, floor geometry, twenty empty 5 by 4 grid cells, grid seams, mustard corner marks, wall positions and rear right hatch. change only the upper wall equipment: add sealed cream cylindrical tanks with teal endcaps along the back left wall, compact mustard pumps and connected dark coolant pipes against the walls. no equipment or pipes on the central floor. keep calm blank cream wall panels for cards. painted cream teal mustard olive rust miniature, warm upper left light and cool rim. no text, windows, planet, people, robot or cargo. keep the full clear floor, no fog.",
+        "tool": "built-in imagegen",
+        "source": "assets/places/hold/tank/sources/plate.png",
+        "file": "plate.webp",
+        "w": 2048,
+        "h": 1152,
+        "reference": "assets/places/hold/far-treasure/plate.webp"
+    },
+    "hatch": {
+        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. one isolated full object, centered with transparent margins, true transparent background. no detached shadow or glow. one compact freighter cargo hatch assembly. a closed broad teal armored door in a chunky cream frame, mustard locking wheel, four rust mechanical latches and two orange status lamps. small dark threshold, no wall, background or scenery. one connected assembly.",
+        "tool": "built-in imagegen",
+        "source": "assets/places/hold/tank/sources/hatch.png",
+        "file": "parts/hatch.webp",
+        "w": 2048,
+        "h": 1686,
+        "reusedFrom": "assets/places/hold/far-treasure/parts/hatch.webp"
+    }
+}

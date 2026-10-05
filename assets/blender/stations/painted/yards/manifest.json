@@ -1,13 +1,15 @@
 {
     "kit": "yards",
-    "triangles": 14528,
-    "bytes": 785504,
+    "revision": "st2-st3",
+    "work_areas": 16,
+    "triangles": 174808,
+    "bytes": 9532200,
     "source": "assets/blender/stations/painted/yards/yards.blend",
     "export": "assets/exports/painted/stations/yards.glb",
     "berth": [
-        31.765850067138672,
-        -8.0,
-        -10.550000190734863
+        126.26585388183594,
+        -32.0,
+        -7.2950005531311035
     ],
     "coordinates": "source z up; glb y up; berth bow +x",
     "camera": {

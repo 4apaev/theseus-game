@@ -1,13 +1,15 @@
 {
     "kit": "gate",
-    "triangles": 17232,
-    "bytes": 929860,
+    "revision": "st2-st3",
+    "work_areas": 16,
+    "triangles": 184292,
+    "bytes": 10053820,
     "source": "assets/blender/stations/painted/gate/gate.blend",
     "export": "assets/exports/painted/stations/gate.glb",
     "berth": [
-        36.26585006713867,
-        -8.0,
-        -11.75
+        142.26585388183594,
+        -32.0,
+        -11.8149995803833
     ],
     "coordinates": "source z up; glb y up; berth bow +x",
     "camera": {

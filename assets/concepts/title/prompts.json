@@ -1,0 +1,20 @@
+{
+    "title": {
+        "prompt": "use case: stylized-concept. theseus title screen key art, 2048 x 1152, 16:9. use the reference ship only for its design: the far treasure is a squat 8 metre cream industrial freighter, wedge cab with dark windows at the bow, teal lower bow, cream modular rectangular cargo body, mustard handrails, olive hanging modules, rust band near cylindrical rear reactor and two small orange drive lights. the ship is TINY in this scene, only 2 percent of frame width, near lower right under a VAST painted earthlike planet. planet fills right 60 percent of image, curved limb enters from above and right and extends beyond frame; dark oceans, muted cream clouds and teal coasts, subtle gold dawn on upper left limb. lower left and entire left 40 percent remain calm navy black space for the word theseus, but render NO text. soft sparse stars, no ui, no frames, no people. hand-painted miniature space art, visible brushwork, warm upper left key and cool right rim, restrained glow. monumental quiet scale, no battles, no giant ship, no lens flare.",
+        "tool": "built-in imagegen",
+        "source": "assets/concepts/title/sources/title.png",
+        "file": "title.webp",
+        "w": 2048,
+        "h": 1152,
+        "reference": "assets/blender/renders/painted/far-treasure-preview.png"
+    },
+    "icon": {
+        "prompt": "use case: stylized-concept. theseus app icon, 1024 x 1024 square. the far treasure ship ALONE centered on solid dark navy space, no planet, stars, other objects, text, frame, border or logo. use the supplied ship render as the exact design reference: squat cream industrial freighter, wedge cab at front left with large dark windows and teal lower bow, long cream modular rectangular body, mustard handrails and trim, olive underslung cargo modules, rust rear band and cylindrical reactor at rear right, small orange lamps. painted miniature brushwork, chunky clean silhouette, warm upper left key, cool right rim. camera orthographic isometric 42 degrees azimuth and 29 degrees elevation. show whole ship with generous safe margins on all sides, ship occupies 72 percent of frame width. simplify tiny seams and antennae for readability at 32 pixels, preserve the hull and cabin silhouette. no large exhaust plume. polished icon art, matte paint.",
+        "tool": "built-in imagegen",
+        "source": "assets/concepts/title/sources/icon.png",
+        "file": "icon.webp",
+        "w": 1024,
+        "h": 1024,
+        "reference": "assets/blender/renders/painted/far-treasure-preview.png"
+    }
+}

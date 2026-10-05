@@ -1,13 +1,15 @@
 {
     "kit": "gas",
-    "triangles": 15756,
-    "bytes": 834764,
+    "revision": "st2-st3",
+    "work_areas": 16,
+    "triangles": 178780,
+    "bytes": 9676636,
     "source": "assets/blender/stations/painted/gas/gas.blend",
     "export": "assets/exports/painted/stations/gas.glb",
     "berth": [
-        31.765850067138672,
-        -8.0,
-        -1.7400000095367432
+        126.26585388183594,
+        -32.0,
+        -7.2950005531311035
     ],
     "coordinates": "source z up; glb y up; berth bow +x",
     "camera": {

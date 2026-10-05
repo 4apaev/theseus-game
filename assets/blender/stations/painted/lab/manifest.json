@@ -1,13 +1,15 @@
 {
     "kit": "lab",
-    "triangles": 15808,
-    "bytes": 844276,
+    "revision": "st2-st3",
+    "work_areas": 16,
+    "triangles": 184432,
+    "bytes": 9923416,
     "source": "assets/blender/stations/painted/lab/lab.blend",
     "export": "assets/exports/painted/stations/lab.glb",
     "berth": [
-        31.765850067138672,
-        -8.0,
-        -7.338504791259766
+        126.26585388183594,
+        -32.0,
+        -7.403504848480225
     ],
     "coordinates": "source z up; glb y up; berth bow +x",
     "camera": {

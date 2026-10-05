@@ -1,0 +1,15 @@
+{
+    "name": "net-medium",
+    "triangles": 109488,
+    "extras": {
+        "physicalRadiusMetres": 7479893535.0,
+        "metresPerUnit": 7479893.535,
+        "units": "far-view units",
+        "export_up_axis": "+y",
+        "detailModel": "assets/exports/painted/icarus/net-node.glb",
+        "strandWidthIsSchematic": true,
+        "nodes": 162,
+        "faces": 320
+    },
+    "export": "assets/exports/painted/icarus/net-medium.glb"
+}

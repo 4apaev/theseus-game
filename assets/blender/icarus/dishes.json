@@ -1,0 +1,6 @@
+{
+    "emitters": 128,
+    "triangles": 855040,
+    "diameterMetres": 1600,
+    "emitterSource": "assets/blender/icarus/beam-emitter.blend"
+}

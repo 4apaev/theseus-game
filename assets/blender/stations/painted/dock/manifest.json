@@ -1,13 +1,15 @@
 {
     "kit": "dock",
-    "triangles": 13292,
-    "bytes": 725032,
+    "revision": "st2-st3",
+    "work_areas": 16,
+    "triangles": 176316,
+    "bytes": 9522328,
     "source": "assets/blender/stations/painted/dock/dock.blend",
     "export": "assets/exports/painted/stations/dock.glb",
     "berth": [
-        31.765850067138672,
-        -8.0,
-        -7.800000190734863
+        126.26585388183594,
+        -32.0,
+        -7.865000247955322
     ],
     "coordinates": "source z up; glb y up; berth bow +x",
     "camera": {

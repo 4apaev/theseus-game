@@ -1,0 +1,49 @@
+{
+    "kit": "reefer",
+    "stations": [],
+    "parts": [
+        {
+            "name": "hatch",
+            "file": "parts/hatch.webp",
+            "w": 2048,
+            "h": 1686,
+            "foot": [
+                1029,
+                1619
+            ],
+            "layer": "back"
+        }
+    ],
+    "plate": "plate.webp",
+    "spots": [
+        {
+            "name": "hatch",
+            "x": 1605,
+            "y": 315
+        },
+        {
+            "name": "cold-racks",
+            "x": 770,
+            "y": 300
+        },
+        {
+            "name": "compressor",
+            "x": 1220,
+            "y": 330
+        }
+    ],
+    "place": "hold",
+    "placements": [
+        {
+            "name": "hatch",
+            "x": 1605,
+            "y": 440,
+            "width": 355
+        }
+    ],
+    "grid": {
+        "cols": 5,
+        "rows": 4,
+        "reference": "assets/places/hold/far-treasure/plate.webp"
+    }
+}

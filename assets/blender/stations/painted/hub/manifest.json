@@ -1,13 +1,15 @@
 {
     "kit": "hub",
-    "triangles": 14712,
-    "bytes": 801452,
+    "revision": "st2-st3",
+    "work_areas": 16,
+    "triangles": 172776,
+    "bytes": 9393704,
     "source": "assets/blender/stations/painted/hub/hub.blend",
     "export": "assets/exports/painted/stations/hub.glb",
     "berth": [
-        31.765850067138672,
-        -8.0,
-        -8.300000190734863
+        126.26585388183594,
+        -32.0,
+        -8.364999771118164
     ],
     "coordinates": "source z up; glb y up; berth bow +x",
     "camera": {
