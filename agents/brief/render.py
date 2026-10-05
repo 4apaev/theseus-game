@@ -75,7 +75,8 @@ lists = (f'<section><h2>Needs you</h2>{ items(words[ "needs" ]) }</section>' if 
 if not lists:
     lists = '<p class="calm">Nothing needs you this morning.</p>'
 
-repos = ''.join(f'<li><b>{ n }</b> · { r[ "branch" ] } · { r[ "uncommitted" ] } uncommitted · { r[ "unpushed" ] } unpushed</li>' for n, r in facts[ 'repos' ].items())
+commits = ''.join(f'<li><b>{ c[ "repo" ] }</b> · <code>{ c[ "hash" ] }</code> · { esc(c[ "text" ]) }</li>' for c in facts[ 'commits' ])
+repos   = ''.join(f'<li><b>{ n }</b> · { r[ "branch" ] } · { r[ "uncommitted" ] } uncommitted · { r[ "unpushed" ] } unpushed</li>' for n, r in facts[ 'repos' ].items())
 q     = facts[ 'queue' ]
 queue = f'{ q[ "total" ] } jobs: { len(q[ "❎" ]) } open, { len(q[ "♻️" ]) } in progress, { len(q[ "⛔" ]) } blocked.'
 usage = ''.join(f'<li><b>{ u[ 1 ] }</b> of { u[ 3 ] } h · resets { u[ 6 ] } { u[ 7 ] }</li>' for u in facts[ 'usage' ])
@@ -108,6 +109,7 @@ h2 {{ font: 600 15px var(--sans); margin: 0 }}
 .items a {{ color: inherit; text-decoration-color: var(--grey) }}
 .facts {{ list-style: none; padding: 0; margin: 0; color: var(--soft); display: grid; gap: 4px; font-variant-numeric: tabular-nums }}
 .facts b {{ color: var(--ink); font-weight: 500 }}
+.facts code {{ font: 13px ui-monospace, Menlo, monospace }}
 .calm {{ color: var(--soft) }}
 @media (max-width: 640px) {{
     h1 {{ font-size: 30px }}
@@ -124,6 +126,7 @@ h2 {{ font: 600 15px var(--sans); margin: 0 }}
 </header>
 <main>
     { lists }
+    { f'<section><h2>Commits</h2><ul class="facts">{ commits }</ul></section>' if commits else '' }
     <section><h2>Repos</h2><ul class="facts">{ repos }</ul></section>
     <section><h2>Sam</h2><ul class="facts"><li>{ queue }</li>{ usage }</ul></section>
 </main>
@@ -135,6 +138,8 @@ md += [ f'- **{ span(cuts[ i ], cuts[ i + 1 ]) }** · { words[ "acts" ][ i ] }' 
 for head, key in (('needs you', 'needs'), ('done since the last brief', 'done')):
     if words[ key ]:
         md += [ '', f'## { head }', '' ] + [ f'{ i }. **{ r[ "title" ] }** · { r[ "text" ] }' for i, r in enumerate(words[ key ], 1) ]
+if facts[ 'commits' ]:
+    md += [ '', '## commits', '' ] + [ f'- { c[ "repo" ] } · `{ c[ "hash" ] }` · { c[ "text" ] }' for c in facts[ 'commits' ] ]
 md += [ '', '## repos', '' ] + [ f'- { n } · { r[ "branch" ] } · { r[ "uncommitted" ] } uncommitted · { r[ "unpushed" ] } unpushed' for n, r in facts[ 'repos' ].items() ]
 md += [ '', '## sam', '', f'- { queue }' ] + [ f'- { u[ 1 ] } of { u[ 3 ] } h · resets { u[ 6 ] } { u[ 7 ] }' for u in facts[ 'usage' ] ]
 (here / f'{ day }.md').write_text('\n'.join(md) + '\n')

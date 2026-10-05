@@ -36,7 +36,8 @@ the current plan: [plan.md](plan.md).
   - the scale, 2026-10-05: the ship is 70 m (×7.2). sam's st1 stations are synced, built ×4 in metres. the ship rests on the pad (it sank before). `&ship=b` shows sam's s3 hull (gunner nose, portholes).
   - the anchorage, 2026-10-05: other ships wait on a ring round the station (`places/anchorage.ts`, `world/visitor.ts`). players' ships come from the traffic; npc ships arrive and leave every 20 to 50 s. each hull is scaled to its length in metres (`content/fleet.ts`); a hull with sockets gets a seeded random rig. sam's fl1 gives the other hulls sockets.
   - `npm run sync` copies every painted model now, icarus aside.
-- next: the user reviews `frontend/docs/plan.md` (steps A1 to H). then A1, fixture commands answer. the user compares the 2 hulls before D.
+- 2026-10-05 night, on the user's word: commits in frontend and theseus. stage A of `frontend/docs/plan.md` is done: fixture commands answer, the kit (hud, card, toast, credits, place labels), the router, the ship focus, login and register (tested on the local stack).
+- next: stage B, the exchange and the hold. the user compares the 2 hulls before D.
 - asks: -
 
 
