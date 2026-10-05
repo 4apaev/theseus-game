@@ -16,23 +16,27 @@ the current plan: [plan.md](plan.md).
 |----|---------|------------------|-------------------------|-------------------------------------------------------|
 | ✅ | assets  | sam              | theseus · master        | `assets/`, see the [queue](sam/queue.md)              |
 | ✅ | client  | keeton           | frontend · painted-art  | `frontend/`                                           |
-| ❎ | server  | -                | backend · wip           | `backend/`                                            |
+| ✅ | server  | keeton           | backend · wip           | `backend/docs/phase.4.md` only                        |
 
 `design` finished. the user archives it. the art direction is in [AGENTS.md](AGENTS.md), "the look".
 
 
 ## ✅ client · keeton
 
-- status: plan step 1 done, waits for the user (sync A). `npm run check` is green. nothing staged.
-  - the core is in `src/core/`, the catalogue in `src/content/catalogue.ts`. the moved bodies are unchanged; 4 client methods are `protected` now.
-  - fixture mode: `?fixture=docked|transit|full`. `scripts/fixtures.js` builds the fixtures from the backend domain.
-  - `npm run sync` copies the art of `assets/` into `public/`. `-n` shows the changes only. it ran once for the port: `public/art/` holds sam's art before your review, untracked.
-  - wire audit: no gap. the client names no unknown event, and each REST call has a gateway route.
-- step 2, beside the old app: `shell.html?fixture=docked`. the user chose 3D stations (2026-10-04).
-  - the port is 3D: an orbit camera round the station; a 360° sky (ether, stars, the system's sun, a huge planet far off) turns with the camera and never moves.
-  - every station shows the old `lem-station.glb` with the paint pass, until sam's painted station models land.
-  - the planet: sol stations their own world (earth, jupiter for ganymede…), other systems sam's map. the sun: the spectral class.
-- next: station models with sam, the port's hotspots and the kit (cards).
+- committed 2026-10-04: `0c23cd9 client: core, fixtures, 3D port` on painted-art. not pushed.
+  - `src/core/` holds the wire and the truth. `?fixture=docked|transit|full` runs with no gateway.
+  - `shell.html` is the painted client beside the old app: the port in 3D, an orbit camera, a 360° sky.
+- done, uncommitted:
+  - the port uses sam's 9 station models: the ship on each `berth`, 2 robots on the `walk_*` points, the camera fits the model. 23 stations map to the 9 kits in `src/content/stations.ts`.
+  - sam's f3 models are synced (06:33): the flicker is gone.
+  - colour fix, 2026-10-05: `paint.ts` converted every model colour to srgb twice, so all models looked washed out. now the client shows the painted hex.
+  - depth, 2026-10-05: the camera's near plane is 5% of its distance (`stage.ts`), so thin gaps hold at station range. sam's f4 removes the faces that share a plane.
+  - sam's st2, st3 synced. sam runs on a model ladder (`kick.py`): gpt-6-astra medium, one rung down when a window burns faster than its clock.
+  - `src/util.speak.ts`: the voices load on `voiceschanged`; the 15 novelty voices are out. tested: 63 voices kept.
+  - the scale, 2026-10-05: the ship is 70 m (×7.2). sam's st1 stations are synced, built ×4 in metres. the ship rests on the pad (it sank before). `&ship=b` shows sam's s3 hull (gunner nose, portholes).
+  - the anchorage, 2026-10-05: other ships wait on a ring round the station (`places/anchorage.ts`, `world/visitor.ts`). players' ships come from the traffic; npc ships arrive and leave every 20 to 50 s. each hull is scaled to its length in metres (`content/fleet.ts`); a hull with sockets gets a seeded random rig. sam's fl1 gives the other hulls sockets.
+  - `npm run sync` copies every painted model now, icarus aside.
+- next: the user reviews `frontend/docs/plan.md` (steps A1 to H). then A1, fixture commands answer. the user compares the 2 hulls before D.
 - asks: -
 
 
@@ -43,9 +47,11 @@ the current plan: [plan.md](plan.md).
 - keeton copies `assets/exports/` and the kits into `frontend/public/`.
 
 
-## ❎ server · -
+## ✅ server · keeton
 
-- status: free.
+- 2026-10-05: the user asked for a real phase 4. `docs/phase.4.md` is rewritten, uncommitted. no code.
+- next: the user's review. the open calls are in the doc; the first is 4.3's well (the term as written strands the starter).
+- asks: stale facts in shared docs, for the user: game.md's well table puts the outpost at 1.336 AU (systems.js: 1.0); game.md's crew says "no portraits".
 
 
 ## brief for a new session

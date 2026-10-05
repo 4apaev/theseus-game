@@ -4,3 +4,11 @@
 2026-10-04 · done: shared berth lookup fix and build error exit code · left: sm1–sm9 ♻️; first builds failed, nine retries wait for kick.sh and render review.
 2026-10-04 · done: retry script and runner checks · left: sm1–sm9 ♻️; first exit codes hid python errors; corrected retries remain in builds.txt for kick.sh. no exports or renders exist.
 2026-10-04 · done: sm1–sm9; all nine exports and both render views passed review · left: none; all jobs wait for user review.
+2026-10-04 · done: f2; tools find the project from their own paths; temporary files use scratch; python syntax, station checks from outside the project, and swift image output passed · left: none.
+2026-10-04 · done: c3, h1, t1; four net frames, three hold kits, title art and icon passed image checks · left: f3, ic1, ic2 ♻️; eleven scripts wait for the external blender runner and render review; python syntax and 18 panel clearance checks passed.
+2026-10-04 · done: f3, ic1; nine station exports and four net exports passed checks and render review · left: ic2 ♻️; fixed shared mesh data after one failed build; retry waits for the external runner. the client orbit check remains open.
+2026-10-04 · done: ic2; build exit 0, export checks and both render views passed · left: none; all jobs wait for user review. dish client performance is not tested (855040 triangles, 513 meshes, 42.1 mb).
+2026-10-05 · prepared: s3 comparison hull and st1 nine larger stations; ten build scripts queued; syntax and fleet definition checks passed · left: s3, st1 ♻️; external builds and render review remain.
+2026-10-05 · done: s3, st1; ten builds passed export checks and render review; cr2, four fun crew portraits passed dimensions and 128 px review · left: st2 ♻️; nine clutter builds wait for the external runner and render review; syntax checks passed.
+2026-10-05 · prepared: st2 retry after one failed build batch; st3 replaces the repeated core grid with distinct halls, an annex, a main street and an abandoned corner; syntax and nine layout checks passed · left: st2, st3 ♻️; nine scripts wait for external builds and render review.
+2026-10-05 · done: st2, st3; nine builds passed export checks and both render views; distinct halls, crew equipment and the yards hull section are present · left: none; all jobs wait for user review. keeton must sync the exports and check the client orbit view.

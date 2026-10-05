@@ -5,6 +5,7 @@
 import json, os, re, subprocess, sys, time
 from datetime import date, datetime
 from pathlib import Path
+from usage import windows
 
 here  = Path(__file__).resolve().parent
 desk  = here / 'sam'
@@ -34,8 +35,31 @@ def run(*cmd):
     return subprocess.run(cmd, cwd=desk, env=env, stdout=out, stderr=out).returncode
 
 
-def sam():
-    run('codex', 'exec', '-C', desk, '--add-dir', root / 'assets', '-s', 'workspace-write', '--color', 'never', 'work the queue')
+# sam's model and effort: one rung of a ladder. a window that burns faster
+# than its clock moves the next run one rung down, a slow burn one rung up.
+LADDER = [ ('gpt-6-astra', 'medium'), ('gpt-6-astra', 'low'), ('gpt-6.1-sol', 'low') ]
+rung   = here / 'log' / 'rung'
+
+
+# the share used against the share of the window gone. early in a window
+# the gone share counts as 0.2 at least, so one big run does not read as a fire.
+def pace():
+    now = time.time()
+    gone = lambda w: 1 - (w['resets'] - now) / (w['minutes'] * 60)
+    return max((w['used'] / 100 / max(gone(w), .2) for w in windows() if gone(w) < 1), default=0)
+
+
+def climb():
+    i, p = int(rung.read_text()) if rung.exists() else 0, pace()
+    i = min(len(LADDER) - 1, i + 1) if p > 1 else max(0, i - 1) if p < .6 else i
+    rung.write_text(str(i))
+    print(f'{ datetime.now():%H:%M} pace { p:.2f}, rung { i }: { LADDER[ i ] }', file=out, flush=True)
+    return LADDER[ i ]
+
+
+def sam(model, effort):
+    run('codex', 'exec', '-m', model, '-c', f'model_reasoning_effort="{ effort }"',
+        '-C', desk, '--add-dir', root / 'assets', '-s', 'workspace-write', '--color', 'never', 'work the queue')
 
 
 # each script runs in blender here, outside codex: metal needs it.
@@ -66,9 +90,10 @@ except FileExistsError:
 start, before, built = datetime.now().isoformat(timespec='minutes'), states(), []
 try:
     build()
-    sam()
+    rig = climb()
+    sam(*rig)
     if build():
-        sam()
+        sam(*rig)
 finally:
     journal(start, before, built)
     lock.rmdir()

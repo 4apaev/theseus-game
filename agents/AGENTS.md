@@ -37,6 +37,7 @@ a ✅ job waits for review by the user. do not change it again.
 - the reference: `sketches/painted-parts-v1/` (parts and their prompts) and `assets/underway/`.
 - painted miniatures: cream, teal, mustard, olive, rust, orange lights, on navy space.
 - the light: a warm key from the upper left, a cool rim.
+- lived in, not clean: people work here. clutter, wear, patches, cables, things tied down. a clean, empty deck looks wrong.
 - the camera of a station part: iso, 42° azimuth, 29° elevation.
 - models: build them with `assets/blender/scripts/paintkit.py`. run blender with `-b --factory-startup`.
 - exports go to `assets/exports/`, with the same paths as `frontend/public/models/`. keeton copies them to the client.
@@ -47,7 +48,12 @@ a ✅ job waits for review by the user. do not change it again.
 the port shows the station in 3D, and the camera orbits it. build it after your station kit: the same parts, the same palette.
 
 - metres, y up in the glb. the origin is the station's centre.
-- big next to a ship: the far treasure is about 8 m; a station spans 60 to 150 m.
+- ships are big: the far treasure is about 70 m, firefly class. space has no shortage of room, and people need volume for fuel, cargo, weapons and life support. no small ships.
+- a station spans 250 to 600 m, 4 times the first kits. its parts keep human size: a door is about 3 m, a rail 1.1 m. more parts, not bigger parts.
+- no crane on an open deck: with no gravity it lifts nothing. a crane works inside a workshop hall.
+- no z-fighting: a panel, patch, decal or sign stands 0.25 m off its surface (0.1 m on a ship), or is cut into it. 2 faces never overlap in one plane.
+- a structure in 3 dimensions, not a slab: parts above and below the deck. a truss or a keel, tanks, pipes, radiators, masts, stacked halls.
+- empties named `spot_exchange`, `spot_rigging`, `spot_comms`: where the client puts a hotspot. each sits at the hall that holds that place.
 - an empty named `berth`: where the ship waits. its +x is the ship's bow.
 - a deck where robots can walk, if the kit has one. empties named `walk_a`, `walk_b`… mark a robot's path.
 - lamps and moving parts follow `assets/blender/painted/readme.md`: names with `tip`, `nav`, `beacon` blink; `spin` turns.
@@ -101,6 +107,16 @@ blender cannot start in your sandbox. `agents/kick.py` runs it for you, after yo
 
 a script writes only in `assets/` and has no network. a script that writes a readme writes it only for a problem.
 
+
+## a crew portrait
+
+a crew member is a trait the player buys. the portrait sells it at a glance.
+
+- simple, recognizable, fun. not serious, not a realistic bust.
+- one big prop or feature tells the trait. it reads at 128 px.
+- a clear face with a strong expression: a grin, a wink, a scowl.
+- the reference: disco elysium's portraits in `sketches/crew/disco/`. take the approach, copy nothing: expressionist oil paint, loose strokes, caricature, one idea per portrait, one graphic shape behind the head.
+- our palette and painted light.
 
 ## a concept
 
