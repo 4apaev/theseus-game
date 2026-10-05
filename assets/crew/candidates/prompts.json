@@ -1,0 +1,82 @@
+{
+    "pilot-rookie": {
+        "prompt": "use case: stylized-concept. create one original theseus crew candidate portrait, 768 x 1024 vertical 3:4. expressionist oil paint, loose bold strokes, flat colour planes, black ink-like shadows, caricature and dark humour. chest-up crop, face and ONE large prop fill the image and read at 128 pixels. warm upper-left key, cool rim. cream, mustard, teal, olive, rust, navy; violet and green skin shadows. subject: rookie pilot, woman age 23, dark brown skin, short black triangular hair, huge mischievous grin with a front tooth gap, round cheekbones and sharply raised eyebrow. she clutches one battered mustard steering yoke across her chest with cheerful overconfidence. teal flight suit. one pale cream halo disk behind the head on navy. playful and graphic, never a realistic serious bust. no text, no border, no watermark, no extra props. this person must differ from the older white-haired pilot already in the game.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/candidates/sources/pilot-rookie.png",
+        "file": "assets/crew/candidates/pilot-rookie.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "pilot-veteran": {
+        "prompt": "use case: stylized-concept. one original theseus crew candidate portrait, vertical 3:4, 768 x 1024. expressionist oil paint in the established cr2 style, loose thick confident strokes, flat colour planes, black ink shadows, exaggerated caricature with dark humour. face and ONE big prop fill a tight chest-up crop and read at 128 pixels. cream, teal, mustard, olive, rust, navy; odd green and violet skin shadows. warm key upper left, cool rim right. bold face, simple recognizable silhouette, playful trait icon, never a solemn realistic bust. no text, no lettering, no border, no watermark, no small accessories or detailed scene. veteran pilot, man age 62, lean east asian face, silver swept-back hair, long angular chin, one wry half-smile and a raised eyebrow. he holds one battered teal steering yoke low across his chest with loose effortless grip. rust flight jacket. behind his head one rough mustard diagonal block on navy. self-possession, comic disdain for turbulence. no resemblance to the rookie woman or the existing wild-haired pilot.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/candidates/sources/pilot-veteran.png",
+        "file": "assets/crew/candidates/pilot-veteran.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "engineer-rookie": {
+        "prompt": "use case: stylized-concept. one original theseus crew candidate portrait, vertical 3:4, 768 x 1024. expressionist oil paint in the established cr2 style, loose thick confident strokes, flat colour planes, black ink shadows, exaggerated caricature with dark humour. face and ONE big prop fill a tight chest-up crop and read at 128 pixels. cream, teal, mustard, olive, rust, navy; odd green and violet skin shadows. warm key upper left, cool rim right. bold face, simple recognizable silhouette, playful trait icon, never a solemn realistic bust. no text, no lettering, no border, no watermark, no small accessories or detailed scene. rookie engineer, man age 25, light freckled skin, enormous ears, a shock of curly copper hair, wide excited grin and soot-black nose. he rests ONE huge rusty open-ended wrench on his shoulder; the head of the wrench is nearly as big as his face. olive work clothes. pale cream jagged splash behind the head on dark teal. proud of having fixed something slightly beyond his competence. clean clear face planes.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/candidates/sources/engineer-rookie.png",
+        "file": "assets/crew/candidates/engineer-rookie.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "engineer-veteran": {
+        "prompt": "use case: stylized-concept. one original theseus crew candidate portrait, vertical 3:4, 768 x 1024. expressionist oil paint in the established cr2 style, loose thick confident strokes, flat colour planes, black ink shadows, exaggerated caricature with dark humour. face and ONE big prop fill a tight chest-up crop and read at 128 pixels. cream, teal, mustard, olive, rust, navy; odd green and violet skin shadows. warm key upper left, cool rim right. bold face, simple recognizable silhouette, playful trait icon, never a solemn realistic bust. no text, no lettering, no border, no watermark, no small accessories or detailed scene. veteran engineer, woman age 55, broad dark brown face, powerful square jaw, short silver buzz cut with one white forelock, one skeptical lifted eyebrow and a tiny crooked grin. she hugs ONE absurdly large battered mustard open-ended wrench across her chest. teal work coat. one rust halo disc behind the head on navy. she has seen this failure a thousand times. humorous strong silhouette, visible clear face.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/candidates/sources/engineer-veteran.png",
+        "file": "assets/crew/candidates/engineer-veteran.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "haggler-rookie": {
+        "prompt": "use case: stylized-concept. one original theseus crew candidate portrait, vertical 3:4, 768 x 1024. expressionist oil paint in the established cr2 style, loose thick confident strokes, flat colour planes, black ink shadows, exaggerated caricature with dark humour. face and ONE big prop fill a tight chest-up crop and read at 128 pixels. cream, teal, mustard, olive, rust, navy; odd green and violet skin shadows. warm key upper left, cool rim right. bold face, simple recognizable silhouette, playful trait icon, never a solemn realistic bust. no text, no lettering, no border, no watermark, no small accessories or detailed scene. rookie haggler, woman age 24, warm light-brown skin, short straight black bob, pointed chin, one sly wink and a huge gap-toothed smile. she pinches ONE enormous plain mustard coin with a round hole beside her cheek, face-size and unmistakable. rust jacket. one pale cream diagonal slash behind her on teal. a delighted beginner who thinks she invented bargaining. crisp simple silhouette, eyes and coin visible.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/candidates/sources/haggler-rookie.png",
+        "file": "assets/crew/candidates/haggler-rookie.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "haggler-veteran": {
+        "prompt": "use case: stylized-concept. one original theseus crew candidate portrait, vertical 3:4, 768 x 1024. expressionist oil paint in the established cr2 style, loose thick confident strokes, flat colour planes, black ink shadows, exaggerated caricature with dark humour. face and ONE big prop fill a tight chest-up crop and read at 128 pixels. cream, teal, mustard, olive, rust, navy; odd green and violet skin shadows. warm key upper left, cool rim right. bold face, simple recognizable silhouette, playful trait icon, never a solemn realistic bust. no text, no lettering, no border, no watermark, no small accessories or detailed scene. veteran haggler, man age 67, deep brown skin, bald domed head, round wide cheeks, salt-white horseshoe moustache, one knowing wink and an absurdly smug tight-lipped grin. he holds ONE enormous worn mustard coin with a round hole beside his cheek, the same role prop as the rookie. olive collar. one teal halo disk on rust behind his head. a lovable shark who would sell you your own chair. graphic broad face planes, no clutter.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/candidates/sources/haggler-veteran.png",
+        "file": "assets/crew/candidates/haggler-veteran.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "gunner-rookie": {
+        "prompt": "use case: stylized-concept. one original theseus crew candidate portrait, vertical 3:4, 768 x 1024. expressionist oil paint in the established cr2 style, loose thick confident strokes, flat colour planes, black ink shadows, exaggerated caricature with dark humour. face and ONE big prop fill a tight chest-up crop and read at 128 pixels. cream, teal, mustard, olive, rust, navy; odd green and violet skin shadows. warm key upper left, cool rim right. bold face, simple recognizable silhouette, playful trait icon, never a solemn realistic bust. no text, no lettering, no border, no watermark, no small accessories or detailed scene. rookie gunner, young man age 22, tan skin, spiky black hair, huge eyebrows, absurdly intense comic scowl with lower lip pushed out and one eye squeezed shut. ONE oversized battered sighting scope held across his chest, big circular orange lens beside his cheek. cream padded jacket. a single jagged rust starburst silhouette on navy behind him. he tries much too hard to look dangerous. clear recognizable aiming equipment, no firearm, no helmet, no extra props.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/candidates/sources/gunner-rookie.png",
+        "file": "assets/crew/candidates/gunner-rookie.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "gunner-veteran": {
+        "prompt": "use case: stylized-concept. one original theseus crew candidate portrait, vertical 3:4, 768 x 1024. expressionist oil paint in the established cr2 style, loose thick confident strokes, flat colour planes, black ink shadows, exaggerated caricature with dark humour. face and ONE big prop fill a tight chest-up crop and read at 128 pixels. cream, teal, mustard, olive, rust, navy; odd green and violet skin shadows. warm key upper left, cool rim right. bold face, simple recognizable silhouette, playful trait icon, never a solemn realistic bust. no text, no lettering, no border, no watermark, no small accessories or detailed scene. veteran gunner, woman age 59, pale weathered skin, silver severe bob shaved at one temple, broad broken nose, very deep laugh lines, asymmetric wicked grin exposing one gold tooth. ONE huge battered sighting scope braced across her chest, its round orange lens beside her face; her other eye gives a dry sideways look. rust padded coat. one pale teal rectangle behind her head on near-black navy. calm comic menace, seasoned accuracy, different from the rookie's angry youthful expression. no firearm, no helmet.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/candidates/sources/gunner-veteran.png",
+        "file": "assets/crew/candidates/gunner-veteran.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "pilot-rookie-plus20": {
+        "prompt": "use case: identity-preserve. edit this exact portrait: the same pilot twenty ship years later, age 43 rather than 23. retain her identity, dark brown skin, triangular short black hair shape, tooth gap, grin, raised eyebrow, pose, same mustard steering yoke, teal suit, cream halo, navy background, framing, oil brushwork and upper-left light. add visible crow's feet and forehead creases, slightly leaner cheeks, several silver streaks at the temples, worn fabric and two small stitched repairs to the same suit; give the exact same yoke more wear and polished grips. keep her playful confidence. she is middle-aged, not elderly. no new props, no text, no border. output vertical 3:4, 768 x 1024.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/candidates/sources/pilot-rookie-plus20.png",
+        "file": "assets/crew/candidates/pilot-rookie-plus20.webp",
+        "w": 768,
+        "h": 1024
+    },
+    "engineer-veteran-plus20": {
+        "prompt": "use case: identity-preserve. edit this exact portrait to show the SAME veteran engineer twenty ship years later, age 75 rather than 55. preserve her dark brown skin, broad square face, strong jaw, nose, eyebrow shape, skeptical sideways look, tiny crooked grin, short hair silhouette, hands and pose. retain the exact same huge mustard wrench, teal coat, rust halo on navy, framing and expressionist oil strokes. make the hair fully white, add deep but simple forehead and cheek creases, looser neck skin, age spots on the hands. the same wrench now has much more exposed metal where the paint wore off and a dark repair band on its shaft. faded teal coat with a couple of visible stitched repairs. still capable and amused. no new props, no text, no border, no photorealism. warm upper-left key and cool rim unchanged. vertical 3:4, 768 x 1024.",
+        "tool": "built-in imagegen",
+        "source": "assets/crew/candidates/sources/engineer-veteran-plus20.png",
+        "file": "assets/crew/candidates/engineer-veteran-plus20.webp",
+        "w": 768,
+        "h": 1024
+    }
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "id": "pilot-rookie",
+        "seat": "pilot",
+        "experience": "rookie",
+        "ship_age_years": 23,
+        "file": "assets/crew/candidates/pilot-rookie.webp"
+    },
+    {
+        "id": "pilot-veteran",
+        "seat": "pilot",
+        "experience": "veteran",
+        "ship_age_years": 62,
+        "file": "assets/crew/candidates/pilot-veteran.webp"
+    },
+    {
+        "id": "engineer-rookie",
+        "seat": "engineer",
+        "experience": "rookie",
+        "ship_age_years": 25,
+        "file": "assets/crew/candidates/engineer-rookie.webp"
+    },
+    {
+        "id": "engineer-veteran",
+        "seat": "engineer",
+        "experience": "veteran",
+        "ship_age_years": 55,
+        "file": "assets/crew/candidates/engineer-veteran.webp"
+    },
+    {
+        "id": "haggler-rookie",
+        "seat": "haggler",
+        "experience": "rookie",
+        "ship_age_years": 24,
+        "file": "assets/crew/candidates/haggler-rookie.webp"
+    },
+    {
+        "id": "haggler-veteran",
+        "seat": "haggler",
+        "experience": "veteran",
+        "ship_age_years": 67,
+        "file": "assets/crew/candidates/haggler-veteran.webp"
+    },
+    {
+        "id": "gunner-rookie",
+        "seat": "gunner",
+        "experience": "rookie",
+        "ship_age_years": 22,
+        "file": "assets/crew/candidates/gunner-rookie.webp"
+    },
+    {
+        "id": "gunner-veteran",
+        "seat": "gunner",
+        "experience": "veteran",
+        "ship_age_years": 59,
+        "file": "assets/crew/candidates/gunner-veteran.webp"
+    },
+    {
+        "id": "pilot-rookie-plus20",
+        "same_person_as": "pilot-rookie",
+        "elapsed_ship_years": 20,
+        "ship_age_years": 43,
+        "file": "assets/crew/candidates/pilot-rookie-plus20.webp"
+    },
+    {
+        "id": "engineer-veteran-plus20",
+        "same_person_as": "engineer-veteran",
+        "elapsed_ship_years": 20,
+        "ship_age_years": 75,
+        "file": "assets/crew/candidates/engineer-veteran-plus20.webp"
+    }
+]
