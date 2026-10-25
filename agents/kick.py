@@ -21,7 +21,7 @@ out = open(here / 'log' / f'{ date.today() }.log', 'a')
 
 # one line per run in log/runs.jsonl, for the morning brief
 def states():
-    return dict(re.findall(r'^\| *([a-z]+\d+) *\| *(\S+)', (desk / 'queue.md').read_text(), re.M))
+    return dict(re.findall(r'^\| *([a-z][a-z0-9-]*) *\| *(❎|♻️|✅|⛔|⏸|✖)', (desk / 'queue.md').read_text(), re.M))
 
 
 def journal(start, before, built):
@@ -39,6 +39,8 @@ def run(*cmd):
 # than its clock moves the next run one rung down, a slow burn one rung up.
 LADDER = [ ('gpt-6-astra', 'medium'), ('gpt-6-astra', 'low'), ('gpt-6.1-sol', 'low') ]
 rung   = here / 'log' / 'rung'
+# the user's pin: a rung that holds while the week has room
+pin    = here / 'log' / 'pin'
 
 
 # the share used against the share of the window gone. early in a window
@@ -52,6 +54,7 @@ def pace():
 def climb():
     i, p = int(rung.read_text()) if rung.exists() else 0, pace()
     i = min(len(LADDER) - 1, i + 1) if p > 1 else max(0, i - 1) if p < .6 else i
+    if pin.exists() and max((w['used'] for w in windows() if w['minutes'] > 1440), default=0) < 90: i = int(pin.read_text())
     rung.write_text(str(i))
     print(f'{ datetime.now():%H:%M} pace { p:.2f}, rung { i }: { LADDER[ i ] }', file=out, flush=True)
     return LADDER[ i ]
@@ -79,7 +82,7 @@ def build():
 
 
 # one sam at a time. a lock older than 6 hours is a dead run.
-if not re.search(r'^\| *[a-z]+\d+ *\| *(❎|♻️)', (desk / 'queue.md').read_text(), re.M):
+if not re.search(r'^\| *[a-z][a-z0-9-]* *\| *(❎|♻️)', (desk / 'queue.md').read_text(), re.M):
     sys.exit()
 if lock.exists() and time.time() - lock.stat().st_mtime > 6 * 3600:
     lock.rmdir()

@@ -15,7 +15,7 @@ your credits stop often. a run can end at any time. the queue keeps your place.
 3. make the assets of the job. save each file as soon as it is done.
 4. set the job to ✅, or to ⛔ with the reason in `readme.md` of the job folder.
 5. go to step 1. stop when no job is ❎ or ♻️.
-6. at the end, add one line to `log.md`: the date, the jobs done, the jobs left.
+6. at the end, add one line to `log.md`: the date, the jobs done, the jobs left. name a job by its id: `toy-station`.
 
 a ✅ job waits for review by the user. do not change it again.
 
@@ -25,7 +25,7 @@ a ✅ job waits for review by the user. do not change it again.
 - your desk, `agents/sam/`: `queue.md`, `log.md`, `builds.txt`, your notes.
 - your helper scripts go in `agents/sam/tools/`. they are committed: name them by what they do.
 - a temporary file goes in `agents/sam/scratch/`. it is not committed.
-- a check report (`validation.json`), a build log and a preview layout are temporary: `agents/sam/scratch/`.
+- a check report (`validation.json`), a build log, a preview layout, a preview image and the raw image behind a webp are temporary: `agents/sam/scratch/`.
 - a `readme.md` is for problems only: what is missing, what failed, what is unsure. no list of contents, no "nothing is missing". if all is well, write no readme.
 - a path inside a file is relative to the theseus folder: `assets/stations/outpost/plate.webp`, never `/Users/...`.
 - the scale: `sketches/wanderers/` - a planet is huge, a ship is a speck.
@@ -33,15 +33,16 @@ a ✅ job waits for review by the user. do not change it again.
 
 ## the look
 
-- read first: `docs/game.md` "the look", `assets/blender/readme.md`, `assets/blender/painted/readme.md`.
-- the reference: `sketches/painted-parts-v1/` (parts and their prompts) and `assets/underway/`.
-- painted miniatures: cream, teal, mustard, olive, rust, orange lights, on navy space.
-- the light: a warm key from the upper left, a cool rim.
-- lived in, not clean: people work here. clutter, wear, patches, cables, things tied down. a clean, empty deck looks wrong.
-- the camera of a station part: iso, 42° azimuth, 29° elevation.
-- models: build them with `assets/blender/scripts/paintkit.py`. run blender with `-b --factory-startup`.
-- exports go to `assets/exports/`, with the same paths as `frontend/public/models/`. keeton copies them to the client.
+the user, 2026-10-06: the new look is toy-like, grotesque, playful and colourful: the feel of star birds, not a copy.
+3D is allowed again (2026-10-06 06:15), in the toy look: rounded chunky shapes, flat colours, materials named by role (see the queue). the painted miniature look and its kits are history.
 
+- start every image prompt with the block in [style.md](style.md), word for word. write only the subject after it.
+- attach 1 or 2 of the user's references from `sketches/direction-2026-10-06/` for the feel. copy no shape from them.
+- never use your own earlier output as the style reference. a chain of edits drifts.
+- matte toy plastic: no gloss, no reflection, no texture noise, no grime.
+- no photo words in a prompt: photoreal, realistic, cinematic, render, octane, unreal, glossy, pbr, depth of field, 8k.
+- the check: the new image beside a reference at 512 px. it reads as a toy, not a render, and not as a star birds screenshot.
+- a concept frame shows a flow: what the player sees, and what they can do there.
 
 ## a station model
 
@@ -68,7 +69,7 @@ one folder: `assets/stations/<kit>/`
 - `plate.webp` - the back plate, 16:9, if the job asks for one.
 - `kit.json` - `{ kit, stations, parts: [{ name, file, w, h, foot: [x, y], layer }] }`. `foot` is the pixel where the part stands on the deck. `layer` is `back` or `front`.
 - `prompts.json` - the prompt of each image.
-- `preview.png` - all parts placed together on the plate, as a player sees the port.
+- a preview of all parts placed together on the plate, as a player sees the port: in `agents/sam/scratch/`, not in the kit.
 - `readme.md` - 3 lines: what is in the kit, what is missing, what is unsure.
 
 
@@ -85,6 +86,7 @@ one folder: `assets/places/<place>/<kit>/`, the same files as a station kit, and
 - `plate.webp` is required. iso, 42° / 29°, as the stations. 16:9, 2048 × 1152.
 - a window may show space. it shows no planet: the sky layer draws the planet.
 - keep a clear floor where 3D objects stand (the ship, crates, robots), and calm wall space for the cards.
+- paint the furniture into the plate, in its place: a counter in its recess, a rack in its bay, a console with its feet on the floor. no part sprite for furniture: a separate part never matches the plate's perspective. `parts` stays empty unless the job asks for one.
 - `kit.json` adds `spots: [{ name, x, y }]`: plate pixels where a card opens, one per thing the player acts on.
 
 
@@ -115,8 +117,10 @@ a crew member is a trait the player buys. the portrait sells it at a glance.
 - simple, recognizable, fun. not serious, not a realistic bust.
 - one big prop or feature tells the trait. it reads at 128 px.
 - a clear face with a strong expression: a grin, a wink, a scowl.
-- the reference: disco elysium's portraits in `sketches/crew/disco/`. take the approach, copy nothing: expressionist oil paint, loose strokes, caricature, one idea per portrait, one graphic shape behind the head.
-- our palette and painted light.
+- the reference: disco elysium's portraits in `sketches/crew/disco/`. take the approach, copy nothing: caricature, one idea per portrait, one graphic shape behind the head.
+- low-poly, not a photograph: a caricature from big flat angular facets, flat colour planes, 3 values on the face, black shapes for the shadows, a bold outline. no skin detail, no pores, no soft modelling.
+- the background: one flat shape (a disc, a block) on flat navy. no brush noise, no smears, no texture.
+- our palette and painted light. the style lock holds.
 
 ## a concept
 
