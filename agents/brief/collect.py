@@ -57,6 +57,15 @@ def board():
     return { 'lanes': [ { 'mark': m, 'lane': l, 'who': w } for m, l, w in lanes ], 'asks': asks }
 
 
+# new or changed images under assets/, by folder. a sheet stands for its folder.
+def art(t0, t1=now):
+    found = {}
+    for p in sorted((root / 'assets').rglob('*')):
+        if p.suffix.lower() in ('.webp', '.png', '.jpg') and t0 < datetime.fromtimestamp(p.stat().st_mtime) <= t1:
+            found.setdefault(str(p.parent.relative_to(root)), []).append(p.name)
+    return { d: [ f for f in fs if '-sheet' in f ] or fs for d, fs in found.items() }
+
+
 def usage():
     out = subprocess.run([ 'python3', agents / 'usage.py' ], capture_output=True, text=True).stdout
     return [ l.split() for l in out.splitlines() if l ]
@@ -71,6 +80,7 @@ facts = {
     'repos'  : repos(),
     'queue'  : queue(),
     'board'  : board(),
+    'art'    : art(t0),
     'usage'  : usage(),
 }
 (here / f'{ date.today() }.facts.json').write_text(json.dumps(facts, indent=2, ensure_ascii=False) + '\n')

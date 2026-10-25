@@ -1,6 +1,6 @@
 # the morning brief as a page: <date>.facts.json (collect.py) + <date>.words.json (claude)
 # → brief.html, and a markdown copy <date>.md. run: python3 render.py [date]
-import base64, json, math, sys
+import base64, json, math, subprocess, sys
 from datetime import date, datetime, timedelta
 from html import escape as esc
 from pathlib import Path
@@ -75,6 +75,27 @@ lists = (f'<section><h2>Needs you</h2>{ items(words[ "needs" ]) }</section>' if 
 if not lists:
     lists = '<p class="calm">Nothing needs you this morning.</p>'
 
+root, thumbs = here.parent.parent, here / 'thumbs'
+
+
+# a small jpeg of an asset image, as a data url. sheets keep more pixels.
+def thumb(path, size):
+    out = thumbs / f'{ path.parent.name }-{ path.stem }.jpg'
+    if not out.exists():
+        thumbs.mkdir(exist_ok=True)
+        subprocess.run([ 'sips', '-s', 'format', 'jpeg', '-s', 'formatOptions', '72', '-Z', str(size), str(path), '--out', str(out) ], capture_output=True)
+    return 'data:image/jpeg;base64,' + base64.b64encode(out.read_bytes()).decode()
+
+
+def figures(folder, names):
+    sheets = all('-sheet' in n for n in names)
+    figs = ''.join(f'<figure><img src="{ thumb(root / folder / n, 720 if sheets else 360) }" alt="{ esc(Path(n).stem) }" loading="lazy">'
+                   f'<figcaption>{ esc(Path(n).stem) }</figcaption></figure>' for n in names)
+    return f'<h3><code>{ esc(folder) }/</code></h3><div class="art{ " sheets" if sheets else "" }">{ figs }</div>'
+
+
+art = ''.join(figures(d, ns) for d, ns in facts.get('art', {}).items())
+
 commits = ''.join(f'<li><b>{ c[ "repo" ] }</b> · <code>{ c[ "hash" ] }</code> · { esc(c[ "text" ]) }</li>' for c in facts[ 'commits' ])
 repos   = ''.join(f'<li><b>{ n }</b> · { r[ "branch" ] } · { r[ "uncommitted" ] } uncommitted · { r[ "unpushed" ] } unpushed</li>' for n, r in facts[ 'repos' ].items())
 q     = facts[ 'queue' ]
@@ -111,6 +132,13 @@ h2 {{ font: 600 15px var(--sans); margin: 0 }}
 .facts b {{ color: var(--ink); font-weight: 500 }}
 .facts code {{ font: 13px ui-monospace, Menlo, monospace }}
 .calm {{ color: var(--soft) }}
+h3 {{ font: 500 13px var(--sans); color: var(--soft); margin: 8px 0 0 }}
+h3 code {{ font: 13px ui-monospace, Menlo, monospace }}
+.art {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px }}
+.art.sheets {{ grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) }}
+.art figure {{ margin: 0; min-width: 0 }}
+.art img {{ display: block; width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 6px; background: var(--hair) }}
+.art figcaption {{ color: var(--soft); font-size: 12px; margin-top: 4px; overflow-wrap: anywhere }}
 @media (max-width: 640px) {{
     h1 {{ font-size: 30px }}
     .acts {{ grid-template-columns: 1fr; gap: 12px }}
@@ -126,6 +154,7 @@ h2 {{ font: 600 15px var(--sans); margin: 0 }}
 </header>
 <main>
     { lists }
+    { f'<section><h2>New art</h2>{ art }</section>' if art else '' }
     { f'<section><h2>Commits</h2><ul class="facts">{ commits }</ul></section>' if commits else '' }
     <section><h2>Repos</h2><ul class="facts">{ repos }</ul></section>
     <section><h2>Sam</h2><ul class="facts"><li>{ queue }</li>{ usage }</ul></section>
@@ -138,6 +167,8 @@ md += [ f'- **{ span(cuts[ i ], cuts[ i + 1 ]) }** · { words[ "acts" ][ i ] }' 
 for head, key in (('needs you', 'needs'), ('done since the last brief', 'done')):
     if words[ key ]:
         md += [ '', f'## { head }', '' ] + [ f'{ i }. **{ r[ "title" ] }** · { r[ "text" ] }' for i, r in enumerate(words[ key ], 1) ]
+if facts.get('art'):
+    md += [ '', '## new art', '' ] + [ f'- `{ d }/` · { ", ".join(ns) }' for d, ns in facts[ 'art' ].items() ]
 if facts[ 'commits' ]:
     md += [ '', '## commits', '' ] + [ f'- { c[ "repo" ] } · `{ c[ "hash" ] }` · { c[ "text" ] }' for c in facts[ 'commits' ] ]
 md += [ '', '## repos', '' ] + [ f'- { n } · { r[ "branch" ] } · { r[ "uncommitted" ] } uncommitted · { r[ "unpushed" ] } unpushed' for n, r in facts[ 'repos' ].items() ]
