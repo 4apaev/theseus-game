@@ -1,0 +1,234 @@
+{
+    "puppies-kittens": {
+        "prompt": "a cute toy creature, not a person: a puppy, a kitten, an octopus, a little robot,\nor a creature of its own. big head, big eyes, a strong expression, one big prop\nthat tells its trade. simple cartoon shapes, a thick clean outline, flat colour\nwith 2 tones of shading. the whole crew shares one skin colour, bright cartoon\nyellow, like a cartoon family where everybody is yellow. matte toy plastic.\none flat shape behind the head on a plain dark backdrop.\n\na square concept sheet with four separate square portraits in an exact 2 by 2 grid. each cell is 1024 pixels square, total 2048 by 2048. puppies and kittens crew direction. top left: floppy-eared puppy engineer with a huge wrench and a focused grin. top right: broad kitten gunner with a single chunky cannon prop and a fierce scowl. bottom left: pointy-eared kitten haggler with a huge coin and a knowing wink. bottom right: short-muzzled puppy pilot with a big steering yoke and an eager grin. all fur and exposed creature surfaces are bright cartoon yellow. nonhuman animal anatomy. meadow palette for props and clothes: soft red, pastel green, butter yellow, rose, milk white. dark forest green backdrop. one flat coloured disc behind each head. each character and prop stays within its own cell with generous margins. no letters or labels. the attached user reference supplies only the playful toy feel; copy no shape from it.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/puppies-kittens-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/crew-creatures/puppies-kittens-engineer.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/puppies-kittens-gunner.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/puppies-kittens-haggler.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/puppies-kittens-pilot.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "sea-creatures": {
+        "prompt": "a cute toy creature, not a person: a puppy, a kitten, an octopus, a little robot,\nor a creature of its own. big head, big eyes, a strong expression, one big prop\nthat tells its trade. simple cartoon shapes, a thick clean outline, flat colour\nwith 2 tones of shading. the whole crew shares one skin colour, bright cartoon\nyellow, like a cartoon family where everybody is yellow. matte toy plastic.\none flat shape behind the head on a plain dark backdrop.\n\na square concept sheet with four separate square portraits in an exact 2 by 2 grid. each cell is 1024 pixels square. top left: a bright yellow octopus engineer holds one huge wrench, focused grin. top right: a bright yellow crab gunner holds one soft red cannon, fierce scowl. bottom left: a bright yellow pufferfish haggler holds one oversized coin, knowing wink. bottom right: a bright yellow squid pilot holds one big steering yoke, eager grin. EVERY part of every creature is yellow, including the entire claws, all legs, undersides, bellies, tentacles and suckers. only the eyes, mouth and outlines are dark or white. no clothes, no armour on the crab. use two yellow tones for skin. props are meadow soft red, pastel green, butter yellow and milk white. plain dark forest green backdrop with one flat disc per head. fully flat colour shapes, uniform colour areas, no gradients or bright white highlights on any surface. thick clean outlines. no text. keep each creature and its prop entirely within its cell. the attached user reference is only for playful shapes; copy no shape from it.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/sea-creatures-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/crew-creatures/sea-creatures-engineer.webp",
+                "nativeSize": [
+                    623,
+                    596
+                ],
+                "size": [
+                    1024,
+                    1024
+                ],
+                "cropBox": [
+                    0,
+                    0,
+                    623,
+                    596
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/sea-creatures-gunner.webp",
+                "nativeSize": [
+                    622,
+                    596
+                ],
+                "size": [
+                    1024,
+                    1024
+                ],
+                "cropBox": [
+                    632,
+                    0,
+                    1254,
+                    596
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/sea-creatures-haggler.webp",
+                "nativeSize": [
+                    623,
+                    652
+                ],
+                "size": [
+                    1024,
+                    1024
+                ],
+                "cropBox": [
+                    0,
+                    602,
+                    623,
+                    1254
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/sea-creatures-pilot.webp",
+                "nativeSize": [
+                    622,
+                    652
+                ],
+                "size": [
+                    1024,
+                    1024
+                ],
+                "cropBox": [
+                    632,
+                    602,
+                    1254,
+                    1254
+                ]
+            }
+        ]
+    },
+    "little-robots": {
+        "prompt": "a cute toy creature, not a person: a puppy, a kitten, an octopus, a little robot,\nor a creature of its own. big head, big eyes, a strong expression, one big prop\nthat tells its trade. simple cartoon shapes, a thick clean outline, flat colour\nwith 2 tones of shading. the whole crew shares one skin colour, bright cartoon\nyellow, like a cartoon family where everybody is yellow. matte toy plastic.\none flat shape behind the head on a plain dark backdrop.\n\na square concept sheet with four separate square portraits in an exact 2 by 2 grid. each cell is 1024 pixels square, total 2048 by 2048. four completely nonhuman small robots with bright cartoon yellow shells. top left: a squat round engineer robot with a huge wrench, focused grin. top right: a wide boxy gunner robot with one cannon, fierce scowl. bottom left: a little triangular haggler robot with one oversized coin, knowing wink. bottom right: a pill-shaped pilot robot with one big steering yoke, eager grin. simple mechanical eyes and mouths, no human heads. all skin or shell is bright cartoon yellow. meadow colours on props: soft red, pastel green, butter yellow, rose and milk white. plain dark forest green background. one flat disc behind each head. big head, short body, one dominant prop per character. clean flat colour, two hard-edged shadow tones. no small costume accessories. no letters. generous margins inside every cell. the attached user reference supplies only the playful toy feel; copy no shape from it.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/little-robots-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/crew-creatures/little-robots-engineer.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/little-robots-gunner.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/little-robots-haggler.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/little-robots-pilot.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "invented-creatures": {
+        "prompt": "a cute toy creature, not a person: a puppy, a kitten, an octopus, a little robot,\nor a creature of its own. big head, big eyes, a strong expression, one big prop\nthat tells its trade. simple cartoon shapes, a thick clean outline, flat colour\nwith 2 tones of shading. the whole crew shares one skin colour, bright cartoon\nyellow, like a cartoon family where everybody is yellow. matte toy plastic.\none flat shape behind the head on a plain dark backdrop.\n\na square concept sheet with four separate square portraits in an exact 2 by 2 grid. each cell is 1024 pixels square, total 2048 by 2048. four original nonhuman creatures with bright cartoon yellow skin. top left: an engineer shaped like a squat sprouting bean with two antenna lobes and three short arms, holds a huge wrench, focused grin. top right: a gunner shaped like a broad soft five-pointed lump with two eyes under a heavy brow, braces one cannon, fierce scowl. bottom left: a haggler shaped like a curled comma with large side eyes and tiny grasping feet, holds one oversized coin, knowing wink. bottom right: a pilot shaped like a floating pear with ear fins and four short tendrils, grips one big steering yoke, eager grin. no human anatomy, no familiar animal costumes. all skin or shell is bright cartoon yellow. meadow colours on props: soft red, pastel green, butter yellow, rose and milk white. plain dark forest green background. one flat disc behind each head. big head, short body, one dominant prop per character. clean flat colour, two hard-edged shadow tones. no small costume accessories. no letters. generous margins inside every cell. the attached user reference supplies only the playful toy feel; copy no shape from it.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/invented-creatures-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/crew-creatures/invented-creatures-engineer.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/invented-creatures-gunner.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/invented-creatures-haggler.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            },
+            {
+                "file": "assets/concepts/toy/crew-creatures/invented-creatures-pilot.webp",
+                "nativeSize": [
+                    627,
+                    627
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    }
+}

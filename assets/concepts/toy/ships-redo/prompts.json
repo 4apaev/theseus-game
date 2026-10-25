@@ -1,0 +1,195 @@
+{
+    "liner-a": {
+        "id": "liner-a",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. a passenger liner about 180 m long, a tall crescent-shaped hull like a standing curved banana. three curved tiers of large round passenger windows, an inset promenade follows the inner crescent. two short engines at lower rear. one continuous curved silhouette, no wings, no gun.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/liner-a-meadow.webp",
+        "source": "agents/sam/scratch/style/liner-a.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    "liner-b": {
+        "id": "liner-b",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. a passenger liner about 180 m long, a broad low twin-hull catamaran. two long rounded passenger hulls, each with two rows of round windows, connected by one wide vaulted promenade bridge. open central gap clearly visible. two rear engines. no guns.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/liner-b-meadow.webp",
+        "source": "agents/sam/scratch/style/liner-b.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    "liner-c": {
+        "id": "liner-c",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. a passenger liner about 180 m long, three stepped oval decks stacked like a small floating grand hotel, widest deck at bottom, smallest at top. two rows of round windows on each deck, one wraparound inset promenade. tiny bridge at forward top, engines tucked into back. no wings or guns.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/liner-c-meadow.webp",
+        "source": "agents/sam/scratch/style/liner-c.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    "courier-a": {
+        "id": "courier-a",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. a small fast courier about 70 m long. one huge tapered engine bell behind a very small narrow capsule cabin, connected by a short thin neck. arrowhead profile, engine much wider than cabin, two tiny rear stabilizers. one nozzle only and bubble exhaust. no gun or cargo stacks.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/courier-a-meadow.webp",
+        "source": "agents/sam/scratch/style/courier-a.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    "courier-b": {
+        "id": "courier-b",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. a small fast courier about 70 m long. one giant hollow annular engine ring with a slim needle cabin thrust through the ring off-centre, like a toy needle threaded through a doughnut. one ring-shaped nozzle at rear and bubble exhaust. silhouette has a large open circular hole and thin forward spike with blunt toy tip. no second engine.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/courier-b-meadow.webp",
+        "source": "agents/sam/scratch/style/courier-b.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    "courier-c": {
+        "id": "courier-c",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. a small fast courier about 70 m long. narrow long bent boomerang hull, one huge cylindrical engine suspended below its rear elbow, one tiny cockpit at the far forward tip. one vertical fin, one engine nozzle and bubble exhaust. very asymmetric long forward limb and short rear limb, no cargo blocks or weapons.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/courier-c-meadow.webp",
+        "source": "agents/sam/scratch/style/courier-c.png",
+        "sourceSize": [
+            1672,
+            940
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    "raider-a": {
+        "id": "raider-a",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. edit the attached raider concept. preserve its hooked hull, uneven prongs, three spine spikes, mismatched engines, five modules, camera and colours exactly. remove every scratch, scuff, chip, dirt spot, hairline crack and small surface seam. make each plate an uninterrupted flat colour with two broad shadow tones. retain only the large panel boundaries and large bolts. the second reference supplies toy feel only.",
+        "anchor": [
+            "assets/concepts/toy/ships-redo/raider-a-meadow.webp",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/raider-a-meadow.webp",
+        "source": "agents/sam/scratch/style/raider-a.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    "raider-b": {
+        "id": "raider-b",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. a patched pirate raider about 110 m long. tall tilted cleaver hull like a broad vertical triangular fin with a bitten-out front edge, cockpit halfway up, heavy engine block below rear. three oversized blunt spikes along high back edge. broad red, green and milk-white replacement plates visibly mismatched. no grime, no skull graphic. all repair plates are clean flat solid colours. damage uses large missing chunks only. omit scratches, chips, scuffs, speckles and small seams.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/raider-b-meadow.webp",
+        "source": "agents/sam/scratch/style/raider-b.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    "raider-c": {
+        "id": "raider-c",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. a patched pirate raider about 110 m long. horizontal horseshoe hull with open forward jaws, a tiny offset bridge on one arm, one large round engine at rear and one small box engine to side. three thick blunt spikes on one arm only, broad mismatched red and green patches and milk-white repair straps. no grime, no skull graphic. clean flat repair plates, no scratches or scuffs. large simple shapes only.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/raider-c-meadow.webp",
+        "source": "agents/sam/scratch/style/raider-c.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    "police-cutter-a": {
+        "id": "police-cutter-a",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. a police cutter about 100 m long. broad rounded shield-shaped bow, narrow rear waist with twin engine pods, one tall central siren mast topped by paired red and butter-yellow lamps. unmistakable orderly police skin: milk-white hull, dark forest-green broad stripe, pastel-green shield emblem, soft-red light bar. no lettering. one compact nose interdiction barrel. firm symmetrical silhouette.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/police-cutter-a-meadow.webp",
+        "source": "agents/sam/scratch/style/police-cutter-a.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    "police-cutter-b": {
+        "id": "police-cutter-b",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. a police cutter about 100 m long. wide hammerhead crossbar bow on a narrow long body, tall siren mast behind the crossbar, paired rear engines. paired round red and yellow emergency lamps at both ends of crossbar. milk-white police hull, dark forest-green broad stripe, pastel-green shield badge, soft-red light bar. no lettering. one small interdiction barrel below bridge.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/police-cutter-b-meadow.webp",
+        "source": "agents/sam/scratch/style/police-cutter-b.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    "police-cutter-c": {
+        "id": "police-cutter-c",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, rose, milk white, dark forest green. a fresh ship design, one ship only, no text, no inset, no frame. 2048 x 1152 landscape. three-quarter side view from slightly above, bow points left. entire hull and short bubble exhaust fit within generous margins. empty dark forest space with sparse small stars. strongly simplified matte toy forms, large clean colour areas, no tiny decoration. five chunky clip-on modules integrated into the hull: reactor, cruise drive, maneuver unit, cargo locker, antenna. original shapes; reference supplies mood only, copy no reference shape. a police cutter about 100 m long. compact upright bell-shaped patrol hull, broad flat rounded base narrows to a high cabin, two downward-swept side fins, twin rear engines. high forked siren mast and round red and yellow lamps. milk-white police hull, dark forest-green broad stripe, pastel-green shield badge. no lettering. one short interdiction barrel below cabin.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/ships-redo/police-cutter-c-meadow.webp",
+        "source": "agents/sam/scratch/style/police-cutter-c.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    }
+}

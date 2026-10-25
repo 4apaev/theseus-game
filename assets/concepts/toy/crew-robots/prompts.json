@@ -1,0 +1,138 @@
+{
+    "engineer-rookie": {
+        "id": "engineer-rookie",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na cute little toy robot, not a person. a big head of one simple shape (a ball, a box,\na triangle, a capsule), a screen face with 2 glowing eyes and a strong expression,\nstubby arms and feet, one big prop that tells its trade. simple cartoon shapes, a\nthick clean outline, flat colour with 2 tones of shading. the shell is bright cartoon\nyellow for the whole crew. matte toy plastic. one flat disc behind the head on a\nplain dark backdrop.\n\nmeadow palette. one rookie engineer robot portrait, 1024 x 1024. round ball head, two eager mint screen eyes and a broad grin. squat yellow body, pastel green joints, one large soft red open-ended spanner held across the chest. plain dark forest backdrop and one pastel green disc. entire robot fits, feet visible, wide safe margins. match the approved robot anchor's thick graphic outlines, but remove all shiny highlight spots. the second reference gives only toy spirit, copy no shapes. no letters or labels.",
+        "anchor": [
+            "assets/concepts/toy/crew-creatures/little-robots-sheet.webp",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew-robots/engineer-rookie.webp",
+        "source": "agents/sam/scratch/style/engineer-rookie.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "engineer-veteran": {
+        "id": "engineer-veteran",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na cute little toy robot, not a person. a big head of one simple shape (a ball, a box,\na triangle, a capsule), a screen face with 2 glowing eyes and a strong expression,\nstubby arms and feet, one big prop that tells its trade. simple cartoon shapes, a\nthick clean outline, flat colour with 2 tones of shading. the shell is bright cartoon\nyellow for the whole crew. matte toy plastic. one flat disc behind the head on a\nplain dark backdrop.\n\nmeadow palette, yellow shells. one robot only, square 1024 x 1024 portrait, whole body and prop inside generous margins. one plain dark forest backdrop, one pastel green disc behind head. approved robot sheet is the style anchor; second reference gives toy spirit only. bold clean black outlines. no highlight spots, no texture, no lettering. veteran engineer. round ball head, short red antenna cap, two determined mint screen eyes and broad toothy grin. squat yellow body, green mittens and feet. a much larger red adjustable spanner. same engineer design as upper-left anchor character, older: one shallow dent on head, one large milk-white repair patch on cheek, one green replacement forearm. no tiny scratches. two flat shadow tones only.",
+        "anchor": [
+            "assets/concepts/toy/crew-creatures/little-robots-sheet.webp",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew-robots/engineer-veteran.webp",
+        "source": "agents/sam/scratch/style/engineer-veteran.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "gunner-rookie": {
+        "id": "gunner-rookie",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na cute little toy robot, not a person. a big head of one simple shape (a ball, a box,\na triangle, a capsule), a screen face with 2 glowing eyes and a strong expression,\nstubby arms and feet, one big prop that tells its trade. simple cartoon shapes, a\nthick clean outline, flat colour with 2 tones of shading. the shell is bright cartoon\nyellow for the whole crew. matte toy plastic. one flat disc behind the head on a\nplain dark backdrop.\n\nmeadow palette, yellow shells. one robot only, square 1024 x 1024 portrait, whole body and prop inside generous margins. one plain dark forest backdrop, one pastel green disc behind head. approved robot sheet is the style anchor; second reference gives toy spirit only. bold clean black outlines. no highlight spots, no texture, no lettering. rookie gunner, broad rounded box head, wide dark screen face with two mint eyes in a fierce scowl. short red antenna cap. squat yellow body, green joints. one large soft red stubby toy cannon with milk-white muzzle ring, held on shoulder. match upper-right anchor robot. clean undamaged shell.",
+        "anchor": [
+            "assets/concepts/toy/crew-creatures/little-robots-sheet.webp",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew-robots/gunner-rookie.webp",
+        "source": "agents/sam/scratch/style/gunner-rookie.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "gunner-veteran": {
+        "id": "gunner-veteran",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na cute little toy robot, not a person. a big head of one simple shape (a ball, a box,\na triangle, a capsule), a screen face with 2 glowing eyes and a strong expression,\nstubby arms and feet, one big prop that tells its trade. simple cartoon shapes, a\nthick clean outline, flat colour with 2 tones of shading. the shell is bright cartoon\nyellow for the whole crew. matte toy plastic. one flat disc behind the head on a\nplain dark backdrop.\n\nmeadow palette, yellow shells. one robot only, square 1024 x 1024 portrait, whole body and prop inside generous margins. one plain dark forest backdrop, one pastel green disc behind head. approved robot sheet is the style anchor; second reference gives toy spirit only. bold clean black outlines. no highlight spots, no texture, no lettering. veteran gunner, broad rounded box head, wide dark screen face with two mint eyes in a fierce scowl. short red antenna cap. squat yellow body, green joints. one enormous soft red toy cannon with milk-white muzzle ring held on shoulder. same upper-right anchor robot older, one broad head dent and one large green riveted repair patch on head corner. cannon has a thick second collar and a larger barrel.",
+        "anchor": [
+            "assets/concepts/toy/crew-creatures/little-robots-sheet.webp",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew-robots/gunner-veteran.webp",
+        "source": "agents/sam/scratch/style/gunner-veteran.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "haggler-rookie": {
+        "id": "haggler-rookie",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na cute little toy robot, not a person. a big head of one simple shape (a ball, a box,\na triangle, a capsule), a screen face with 2 glowing eyes and a strong expression,\nstubby arms and feet, one big prop that tells its trade. simple cartoon shapes, a\nthick clean outline, flat colour with 2 tones of shading. the shell is bright cartoon\nyellow for the whole crew. matte toy plastic. one flat disc behind the head on a\nplain dark backdrop.\n\nmeadow palette, yellow shells. one robot only, square 1024 x 1024 portrait, whole body and prop inside generous margins. one plain dark forest backdrop, one pastel green disc behind head. approved robot sheet is the style anchor; second reference gives toy spirit only. bold clean black outlines. no highlight spots, no texture, no lettering. rookie haggler. rounded triangular yellow head with point at top, small red antenna cap. two mint screen eyes, one wink and sly smile. squat yellow body, green mittens and feet. hold one oversized butter-yellow coin with a simple star stamp. match lower-left anchor robot. clean undamaged shell.",
+        "anchor": [
+            "assets/concepts/toy/crew-creatures/little-robots-sheet.webp",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew-robots/haggler-rookie.webp",
+        "source": "agents/sam/scratch/style/haggler-rookie.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "haggler-veteran": {
+        "id": "haggler-veteran",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na cute little toy robot, not a person. a big head of one simple shape (a ball, a box,\na triangle, a capsule), a screen face with 2 glowing eyes and a strong expression,\nstubby arms and feet, one big prop that tells its trade. simple cartoon shapes, a\nthick clean outline, flat colour with 2 tones of shading. the shell is bright cartoon\nyellow for the whole crew. matte toy plastic. one flat disc behind the head on a\nplain dark backdrop.\n\nmeadow palette, yellow shells. one robot only, square 1024 x 1024 portrait, whole body and prop inside generous margins. one plain dark forest backdrop, one pastel green disc behind head. approved robot sheet is the style anchor; second reference gives toy spirit only. bold clean black outlines. no highlight spots, no texture, no lettering. veteran haggler. rounded triangular yellow head with point at top, small red antenna cap. two mint screen eyes, one wink and sly smile. squat yellow body, green mittens and feet. same lower-left anchor robot older, a bent head corner, one broad milk-white repair patch on cheek. hold one enormous thick butter-yellow coin with a simple star stamp, larger than the head.",
+        "anchor": [
+            "assets/concepts/toy/crew-creatures/little-robots-sheet.webp",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew-robots/haggler-veteran.webp",
+        "source": "agents/sam/scratch/style/haggler-veteran.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "pilot-rookie": {
+        "id": "pilot-rookie",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na cute little toy robot, not a person. a big head of one simple shape (a ball, a box,\na triangle, a capsule), a screen face with 2 glowing eyes and a strong expression,\nstubby arms and feet, one big prop that tells its trade. simple cartoon shapes, a\nthick clean outline, flat colour with 2 tones of shading. the shell is bright cartoon\nyellow for the whole crew. matte toy plastic. one flat disc behind the head on a\nplain dark backdrop.\n\nmeadow palette, yellow shells. one robot only, square 1024 x 1024 portrait, whole body and prop inside generous margins. one plain dark forest backdrop, one pastel green disc behind head. approved robot sheet is the style anchor; second reference gives toy spirit only. bold clean black outlines. no highlight spots, no texture, no lettering. rookie pilot. tall vertical capsule head with rounded top, wide dark visor with two cheerful crescent mint eyes and a broad grin. small butter-yellow antenna ball. squat yellow body, green mittens and feet. one large pastel-green steering yoke with milk-white hub and soft red button. match lower-right anchor robot but keep head tall enough to differ clearly from round engineer. clean undamaged shell.",
+        "anchor": [
+            "assets/concepts/toy/crew-creatures/little-robots-sheet.webp",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew-robots/pilot-rookie.webp",
+        "source": "agents/sam/scratch/style/pilot-rookie.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "pilot-veteran": {
+        "id": "pilot-veteran",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na cute little toy robot, not a person. a big head of one simple shape (a ball, a box,\na triangle, a capsule), a screen face with 2 glowing eyes and a strong expression,\nstubby arms and feet, one big prop that tells its trade. simple cartoon shapes, a\nthick clean outline, flat colour with 2 tones of shading. the shell is bright cartoon\nyellow for the whole crew. matte toy plastic. one flat disc behind the head on a\nplain dark backdrop.\n\nmeadow palette, yellow shells. one robot only, square 1024 x 1024 portrait, whole body and prop inside generous margins. one plain dark forest backdrop, one pastel green disc behind head. approved robot sheet is the style anchor; second reference gives toy spirit only. bold clean black outlines. no highlight spots, no texture, no lettering. veteran pilot. tall vertical capsule head with rounded top, wide dark visor with two cheerful crescent mint eyes and a broad grin. small butter-yellow antenna ball. squat yellow body, green mittens and feet. same lower-right anchor robot older, one dent at top, one broad soft red repair patch on cheek, one green replacement forearm. one enormous pastel-green steering yoke with milk-white hub and soft red button, heavier and wider than the rookie's yoke.",
+        "anchor": [
+            "assets/concepts/toy/crew-creatures/little-robots-sheet.webp",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew-robots/pilot-veteran.webp",
+        "source": "agents/sam/scratch/style/pilot-veteran.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    }
+}

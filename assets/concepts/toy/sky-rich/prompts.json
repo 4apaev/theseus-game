@@ -1,0 +1,249 @@
+{
+    "planet-rocky": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\na rocky planet. a dry sphere of broad rose stone plates, stacked canyon terraces and overlapping round impact craters. distinct dark crater floors, milk white raised crater rims, soft red escarpments. small pastel green mineral basins. sparse butter yellow strata. no oceans or clouds. meadow palette on dark forest green space. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/planet-rocky-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/planet-rocky.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "planet-ocean": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\nan ocean planet. deep soft blue seas occupy most of the globe, with pastel green island chains and one curving continent, white coastal shelves, a spiral storm made of thick white cloud curls and broken cloud belts. pale blue atmospheric rim and small ice caps. lagoon palette with blue sea on dark lagoon space. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/planet-ocean-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/planet-ocean.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "planet-desert": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\na desert planet. broad peach sand seas, layered butter yellow dunes that wrap round the globe, terraced soft red mesas and branching dry valleys. a huge circular dry basin, one tiny pastel green oasis. thin broken high clouds, pale warm atmospheric rim. meadow palette with peach sand, on dark forest green space. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/planet-desert-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/planet-desert.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "planet-ice": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\nan ice planet. large milk white ice plates separated by deep soft blue cracks, tiered polar ridges, frozen circular impact basins and raised ice shelves. pastel blue shadow bands, a few pale pink mineral stripes. no liquid water. postcard palette on dark slate blue space. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/planet-ice-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/planet-ice.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "planet-lava": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\na lava planet. broad dark slate plates split by thick glowing soft red and butter yellow molten channels. three large squat volcanic calderas with layered rims, one broad molten basin, a few rounded ash clouds. clean chunky raised geometry and restrained warm atmospheric rim. soft red, butter yellow and dark slate palette on dark slate blue space. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/planet-lava-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/planet-lava.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "planet-gas-giant": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\na gas giant. broad undulating belts of peach, butter yellow and milk white with many nested rounded cloud curls, a huge soft red oval storm with concentric layers and two smaller pastel green eddies. varied belt thickness, warm atmospheric rim. meadow palette with peach belts on dark forest green space. no solid continents, no rings. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/planet-gas-giant-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/planet-gas-giant.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "planet-ringed-giant": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\na ringed gas giant. a pastel blue and milk white globe with layered curling cloud bands, a soft red oval storm. a wide tilted ring system made of several broad concentric pastel rose, milk white and butter yellow bands, two clearly visible dark gaps and chunky small ring fragments. rings pass behind the top half and in front of the bottom half. one tiny moon outside the rings. postcard palette on dark slate blue space. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/planet-ringed-giant-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/planet-ringed-giant.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "star-blue": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\na blue white star, o or b class. a hot pale blue spherical core with broad layered blue convection cells, small dark blue starspots, a scalloped inner corona and two larger pale blue outer corona layers. three clear curved prominence loops, blue-white flare tips. toy-like thick shapes. white, pastel blue and saturated blue accents on dark slate blue space. no planet surface, no land, no rings. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/star-blue-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/star-blue.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "star-yellow": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\na yellow star, g class. bright yellow hot ball with broad butter yellow convection cells, small warm orange starspot groups, three concentric irregular scalloped corona layers, two large looping yellow prominences and a short flare. chunky raised shapes and calm large colour areas. yellow, butter yellow, milk white, soft orange on dark forest green space. no planet surface, no land, no rings. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/star-yellow-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/star-yellow.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "star-orange": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\nan orange star, k class. a soft orange hot ball with broad peach convection cells, large darker orange starspot groups and three tiered corona layers of peach and soft red. one broad arch prominence and several short blunt flare tongues. strong orange identity. soft orange, peach, soft red and butter yellow on dark slate blue space. no planet surface, no land, no rings. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/star-orange-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/star-orange.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "star-red": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\na red star, m class. a soft red hot ball with broad rose convection cells and deep red spots. three scalloped corona layers in red, rose and peach, two long curled red prominence loops and a short broad flare. strong red identity with only tiny peach hot regions. red, rose, peach on dark slate blue space. no planet surface, no land, no rings. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/star-red-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/star-red.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "moon-cratered": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\na small cratered moon. asymmetrical round milk white and pastel blue rocky body with many chunky overlapping impact bowls of several sizes, one huge deep basin, raised rounded rims, broad dark slate basalt patches and a short stepped cliff. no atmosphere, no clouds, no rings. postcard palette on dark slate blue space. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/moon-cratered-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/moon-cratered.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    },
+    "moon-fractured": {
+        "prompt": "a toy planet or star with rich detail, still chunky and playful: layered cloud bands,\nstorms, craters, continents and seas, ice caps, a glowing rim of atmosphere, rings\nwith gaps, small moons. a star is a hot ball with a layered corona, flares and spots,\nits colour from its class. soft toon shading, matte, no photo texture.\n\na small fractured moon. a slightly oblong peach and pastel green body with broad broken plates, a deep branching canyon round its middle, offset stepped cliffs, three small impact craters and exposed butter yellow layers. large clean shapes. no atmosphere, no clouds, no rings. meadow palette with peach rock on dark forest green space. one centred celestial body in a square 1024 by 1024 concept frame. the entire silhouette, rings or corona fit within the frame with at least 10 percent margin. three-quarter light from upper left, broad clean matte colour areas, rich large sculpted details visible at 256 pixels. dark plain space with very few tiny stars. no text, no interface, no faces, no structures, no ships. the attached user reference supplies the playful chunky toy feel only; copy none of its shapes.",
+        "reference": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "source": "agents/sam/scratch/new-concepts/moon-fractured-raw.png",
+        "outputs": [
+            {
+                "file": "assets/concepts/toy/sky-rich/moon-fractured.webp",
+                "nativeSize": [
+                    1254,
+                    1254
+                ],
+                "size": [
+                    1024,
+                    1024
+                ]
+            }
+        ]
+    }
+}
