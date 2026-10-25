@@ -45,8 +45,8 @@ def repos():
 
 
 def queue():
-    jobs = re.findall(r'^\| *([a-z][a-z0-9-]*) *\| *(❎|♻️|✅|⛔|⏸|✖)[^|]*\| *([^|]+)', (agents / 'sam' / 'queue.md').read_text(), re.M)
-    return { mark: [ j for j, s, _ in jobs if s.startswith(mark) ] for mark in ('❎', '♻️', '⛔') } | { 'total': len(jobs) }
+    jobs = re.findall(r'^\| *([a-z][a-z0-9-]*) *\| *(✳️|❎|♻️|✅|⛔|⏸️?|✖)[^|]*\| *([^|]+)', (agents / 'sam' / 'queue.md').read_text(), re.M)
+    return { mark: [ j for j, s, _ in jobs if s.startswith(mark) ] for mark in ('✳️', '♻️', '⛔') } | { 'total': len(jobs) }
 
 
 # lanes and their open questions, from the board

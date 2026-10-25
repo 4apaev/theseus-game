@@ -14,8 +14,8 @@ the current plan: [plan.md](plan.md).
 
 |    | lane    | session          | repo · branch           | owns                                                  |
 |----|---------|------------------|-------------------------|-------------------------------------------------------|
-| ✅ | assets  | sam              | theseus · master        | `assets/`, see the [queue](sam/queue.md). model: gpt-6-astra medium, pinned (`log/pin`) while the week is under 90% (the user, 2026-10-07) |
-| ✅ | client  | keeton           | frontend · painted-art  | `frontend/`, the [queue](keeton/queue.md): waits for review |
+| ♻️ | assets  | sam              | theseus · master        | `assets/`, see the [queue](sam/queue.md). model: gpt-6-astra medium, pinned (`log/pin`) while the week is under 90% (the user, 2026-10-07) |
+| ✅ | client  | keeton           | frontend · painted-art  | `frontend/`: F2 to G3 done, staged; the merge to master waits for the user's "commit" |
 | ✅ | server  | keeton           | backend · wip           | `backend/docs/phase.4.md` only                        |
 
 `design` finished. the user archives it. the art direction is in [AGENTS.md](AGENTS.md), "the look".
@@ -23,6 +23,16 @@ the current plan: [plan.md](plan.md).
 
 ## ✅ client · keeton
 
+- 2026-10-25, the user's word: finish the client, the toy look as the only view, merge to master, the old client only as a tag. staged on painted-art, not committed.
+  - tags (local, not pushed): `client-1` the panel client (as before), `client-2` = `0f6b643`, the painted look beside the toy look.
+  - G1, G2: `index.html` boots the shell; the toy look is the only look (`?toy` gone, `?theme=` stays). the old app, the painted look and the old `public/` art are deleted.
+  - F3: `npm run sync` compresses the toy models (meshopt, quantized): 23 MB to 6.3 MB; a load line on the top edge; memory flat after 20 place changes.
+  - F2: `src/sound.ts`, web audio, no files: buy, sell, install, remove, depart, arrive, letters, a bed per place. settings: "sounds".
+  - F4: playwright, `npm run screens`, in `npm run check`: 7 places and transit against `test/screens/`, the memory check.
+  - checked: `npm run check` passes (lint, 45 tests, build, 9 screen tests); a boot on the gateway shows the login with no errors.
+  - left on disk, untracked: `frontend/prototype/` (47 files, 27 MB, never in git). the user decides.
+  - next: on "commit": commit on painted-art, fast-forward master to it. push only on the user's word.
+  - the hidden browser pane draws no frames: its screenshots show a stale, dim frame. use `npm run screens` to see the client.
 - 2026-10-25, committed: frontend `0f6b643 client: the toy look` (pushed), theseus `7e87e0c assets: the toy look` (not pushed). the full star catalogue `data/hygdata_v42.csv` was gone from disk with no record why: restored.
 - 2026-10-25, the user's review of the toy look: 5 layout faults fixed.
   - the top bar under 56rem: the places take a row of their own; the feed and toasts move down.
@@ -69,6 +79,8 @@ the current plan: [plan.md](plan.md).
 
 ## ✅ assets · sam
 
+- 2026-10-26, the user's review, relayed by keeton: the crew goes with the little robots; 4 ships miss (liner, courier, raider, police cutter); the planets of `toy-sky-rich` drift to realism: a style reset. new jobs ✳️: toy-crew-robots, toy-ships-redo, toy-sky-reset. `style.md`: the crew block (robots, an anchor sheet) and the sky block (a detail budget, a check beside 2 approved icons).
+- 2026-10-26: the queue's new legend (✳️ open, ❎ dropped) is in `kick.py`, `brief/collect.py` and `AGENTS.md` too. before, kick started sam only on ❎.
 - status: all 34 jobs ✅. new: cr1 crew portraits and sm1–sm9 station models wait for the user.
 - 2026-10-06: the user found the art drifting to glossy photoreal. AGENTS.md "the style lock": the painted-parts-v1 anchor, low-poly, matte, triangle budgets, furniture painted into plates. `agents/style.md` holds the locked prompt blocks (sam reads, never writes). no new 3D until the style is settled. queued cr5 (4 portraits, a test), pl1 (3 outpost places); lp1 (far treasure low-poly), pl2 (holds), cr6 (the other portraits), cn2 (crew flow) wait ⏸ for the user's approval of the tests. f4, dk1, st4, fl1, cc1 stay ⛔.
 - 2026-10-06, new priority: the toy look (toy-like, grotesque, playful, colourful; the feel of star birds, not a copy). images only. `agents/style.md` holds the toy block. queued: toy-station, toy-ship-cargo, -military, -industrial, -research, toy-nav-manifest, toy-orbit-maneuver, toy-combat. older jobs moved to `sam/done.md`. job ids are readable names now.

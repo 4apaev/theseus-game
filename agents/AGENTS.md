@@ -10,11 +10,11 @@ your credits stop often. a run can end at any time. the queue keeps your place.
 
 ## the loop
 
-1. open `queue.md`. if a job is ♻️, continue it: a past run stopped. else take the first ❎.
+1. open `queue.md`. if a job is ♻️, continue it: a past run stopped. else take the first ✳️. a ❎ job is dropped: skip it.
 2. set it to ♻️ with the time, for example `♻️ 14:05`. save the file.
 3. make the assets of the job. save each file as soon as it is done.
 4. set the job to ✅, or to ⛔ with the reason in `readme.md` of the job folder.
-5. go to step 1. stop when no job is ❎ or ♻️.
+5. go to step 1. stop when no job is ✳️ or ♻️.
 6. at the end, add one line to `log.md`: the date, the jobs done, the jobs left. name a job by its id: `toy-station`.
 
 a ✅ job waits for review by the user. do not change it again.

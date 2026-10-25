@@ -42,3 +42,37 @@ dropped, too much contrast: candy, arcade.
 - a station: a small world, its facilities grown out of the rock, fat pipes between them.
 - a ship: the player can buy any of the 4 kinds. each shows its 5 module slots as clip-on parts.
 - ui in a frame: chunky rounded panels like toy blocks, bright flat icons, a rounded sans.
+
+## the crew block
+
+the user, 2026-10-25: the crew portraits are too human. 2026-10-26: the little robots are the direction.
+
+    a cute little toy robot, not a person. a big head of one simple shape (a ball, a box,
+    a triangle, a capsule), a screen face with 2 glowing eyes and a strong expression,
+    stubby arms and feet, one big prop that tells its trade. simple cartoon shapes, a
+    thick clean outline, flat colour with 2 tones of shading. the shell is bright cartoon
+    yellow for the whole crew. matte toy plastic. one flat disc behind the head on a
+    plain dark backdrop.
+
+- the anchor, approved by the user: `assets/concepts/toy/crew-creatures/little-robots-sheet.webp`. attach it for the style; it is the one earlier output you may attach.
+- no people, no animals. no human skin tones, no realistic face.
+- one colour for one race: yellow now. a new race gets a new colour later (pink, green, purple).
+- joints, hands, props and the disc take the palette's colours. the shell stays yellow.
+- matte: no shiny highlight spots on the shell.
+
+## the sky block
+
+the user, 2026-10-26: style reset. `toy-sky-rich` drifted to realism: too much detail. beautiful, but out of style.
+the level of detail is the one of the approved toy icons and sprites: the goods, the modules, the station worlds.
+
+    a toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat
+    colours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big
+    storm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of
+    many puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow
+    halo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.
+
+- each body reads as its kind at 64 px, by its colours and its 1 or 2 big features.
+- a star by its class: o and b blue white, a white, f and g yellow, k orange, m red.
+- the backdrop: one plain dark navy for every body, the same in every frame.
+- the check: each frame beside an approved icon at 512 px, `assets/icons/toy/modules/reactor-mk1.png` and `assets/concepts/toy/sprites/station-market.png`. the same amount of detail, or less. if it has more, simplify and paint again.
+- do not open `toy-sky-bodies` or `toy-sky-rich`. they are the old takes.

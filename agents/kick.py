@@ -21,7 +21,7 @@ out = open(here / 'log' / f'{ date.today() }.log', 'a')
 
 # one line per run in log/runs.jsonl, for the morning brief
 def states():
-    return dict(re.findall(r'^\| *([a-z][a-z0-9-]*) *\| *(❎|♻️|✅|⛔|⏸|✖)', (desk / 'queue.md').read_text(), re.M))
+    return dict(re.findall(r'^\| *([a-z][a-z0-9-]*) *\| *(✳️|❎|♻️|✅|⛔|⏸️?|✖)', (desk / 'queue.md').read_text(), re.M))
 
 
 def journal(start, before, built):
@@ -82,7 +82,7 @@ def build():
 
 
 # one sam at a time. a lock older than 6 hours is a dead run.
-if not re.search(r'^\| *[a-z][a-z0-9-]* *\| *(❎|♻️)', (desk / 'queue.md').read_text(), re.M):
+if not re.search(r'^\| *[a-z][a-z0-9-]* *\| *(✳️|♻️)', (desk / 'queue.md').read_text(), re.M):
     sys.exit()
 if lock.exists() and time.time() - lock.stat().st_mtime > 6 * 3600:
     lock.rmdir()
