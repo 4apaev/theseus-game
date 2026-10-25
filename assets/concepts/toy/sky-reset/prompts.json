@@ -1,0 +1,238 @@
+{
+    "planet-rocky": {
+        "id": "planet-rocky",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. meadow palette: muted soft red ball with exactly three very large shallow dark rose craters, one at upper left, two below. no stones, ridges, specks or small craters. chunky round silhouette.",
+        "anchor": [
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/planet-rocky.webp",
+        "source": "agents/sam/scratch/style/planet-rocky.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "planet-ocean": {
+        "id": "planet-ocean",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. postcard palette: soft blue ocean ball with one big rounded pastel-green continent across the upper-left quadrant, milk-white polar cap at top. no islands, clouds, waves or coast detail. one simple continent silhouette.",
+        "anchor": [
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/planet-ocean.webp",
+        "source": "agents/sam/scratch/style/planet-ocean.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "planet-desert": {
+        "id": "planet-desert",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. sherbet palette: peach ball with exactly two broad butter-yellow dune bands curving across the middle. no mountains, sand grains, rocks or small ridges.",
+        "anchor": [
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/planet-desert.webp",
+        "source": "agents/sam/scratch/style/planet-desert.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "planet-ice": {
+        "id": "planet-ice",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. postcard palette: milk-white ball with one broad soft-blue zigzag ice band and one broad soft-blue polar patch. no cracks or crystal spikes, no small detail.",
+        "anchor": [
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/planet-ice.webp",
+        "source": "agents/sam/scratch/style/planet-ice.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "planet-lava": {
+        "id": "planet-lava",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. for a star: absolutely no craters, no surface markings, no planetary ring, no bands, no continent. corona means a flat circular disc BEHIND the whole star, visible only as a thin margin all around the silhouette, never a tilted hoop. flares have the same hue as the star. edit target is the first image. remove both circular craters entirely, fill them with smooth dark rose surface. keep only the two broad orange-red lava channels and the single butter-yellow lava pool. smooth circular outer contour. keep exactly these three features and no other surface markings. keep the colours, framing, navy background and large flat shading areas.",
+        "anchor": [
+            "assets/concepts/toy/sky-reset/planet-lava.webp",
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/planet-lava.webp",
+        "source": "agents/sam/scratch/style/planet-lava.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "planet-gas-giant": {
+        "id": "planet-gas-giant",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. for a star: absolutely no craters, no surface markings, no planetary ring, no bands, no continent. corona means a flat circular disc BEHIND the whole star, visible only as a thin margin all around the silhouette, never a tilted hoop. flares have the same hue as the star. edit target is the first image. replace the recessed yellow crater-like oval with a FLAT painted butter-yellow oval storm, no cavity, no rim, no inner shadow. one simple broad curved peach comma inside the oval indicates wind. retain exactly two broad lavender bands and that one flat storm, no other markings. keep the colours, framing, navy background and large flat shading areas.",
+        "anchor": [
+            "assets/concepts/toy/sky-reset/planet-gas-giant.webp",
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/planet-gas-giant.webp",
+        "source": "agents/sam/scratch/style/planet-gas-giant.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "planet-ringed-giant": {
+        "id": "planet-ringed-giant",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. meadow palette: pastel-green ball with one broad butter-yellow equatorial band and one thick soft-red tilted ring. ring is one uninterrupted broad band with a single shadow tone. no thin ring stripes, moons or rocks.",
+        "anchor": [
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/planet-ringed-giant.webp",
+        "source": "agents/sam/scratch/style/planet-ringed-giant.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "star-blue": {
+        "id": "star-blue",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. for a star: absolutely no craters, no surface markings, no planetary ring, no bands, no continent. corona means a flat circular disc BEHIND the whole star, visible only as a thin margin all around the silhouette, never a tilted hoop. flares have the same hue as the star. a BLUE STAR. smooth blank blue-white sphere, broad pale-blue shadow at lower right, blue corona disc directly behind the sphere, exactly two short fat blue flares joined to the outer edge. entirely blue and white, no yellow. three simple shapes total: orb and two flares. no planetary features.",
+        "anchor": [
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/star-blue.webp",
+        "source": "agents/sam/scratch/style/star-blue-v2.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "star-yellow": {
+        "id": "star-yellow",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. for a star: absolutely no craters, no surface markings, no planetary ring, no bands, no continent. corona means a flat circular disc BEHIND the whole star, visible only as a thin margin all around the silhouette, never a tilted hoop. flares have the same hue as the star. meadow palette: fat butter-yellow star ball, one broad soft-red shadow crescent, one soft-red corona ring hugging the ball and exactly three fat rounded flares. the corona is a simple solid shape, no haze, sparks, texture or rays.",
+        "anchor": [
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/star-yellow.webp",
+        "source": "agents/sam/scratch/style/star-yellow.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "star-orange": {
+        "id": "star-orange",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. for a star: absolutely no craters, no surface markings, no planetary ring, no bands, no continent. corona means a flat circular disc BEHIND the whole star, visible only as a thin margin all around the silhouette, never a tilted hoop. flares have the same hue as the star. sherbet palette: fat peach-orange star ball, one broad deeper-peach shadow crescent, one peach corona ring hugging the ball and exactly two fat rounded flares. simple solid shapes, no haze, sparks, texture or rays.",
+        "anchor": [
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/star-orange.webp",
+        "source": "agents/sam/scratch/style/star-orange.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "star-red": {
+        "id": "star-red",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. for a star: absolutely no craters, no surface markings, no planetary ring, no bands, no continent. corona means a flat circular disc BEHIND the whole star, visible only as a thin margin all around the silhouette, never a tilted hoop. flares have the same hue as the star. meadow palette: fat soft-red star ball, one broad dark-rose shadow crescent, one rose corona ring hugging the ball and exactly three fat rounded flares. simple solid shapes, no haze, sparks, texture or rays.",
+        "anchor": [
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/star-red.webp",
+        "source": "agents/sam/scratch/style/star-red.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "moon-cratered": {
+        "id": "moon-cratered",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. for a star: absolutely no craters, no surface markings, no planetary ring, no bands, no continent. corona means a flat circular disc BEHIND the whole star, visible only as a thin margin all around the silhouette, never a tilted hoop. flares have the same hue as the star. postcard palette: small milk-white moon ball, exactly three big shallow soft-blue craters. use broad shadow areas. no tiny craters, pebbles, cracks or specks.",
+        "anchor": [
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/moon-cratered.webp",
+        "source": "agents/sam/scratch/style/moon-cratered.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "moon-lumpy": {
+        "id": "moon-lumpy",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\na toy planet or star, simple and chunky, like a painted vinyl ball. 3 or 4 flat\ncolours and 2 tones of shading. at most 3 big features: 2 or 3 wide bands, 1 big\nstorm, 3 big craters, 1 continent. no small detail: no fine cracks, no clouds of\nmany puffs, no surface texture, no grain. a thick soft outline. matte, no rim glow\nhalo. a star is a fat ball with one soft corona ring and 2 or 3 fat flares.\n\none centred body only, square 1024 x 1024. uniform flat dark navy backdrop #101b2d, no stars, no vignette. silhouette occupies 70 percent of square. prioritize the sky block over the general toy block: only two broad shading tones, no rim light, no surface highlight spot. the approved icons define the maximum detail; use much less detail than either icon. the third reference is toy mood only, copy no shape. clean simple graphic forms, no lettering, no scenery, no tiny decoration. for a star: absolutely no craters, no surface markings, no planetary ring, no bands, no continent. corona means a flat circular disc BEHIND the whole star, visible only as a thin margin all around the silhouette, never a tilted hoop. flares have the same hue as the star. dusk palette: pistachio moon shaped like a chunky lumpy potato with exactly two very big peach craters. simple smooth lobed outer contour. no small pits, pebbles, cracks or specks.",
+        "anchor": [
+            "assets/icons/toy/modules/reactor-mk1.png",
+            "assets/concepts/toy/sprites/station-market.png",
+            "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/sky-reset/moon-lumpy.webp",
+        "source": "agents/sam/scratch/style/moon-lumpy.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    }
+}

@@ -15,7 +15,7 @@ the current plan: [plan.md](plan.md).
 |    | lane    | session          | repo · branch           | owns                                                  |
 |----|---------|------------------|-------------------------|-------------------------------------------------------|
 | ♻️ | assets  | sam              | theseus · master        | `assets/`, see the [queue](sam/queue.md). model: gpt-6-astra medium, pinned (`log/pin`) while the week is under 90% (the user, 2026-10-07) |
-| ✅ | client  | keeton           | frontend · painted-art  | `frontend/`: F2 to G3 done, staged; the merge to master waits for the user's "commit" |
+| ✅ | client  | keeton           | frontend · painted-art  | `frontend/`: F2 to G3 done: `71eba71`, master = painted-art. not pushed |
 | ✅ | server  | keeton           | backend · wip           | `backend/docs/phase.4.md` only                        |
 
 `design` finished. the user archives it. the art direction is in [AGENTS.md](AGENTS.md), "the look".
@@ -23,7 +23,8 @@ the current plan: [plan.md](plan.md).
 
 ## ✅ client · keeton
 
-- 2026-10-25, the user's word: finish the client, the toy look as the only view, merge to master, the old client only as a tag. staged on painted-art, not committed.
+- 2026-10-26: committed `71eba71 client: toy only, F2 to G3`; master fast-forwarded to painted-art. not pushed.
+- 2026-10-25, the user's word: finish the client, the toy look as the only view, merge to master, the old client only as a tag.
   - tags (local, not pushed): `client-1` the panel client (as before), `client-2` = `0f6b643`, the painted look beside the toy look.
   - G1, G2: `index.html` boots the shell; the toy look is the only look (`?toy` gone, `?theme=` stays). the old app, the painted look and the old `public/` art are deleted.
   - F3: `npm run sync` compresses the toy models (meshopt, quantized): 23 MB to 6.3 MB; a load line on the top edge; memory flat after 20 place changes.
@@ -79,6 +80,7 @@ the current plan: [plan.md](plan.md).
 
 ## ✅ assets · sam
 
+- 2026-10-26: the user approves `toy-sky-reset`: the models must look very close to the frames. queued ✳️ toy-3d-sky-reset. the client switches to the new sky models when they land (keeton).
 - 2026-10-26, the user's review, relayed by keeton: the crew goes with the little robots; 4 ships miss (liner, courier, raider, police cutter); the planets of `toy-sky-rich` drift to realism: a style reset. new jobs ✳️: toy-crew-robots, toy-ships-redo, toy-sky-reset. `style.md`: the crew block (robots, an anchor sheet) and the sky block (a detail budget, a check beside 2 approved icons).
 - 2026-10-26: the queue's new legend (✳️ open, ❎ dropped) is in `kick.py`, `brief/collect.py` and `AGENTS.md` too. before, kick started sam only on ❎.
 - status: all 34 jobs ✅. new: cr1 crew portraits and sm1–sm9 station models wait for the user.

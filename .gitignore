@@ -8,6 +8,8 @@
 # runtime output
 .logs/
 .reports/
+# the brief's thumbs: a cache, render.py makes them again
+agents/brief/thumbs/
 
 __pycache__/
 *.pyc
