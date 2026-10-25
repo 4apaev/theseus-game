@@ -7,11 +7,10 @@ TODO
 
 
 ## external login
+
 add external login (google, apple, github)
 
 
+## async local storage
 
-
-
-
-
+explore possibilities [async local storage](https://nodejs.org/api/async_context.html#class-asynclocalstorage)
