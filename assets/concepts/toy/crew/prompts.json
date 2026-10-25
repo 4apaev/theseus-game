@@ -1,0 +1,138 @@
+{
+    "crew-haggler": {
+        "id": "crew-haggler",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: one crew portrait, a sly older woman with a huge triangular nose, a broad toothy grin and one raised eyebrow. her one large prop is a butter-yellow coin balanced across her knuckles beside her face. angular coral coat and tall mint collar. one flat butter-yellow disc behind her head. square 1024 by 1024, chest and head, face large and clear, prop fully visible. playful grotesque toy caricature made from big angular flat facets, exactly three colour values on the face, near-black geometric shadows, bold outline. meadow palette only: soft red, pastel green, butter yellow, milk white, rose skin planes, dark navy plain background. one graphic shape behind the head. no soft skin modelling, no skin detail, no brush texture, no words. reads at 128 pixels. the station reference supplies the playful toy feel only; the portrait reference supplies the graphic caricature approach only. copy neither character nor shape. for this portrait the background is one solid flat navy colour, without stars, specks, gradients or space scenery. the single graphic shape is flat too.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+            "sketches/crew/disco/halo-glasses.png"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew/haggler.webp",
+        "source": "agents/sam/scratch/style/crew-haggler.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "crew-engineer": {
+        "id": "crew-engineer",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: one crew portrait, a broad stout middle-aged man with a square jaw, tiny round ears, a cheeky wink and two missing teeth. his one huge prop is a chunky coral spanner resting upright on his shoulder. mint work clothes with a butter-yellow collar. one flat coral square behind his head. square 1024 by 1024, chest and head, face large and clear, prop fully visible. playful grotesque toy caricature made from big angular flat facets, exactly three colour values on the face, near-black geometric shadows, bold outline. meadow palette only: soft red, pastel green, butter yellow, milk white, rose skin planes, dark navy plain background. one graphic shape behind the head. no soft skin modelling, no skin detail, no brush texture, no words. reads at 128 pixels. the station reference supplies the playful toy feel only; the portrait reference supplies the graphic caricature approach only. copy neither character nor shape. for this portrait the background is one solid flat navy colour, without stars, specks, gradients or space scenery. the single graphic shape is flat too.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+            "sketches/crew/disco/halo-glasses.png"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew/engineer.webp",
+        "source": "agents/sam/scratch/style/crew-engineer.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "crew-gunner": {
+        "id": "crew-gunner",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: one crew portrait, a thin stern woman with a very wide chin, one narrowed eye and a defiant crooked smile. her one big feature is an oversized mint targeting monocle shaped like a round sight over her other eye. cropped angular white hair and coral shoulder armour. one flat mint disc behind her head. square 1024 by 1024, chest and head, face large and clear, prop fully visible. playful grotesque toy caricature made from big angular flat facets, exactly three colour values on the face, near-black geometric shadows, bold outline. meadow palette only: soft red, pastel green, butter yellow, milk white, rose skin planes, dark navy plain background. one graphic shape behind the head. no soft skin modelling, no skin detail, no brush texture, no words. reads at 128 pixels. the station reference supplies the playful toy feel only; the portrait reference supplies the graphic caricature approach only. copy neither character nor shape. for this portrait the background is one solid flat navy colour, without stars, specks, gradients or space scenery. the single graphic shape is flat too.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+            "sketches/crew/disco/halo-glasses.png"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew/gunner.webp",
+        "source": "agents/sam/scratch/style/crew-gunner.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "crew-pilot": {
+        "id": "crew-pilot",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: one crew portrait, a lanky young man with a very long nose, huge ears and an excited lopsided grin. his one big feature is a pair of enormous butter-yellow flight goggles pushed up on his forehead. coral flight jacket, mint scarf, flat dark hair swept sideways. one flat coral triangle behind his head. square 1024 by 1024, chest and head, face large and clear, prop fully visible. playful grotesque toy caricature made from big angular flat facets, exactly three colour values on the face, near-black geometric shadows, bold outline. meadow palette only: soft red, pastel green, butter yellow, milk white, rose skin planes, dark navy plain background. one graphic shape behind the head. no soft skin modelling, no skin detail, no brush texture, no words. reads at 128 pixels. the station reference supplies the playful toy feel only; the portrait reference supplies the graphic caricature approach only. copy neither character nor shape. for this portrait the background is one solid flat navy colour, without stars, specks, gradients or space scenery. the single graphic shape is flat too.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+            "sketches/crew/disco/halo-glasses.png"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew/pilot.webp",
+        "source": "agents/sam/scratch/style/crew-pilot.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "crew-navigator": {
+        "id": "crew-navigator",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: one crew portrait, an older bald woman with a tiny mouth, enormous cheeks and a sly sideways smile. her one big prop is a chunky mint sextant held beside her face, its clear geometric arcs readable. butter-yellow tunic and coral collar. one flat mint square behind her head. square 1024 by 1024, chest and head, face large and clear, prop fully visible. playful grotesque toy caricature made from big angular flat facets, exactly three colour values on the face, near-black geometric shadows, bold outline. meadow palette only: soft red, pastel green, butter yellow, milk white, rose skin planes, dark navy plain background. one graphic shape behind the head. no soft skin modelling, no skin detail, no brush texture, no words. reads at 128 pixels. the station reference supplies the playful toy feel only; the portrait reference supplies the graphic caricature approach only. copy neither character nor shape. for this portrait the background is one solid flat navy colour, without stars, specks, gradients or space scenery. the single graphic shape is flat too.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+            "sketches/crew/disco/halo-glasses.png"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew/navigator.webp",
+        "source": "agents/sam/scratch/style/crew-navigator.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "crew-medic": {
+        "id": "crew-medic",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: one crew portrait, a cheerful round-faced man with huge eyebrows, a tiny nose and an open reassuring grin. his one big prop is an oversized mint medical scanner beside his cheek, its front a simple milk-white heart symbol. coral tunic with a milk-white collar. one flat butter-yellow disc behind his head. square 1024 by 1024, chest and head, face large and clear, prop fully visible. playful grotesque toy caricature made from big angular flat facets, exactly three colour values on the face, near-black geometric shadows, bold outline. meadow palette only: soft red, pastel green, butter yellow, milk white, rose skin planes, dark navy plain background. one graphic shape behind the head. no soft skin modelling, no skin detail, no brush texture, no words. reads at 128 pixels. the station reference supplies the playful toy feel only; the portrait reference supplies the graphic caricature approach only. copy neither character nor shape. for this portrait the background is one solid flat navy colour, without stars, specks, gradients or space scenery. the single graphic shape is flat too.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+            "sketches/crew/disco/halo-glasses.png"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew/medic.webp",
+        "source": "agents/sam/scratch/style/crew-medic.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "crew-quartermaster": {
+        "id": "crew-quartermaster",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: one crew portrait, a wiry woman with enormous round cheeks, short flat coral hair and a stubborn scowl. her one big prop is a chunky butter-yellow clipboard hugged under her chin, with three large mint check marks. mint work vest and white collar. one flat coral square behind her head. square 1024 by 1024, chest and head, face large and clear, prop fully visible. playful grotesque toy caricature made from big angular flat facets, exactly three colour values on the face, near-black geometric shadows, bold outline. meadow palette only: soft red, pastel green, butter yellow, milk white, rose skin planes, dark navy plain background. one graphic shape behind the head. no soft skin modelling, no skin detail, no brush texture, no words. reads at 128 pixels. the station reference supplies the playful toy feel only; the portrait reference supplies the graphic caricature approach only. copy neither character nor shape. for this portrait the background is one solid flat navy colour, without stars, specks, gradients or space scenery. the single graphic shape is flat too.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+            "sketches/crew/disco/halo-glasses.png"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew/quartermaster.webp",
+        "source": "agents/sam/scratch/style/crew-quartermaster.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    },
+    "crew-comms": {
+        "id": "crew-comms",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: one crew portrait, a plump androgynous person with a broad jaw, tiny delighted eyes and a mischievous grin. their one huge feature is a comically oversized mint radio headset, one round ear cup nearly the size of their head and a fat microphone. coral jacket, butter-yellow collar. one flat mint disc behind their head. square 1024 by 1024, chest and head, face large and clear, prop fully visible. playful grotesque toy caricature made from big angular flat facets, exactly three colour values on the face, near-black geometric shadows, bold outline. meadow palette only: soft red, pastel green, butter yellow, milk white, rose skin planes, dark navy plain background. one graphic shape behind the head. no soft skin modelling, no skin detail, no brush texture, no words. reads at 128 pixels. the station reference supplies the playful toy feel only; the portrait reference supplies the graphic caricature approach only. copy neither character nor shape. for this portrait the background is one solid flat navy colour, without stars, specks, gradients or space scenery. the single graphic shape is flat too.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+            "sketches/crew/disco/halo-glasses.png"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/crew/comms.webp",
+        "source": "agents/sam/scratch/style/crew-comms.png",
+        "sourceSize": [
+            1254,
+            1254
+        ],
+        "w": 1024,
+        "h": 1024
+    }
+}

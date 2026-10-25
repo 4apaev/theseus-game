@@ -11,6 +11,7 @@ from mathutils import Vector
 import paintkit as kit
 import stationclutter
 import stationlayout
+import surfacecheck
 
 
 def box(name, at, size, color, root):
@@ -20,7 +21,7 @@ def box(name, at, size, color, root):
 def panel(name, at, size, color, root, axis, surface):
     center = list(at)
     index, sign = kit.AXES[axis]
-    center[index] = surface + sign * (.03 + size[index] / 2)
+    center[index] = surface + sign * (.25 + size[index] / 2)
     return box(name, center, size, color, root)
 
 
@@ -34,21 +35,23 @@ def beam(name, a, b, radius, color, root):
 def deck(p, root, width=60, depth=48):
     group = kit.empty('deck', root)
     box('deck core', (0, 0, -2), (width, depth, 4), p['tealD'], group)
-    panel('walking surface', (0, 0, 0), (width - 2, depth - 2, .36), p['dark'], group, '+z', 0)
+    count = math.ceil((width - 4) / 8)
+    pitch = (width - 4) / count
+    for i in range(count):
+        x = -(width - 4) / 2 + (i + .5) * pitch
+        panel('walking surface', (x, 0, 0), (pitch - .06, depth - 4, .36), p['dark'], group, '+z', 0)
     for x in range(-int(width / 2) + 4, int(width / 2), 8):
         for sign in (-1, 1):
-            box('cream edge panel', (x, sign * (depth / 2 - .5), -1), (7.5, 1.8, 3.2), p['cream'], group)
+            box('cream edge panel', (x, sign * (depth / 2 - .5), -1), (3 if abs(x) > width / 2 - 5 else 6, 1.8, 3.2), p['cream'], group)
             panel('panel inset', (x, 0, -1.3), (4.8, .18, 1.2), p['teal'], group,
                 '+y' if sign > 0 else '-y', sign * (depth / 2 + .4))
     for y in range(-int(depth / 2) + 4, int(depth / 2), 8):
         for sign in (-1, 1):
-            box('end edge panel', (sign * (width / 2 - .5), y, -1), (1.8, 7.5, 3.2), p['cream'], group)
+            box('end edge panel', (sign * (width / 2 - .5), y, -1), (1.8, 3 if abs(y) > depth / 2 - 5 else 6, 3.2), p['cream'], group)
     for x in (-width / 2 + 1, width / 2 - 1):
         for y in (-depth / 2 + 1, depth / 2 - 1):
             box('corner cap', (x, y, 0), (3, 3, 2), p['cream'], group)
             box('nav deck lamp', (x, y, 1.1), (1.1, 1.1, .3), p['lamp'], group)
-    for x in range(-int(width / 2) + 8, int(width / 2), 8):
-        panel('deck seam', (x, 0, 0), (.055, depth - 4, .025), p['black'], group, '+z', .39)
     for sign in (-1, 1):
         kit.pipe('edge service pipe', [(-width / 2 + 3, sign * (depth / 2 + .5), -2),
             (width / 2 - 3, sign * (depth / 2 + .5), -2)], .28, p['mustard'], group)
@@ -57,21 +60,21 @@ def deck(p, root, width=60, depth=48):
 
 def berth(p, root, edge=30):
     group = kit.empty('rig', root)
-    box('berth bridge', (edge + 16, -32, -1), (40, 36, 2), p['teal'], group)
+    box('berth bridge', (edge + 16, -32, -1.4), (40, 36, 2), p['teal'], group)
     pad = (edge + 60, -32, -.8)
     kit.barrel('octagonal berth', pad, 48, 1.6, p['tealD'], group, 'Z', sides=8, round_=.2)
-    kit.barrel('pad surface', (pad[0], pad[1], .09), 45.2, .12, p['dark'], group, 'Z', sides=8)
-    kit.ring('pad target', (pad[0], pad[1], .27), 18, .09, p['mustard'], group, 'Z')
+    kit.barrel('pad surface', (pad[0], pad[1], .31), 45.2, .12, p['dark'], group, 'Z', sides=8)
+    kit.ring('pad target', (pad[0], pad[1], .71), 18, .09, p['mustard'], group, 'Z')
     for i in range(40):
         edgeAngle = (i // 5) * math.tau / 8
         fraction = (i % 5 + .5) / 5
         x = pad[0] + 47 * ((1 - fraction) * math.cos(edgeAngle) + fraction * math.cos(edgeAngle + math.pi / 4))
         y = pad[1] + 47 * ((1 - fraction) * math.sin(edgeAngle) + fraction * math.sin(edgeAngle + math.pi / 4))
-        cap = box('berth edge', (x, y, .05), (7.4, 1.2, 1), p['cream'], group)
+        cap = box('berth edge', (x, y, .05), (6.4, 1.2, 1), p['cream'], group)
         cap.rotation_euler.z = edgeAngle + math.pi / 8 + math.pi / 2
         box('nav berth lamp', (x, y, .7), (.5, .5, .3), p['lamp'], group)
-    kit.empty('berth', root, (pad[0], pad[1], .35))['forward'] = '+x'
-    points = [(pad[0], pad[1], .35), (edge + 8, -32, .59), (edge - 20, -32, .59), (0, -32, .59), (-72, -32, .59)]
+    kit.empty('berth', root, (pad[0], pad[1], .57))['forward'] = '+x'
+    points = [(pad[0], pad[1], .57), (edge + 8, -32, .81), (edge - 20, -32, .81), (0, -32, .81), (-72, -32, .81)]
     for name, point in zip(('walk_a', 'walk_b', 'walk_c', 'walk_d', 'walk_e'), points):
         kit.empty(name, root, point)
 
@@ -81,17 +84,14 @@ def hall(p, root, name, at, size=(18, 12, 10)):
     group['hall_size'] = list(size)
     w, d, h = size
     kit.chamfered('pressure hull', (0, 0, h / 2), size, p['teal'], group, 1, .18)
-    for x in (-w / 2 + .7, w / 2 - .7):
-        box('cream portal frame', (x, 0, h / 2), (1.4, d + .5, h + .4), p['cream'], group)
+    for x in (-w / 2 + .3, w / 2 - .3):
+        box('cream portal frame', (x, 0, h / 2 + .2), (1.4, d + .8, h + .4), p['cream'], group)
     panel('roof plate', (0, 0, 0), (w - 2, d - 2, .6), p['cream'], group, '+z', h + .2)
     panel('entry recess', (0, 0, 3), (5.5, .35, 6), p['black'], group, '-y', -d / 2)
-    panel('entry hatch', (0, 0, 3), (4.5, .4, 5.4), p['tealD'], group, '-y', -d / 2 - .38)
-    panel('entry light', (0, 0, 5), (2.8, .2, .3), p['lamp'], group, '-y', -d / 2 - .81)
-    for x in (-w / 3, w / 3):
+    panel('entry hatch', (0, 0, 3), (4.5, .4, 5.4), p['tealD'], group, '-y', -d / 2 - .60)
+    panel('entry light', (0, 0, 5), (2.8, .2, .3), p['lamp'], group, '-y', -d / 2 - 1.25)
+    for x in (-min(w / 3, w / 2 - 3.5), min(w / 3, w / 2 - 3.5)):
         kit.vent('wall vent', (x, -d / 2 - .25, 5.4), (2.5, .3, 3), '-y', p, group, 5)
-        for obj in group.children:
-            if obj.name.startswith('wall vent slat') and abs(obj.location.x - x) < .01:
-                obj.location.y -= .04
         kit.pipe('service riser', [(x, d / 2 + .4, 1), (x, d / 2 + .4, h - 1),
             (x, d / 2 - 1, h + .6)], .25, p['mustard'], group)
     return group
@@ -224,7 +224,7 @@ def outpost(p, root):
     dish(p, root, (6, 15, 12), 4)
     kit.antenna('comms mast', (12, 18, 10), 8, p, root)
     cargo(p, root, (-19, -17, 0), 2, 2)
-    panel('pad bridge', (-1, -4, 0), (16, .3, .05), p['mustard'], root, '+z', .39)
+    panel('pad bridge', (-1, -4, 0), (16, .3, .05), p['mustard'], root, '+z', .61)
 
 
 def yards(p, root):
@@ -236,6 +236,9 @@ def yards(p, root):
 
 def hub(p, root):
     group = hall(p, root, 'market', (-9, 15, 0), (30, 13, 10))
+    for obj in list(group.children):
+        if obj.name.startswith(('entry ', 'wall vent')):
+            bpy.data.objects.remove(obj, do_unlink=True)
     for x in (-10, 0, 10):
         box('service bay', (x, -6.9, 3.5), (7, .4, 6), p['black'], group)
         box('service counter', (x, -8, 1.5), (6, 2, 3), p['mustard'], group)
@@ -244,8 +247,8 @@ def hub(p, root):
     lift = kit.empty('cargo lift', root, (19, 15, 0))
     box('lift deck', (0, 0, 1), (12, 10, 2), p['teal'], lift)
     for x in (-5, 5):
-        box('lift rail', (x, 3, 10), (1.5, 2, 20), p['cream'], lift)
-    box('lift crossbar', (0, 3, 20), (12, 2, 2), p['mustard'], lift)
+        box('lift rail', (x, 3, 10.4), (1.5, 2, 19.2), p['cream'], lift)
+    box('lift crossbar', (0, 3, 20.4), (12, 2.6, 2), p['mustard'], lift)
 
 
 def lab(p, root):
@@ -340,14 +343,14 @@ BUILDERS = {name: fn for name, fn in (
 
 
 def precincts(p, root, name):
-    landmark = kit.empty('original station core', root, (-32, 43, .43))
+    landmark = kit.empty('original station core', root, (-32, 43, .65))
     BUILDERS[name](p, landmark)
     for i, (plot, size) in enumerate(zip(stationlayout.PLOTS[name], stationlayout.SIZES)):
         x, y, angle = plot
         colors = dict(p)
         colors['teal'] = p[('rust', 'olive', 'tealD', 'teal', 'shade')[i % 5]]
         colors['cream'] = p[('shade', 'cream', 'olive', 'cream')[i % 4]]
-        group = hall(colors, root, districtName(name, i), (x, y, .43), size)
+        group = hall(colors, root, districtName(name, i), (x, y, .65), size)
         group.rotation_euler.z = math.radians(angle)
         group['built_phase'] = ('founding', 'repair', 'expansion')[i % 3]
         dressHall(p, group, size, i)
@@ -374,12 +377,12 @@ def districtName(name, index):
 
 def dressHall(p, root, size, index):
     w, d, h = size
-    roof = h + .86
+    roof = h + 1.05
     for j in range(1 + index % 3):
         panel('mismatched roof repair', (-w / 3 + j * 3.1, 1, 0), (2.5, 3.4, .07),
             p[('rust', 'teal', 'olive')[(index + j) % 3]], root, '+z', roof)
     panel('repaired wall sheet', (w / 3, 0, h / 2), (3.1, .09, 2.3),
-        p['rust' if index % 2 else 'shade'], root, '-y', -d / 2 - .6)
+        p['rust' if index % 2 else 'shade'], root, '+y', d / 2)
     kit.pipe('roof service cable', [(-w / 2 + 2, d / 2 + .7, 1),
         (-w / 2 + 2, d / 2 + .7, roof + .3), (w / 4, d / 3, roof + .3)], .12, p['black'], root)
     if index in (0, 4, 7):
@@ -387,7 +390,7 @@ def dressHall(p, root, size, index):
     if index in (2, 5, 8):
         box('roof plant housing', (0, 0, roof + 1.5), (6 + index, 4, 3), p['tealD'], root)
     if index == 9:
-        panel('sealed former entry', (0, 0, 2.8), (5, .12, 5.5), p['rust'], root, '-y', -d / 2 - .85)
+        panel('sealed former entry', (0, 0, 2.8), (5, .12, 5.5), p['rust'], root, '-y', -d / 2 - 1.70)
 
 
 def annex(p, root, size):
@@ -405,8 +408,8 @@ def stationStreet(p, root, name):
     edge = 136 if name == 'gate' else 120
     for y in (-39, -25):
         for x in range(-72, edge - 4, 11):
-            panel('worn street edge', (x, y, 0), (6, .16, .035), p['mustard'], group, '+z', .39)
-    corner = kit.empty('abandoned foundation', root, (-106, -81, .43))
+            panel('worn street edge', (x, y, 0), (6, .16, .035), p['mustard'], group, '+z', .61)
+    corner = kit.empty('abandoned foundation', root, (-106, -81, .65))
     for x in (-6, 6):
         box('cut foundation beam', (x, 0, .25), (1.2, 13, .5), p['rust'], corner)
     panel('old floor patch', (0, 0, 0), (11, 10, .04), p['tealD'], corner, '+z', .03)
@@ -432,9 +435,9 @@ def rails(p, root, width):
     for side in (-1, 1):
         y = side * 94
         for x in range(-int(width / 2) + 4, int(width / 2) - 3, 3):
-            beam('rail post', (x, y, .39), (x, y, 1.49), .045, p['cream'], group)
-        beam('rail top', (-width / 2 + 4, y, 1.49),
-            (width / 2 - 4, y, 1.49), .045, p['mustard'], group)
+            beam('rail post', (x, y, .61), (x, y, 1.71), .045, p['cream'], group)
+        beam('rail top', (-width / 2 + 4, y, 1.71),
+            (width / 2 - 4, y, 1.71), .045, p['mustard'], group)
 
 
 def preview(root, name, folder, size):
@@ -485,7 +488,7 @@ def previewView(camera, root, azimuth, scene, path):
         bpy.data.objects.remove(light, do_unlink=True)
 
 
-def build(name):
+def build(name, docking=False):
     assets = Path(__file__).resolve().parents[2]
     source = assets / 'blender/stations/painted' / name
     exports = assets / 'exports/painted/stations'
@@ -497,7 +500,8 @@ def build(name):
     bpy.context.scene.unit_settings.scale_length = 1
     root = kit.empty(name)
     root['units'], root['export_up_axis'] = 'metres', '+y'
-    root['station_revision'] = 'st2-st3'
+    root['station_revision'] = 'f4'
+    root['surface_clearance'] = .25
     root['kit'] = f'assets/stations/{name}/kit.json'
     p = kit.palette()
     deck(p, root, 272 if name == 'gate' else 240, 192)
@@ -507,19 +511,24 @@ def build(name):
     sites = stationlayout.workSites(name, occupiedAreas(root))
     stationclutter.populate(p, root, name, sites)
     validateWorkAreas(root)
+    validate(root)
+    if docking:
+        import stationdocks
+        stationdocks.add(p, root)
+        root['station_revision'] = 'dk1'
     centerOrigin(root)
     validate(root)
     bpy.ops.wm.save_as_mainfile(filepath=str(source / f'{name}.blend'))
     kit.consolidate_all(root)
     kit.export(root, exports / f'{name}.glb')
-    info = {'kit': name, 'revision': 'st2-st3', 'work_areas': len(sites),
+    info = {'kit': name, 'revision': root['station_revision'], 'work_areas': len(sites),
         'triangles': kit.stats(root), 'bytes': (exports / f'{name}.glb').stat().st_size,
         'source': f'assets/blender/stations/painted/{name}/{name}.blend',
         'export': f'assets/exports/painted/stations/{name}.glb',
         'berth': [next(child for child in root.children if child.name == 'berth').location[i] for i in range(3)],
         'coordinates': 'source z up; glb y up; berth bow +x', 'camera': {'azimuth': 42, 'elevation': 29}}
     (source / 'manifest.json').write_text(json.dumps(info, indent=4) + '\n')
-    preview(root, name, renders, 480)
+    preview(root, name, renders, 720 if docking else 480)
 
 
 def centerOrigin(root):
@@ -532,6 +541,7 @@ def centerOrigin(root):
 
 
 def validate(root):
+    surfacecheck.validate(root)
     bpy.context.view_layer.update()
     points = [obj.matrix_world @ Vector(c) for obj in root.children_recursive if obj.type == 'MESH' for c in obj.bound_box]
     span = max(max(p[i] for p in points) - min(p[i] for p in points) for i in range(3))

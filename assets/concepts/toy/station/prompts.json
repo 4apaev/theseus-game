@@ -1,0 +1,187 @@
+[
+    {
+        "dir": "station",
+        "file": "world",
+        "id": "toy-station",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions: oversized engines, bulbous cockpits,\ntiny round windows, fat pipes and bolts. soft toon shading with 2 or 3 tones and a\nsoft rim light. matte plastic: no gloss, no reflections, no texture noise, no grime.\nsaturated palette on deep indigo space: coral, mustard yellow, mint, teal,\nbubblegum pink, cream. small glowing lights in cyan and warm orange. space is deep\nindigo with small soft stars. not photographic, not realistic, no depth of field.\n\none 2048 \u00d7 1152, 16:9 concept frame of the whole theseus station world. an asymmetrical three-lobed aubergine rock, like a bent potato, supports a mustard accordion-roof market hall, a coral open-mouthed rigging dock, a mint spoon-shaped comms dish, and exactly three broad rounded triangular cream landing pads at different heights. thick teal pipes loop between facilities. the parts have our own silhouettes, no birds or copied reference shapes. a fat cream cargo hauler with coral cockpit and mustard container pods clipped beneath its belly approaches the foreground pad; two smaller ships arrive and depart with trails of round puffy cloud bubbles, cyan at nozzles fading to lilac. facilities grow from the rock rather than sit on a uniform sphere. full world visible with generous indigo margins. three small rounded action markers with trade, wrench and signal icons show what the player can open. references guide colour, toy shading and playfulness only. no copied station, ship, planet, icon or panel."
+    },
+    {
+        "id": "toy-station",
+        "dir": "station",
+        "file": "landing",
+        "subject": "close view of a landing on one pad of an asymmetrical three-lobed aubergine rock with a mustard accordion-roof market hall, coral open-mouthed rigging dock, mint spoon-shaped comms dish, broad rounded triangular cream landing pads and thick teal connecting pipes. a fat cream hauler with coral bulbous cockpit, mustard container pods clipped beneath its belly and oversized teal rear engines hovers just above the pad. puffy round exhaust bubbles cyan near nozzles fade to lilac. the pad has thick cream corners, mint inset, coral clamps and a small robot. market and dock recede behind it. a small rounded landing progress panel and trade and wrench action icons show the arrival flow. own shapes only. one landscape concept frame, 2048 \u00d7 1152, 16:9.",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions: oversized engines, bulbous cockpits,\ntiny round windows, fat pipes and bolts. soft toon shading with 2 or 3 tones and a\nsoft rim light. matte plastic: no gloss, no reflections, no texture noise, no grime.\nsaturated palette on deep indigo space: coral, mustard yellow, mint, teal,\nbubblegum pink, cream. small glowing lights in cyan and warm orange. space is deep\nindigo with small soft stars. not photographic, not realistic, no depth of field.\n\nclose view of a landing on one pad of an asymmetrical three-lobed aubergine rock with a mustard accordion-roof market hall, coral open-mouthed rigging dock, mint spoon-shaped comms dish, broad rounded triangular cream landing pads and thick teal connecting pipes. a fat cream hauler with coral bulbous cockpit, mustard container pods clipped beneath its belly and oversized teal rear engines hovers just above the pad. puffy round exhaust bubbles cyan near nozzles fade to lilac. the pad has thick cream corners, mint inset, coral clamps and a small robot. market and dock recede behind it. a small rounded landing progress panel and trade and wrench action icons show the arrival flow. own shapes only. one landscape concept frame, 2048 \u00d7 1152, 16:9."
+    },
+    {
+        "id": "toy-station-variants-meadow",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette, use only soft red and pastel green, butter yellow, rose and milk white, on dark forest green space. one NEW horizontal landscape concept frame, 2048 \u00d7 1152, 16:9. a whole station world, with no close view.  an irregular three-lobed pastel green rock with a butter yellow accordion market, a red open-mouthed shipyard, a milk white spoon dish, a squat dome and four rounded triangular landing pads at different heights, fat green pipes. facilities grow from the rock, with fat pipes between them. two original fat cargo haulers arrive and depart with round puffy bubble exhaust. three small rounded markers show trade, rigging and comms. show the whole world with generous clear margins. the attached image is a reference for playful toy feel only. copy no bird, ship, station, planet, icon, panel or layout from it. broad matte colour planes, two or three tones, upper-left light, no texture noise. keep the whole composition inside the wide frame.",
+        "anchor": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/station/station-world-meadow.webp",
+        "source": "agents/sam/scratch/style/toy-station-variants-meadow.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "toy-station-variants-lagoon",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nlagoon palette, use only aqua and soft pink, peach and foam white, on dark lagoon teal space. one NEW horizontal landscape concept frame, 2048 \u00d7 1152, 16:9. a whole station world, with no close view.  an aqua curled pebble world with a low pink mushroom market, a peach split-ring shipyard, a broad aqua sail dish, a little dome and four foam white oval landing pads at different heights, fat pink pipes. facilities grow from the rock, with fat pipes between them. two original fat cargo haulers arrive and depart with round puffy bubble exhaust. three small rounded markers show trade, rigging and comms. show the whole world with generous clear margins. the attached image is a reference for playful toy feel only. copy no bird, ship, station, planet, icon, panel or layout from it. broad matte colour planes, two or three tones, upper-left light, no texture noise. keep the whole composition inside the wide frame.",
+        "anchor": "sketches/direction-2026-10-06/starbirds-globe-station.webp",
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/station/station-world-lagoon.webp",
+        "source": "agents/sam/scratch/style/toy-station-variants-lagoon.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "station-dry-dock",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, milk white and dark forest green. a single station concept frame, 2048 by 1152, 16:9. a 350 metre orbital dry dock: three enormous rounded rectangular red hoops joined by four green longitudinal beams form an open cage around an empty ship berth. a long narrow milk-white workshop hall runs down one side. compact tool cranes run on rails INSIDE the cage. exposed scaffolds, small round windows, fat yellow pipes and four beacon lamps. the cage has clear depth, rear hoop visible through the front. a 70 metre cargo ship floats near the entrance for scale, very small compared with the cage. no rock base, no ground platform. a chunky simple outline, not a filled hangar. three-quarter view from above, the whole station within generous margins. toy-like chunky shapes, matte plastic and broad flat colour panels. two shadow tones. plain dark forest green space, very few stars, no planets, no title, no ui. the reference supplies feel only, copy no shape.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/station/station-dry-dock-meadow.webp",
+        "source": "agents/sam/scratch/style/station-dry-dock.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "station-gas-station",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette only: soft red, pastel green, butter yellow, milk white and dark forest green. a single station concept frame, 2048 by 1152, 16:9. a 300 metre orbital gas station shaped like a fat central green hub with four enormous milk-white spherical fuel tanks on short red arms in a cross. two long articulated yellow pump booms point toward an empty berth on the right. fat red hoses hang between the pump boom joints. a large rounded sign on top reads fuel in lowercase. a small red service cabin and a green dish sit underneath the hub. five round green lamps on each tank. no rock base, no ground platform. a tiny 70 metre cargo ship near one pump gives scale. three-quarter view from above, the whole station within generous margins. toy-like chunky shapes, matte plastic and broad flat colour panels. two shadow tones. plain dark forest green space, very few stars, no planets, no title, no ui. the reference supplies feel only, copy no shape.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/station/station-gas-station-meadow.webp",
+        "source": "agents/sam/scratch/style/station-gas-station.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "station-market",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: a market station, a whole small world shown from above in three-quarter view. a squat 300 metre terraced asteroid with three broad steps; a busy ring of six round market stalls with striped scalloped awnings, crates and round windows, a tall central stacked market hall, fat pipes, four radial landing pads, a little dish on the underside. all parts chunky and rounded. use the sunny skin: orange, butter yellow, coral accents, warm white and dark brown shadows. the reference supplies only the playful feel; copy no shapes. dark space, restrained tiny stars. show one small cargo ship approaching a pad, a simple small trade symbol above the main stall to show where the player acts. no other ui. fill most of a 2048 by 1152 landscape frame, whole station visible, no crop.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/station/station-market-meadow.webp",
+        "source": "agents/sam/scratch/style/station-market.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "station-mine",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: a mine station: a vertical split asteroid, 330 metres tall, two huge rounded counter-rotating drill cones bite into its open central cleft. a little extraction hall bridges the cleft above. three fat ore chutes descend into hoppers underneath. four round landing pads radiate from a waist ring. small lit windows, pipe clamps, chunky bolts. use the rust skin: burnt orange, slate grey, warm white, amber lights. a little ore carrier waits by one hopper. a small ore symbol above the extraction hall shows where the player acts. whole station visible in three-quarter view from above, isolated in dark space. chunky matte toy forms. attached reference is for playful feel only; copy no shape. 2048 by 1152 landscape, no crop. no other ui.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/station/station-mine-meadow.webp",
+        "source": "agents/sam/scratch/style/station-mine.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "station-lab",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: a lab station: a white and ice-blue trefoil space station, three huge round bulbous laboratory domes connected by a compact central hub with a tall instrument spire. domes have pastel mint opaque glazing and thick white ribs. four small round landing pads at the outer edge, an underslung reactor pod, fat pipes and little antennae. 300 metres across. use the ice skin: sky blue, frosty white, mint lights and dark blue shadows. a small research ship approaches a pad, a tiny flask symbol above one dome shows the player action. whole station visible in three-quarter view from above, isolated in dark space. chunky matte toy forms. attached reference is for playful feel only; copy no shape. 2048 by 1152 landscape, no crop. no other ui.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/station/station-lab-meadow.webp",
+        "source": "agents/sam/scratch/style/station-lab.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "station-relay",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: a relay station: a tall 350 metre crooked tower on a small lumpy asteroid, with a forest of five broad open satellite dishes facing different directions. the dishes use broad simple shallow bowls, with fat feed horns and rounded rims. an equipment cabin at the base, stacked relay drums, fat cables, small round lit windows. four landing pads around the waist. use the grape skin: lavender violet, pale lavender, white, small gold accents. a small ship approaches; one small message symbol above the cabin shows the player action. whole station visible in three-quarter view from above, isolated in dark space. chunky matte toy forms. attached reference is for playful feel only; copy no shape. 2048 by 1152 landscape, no crop. no other ui.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/station/station-relay-meadow.webp",
+        "source": "agents/sam/scratch/style/station-relay.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "station-ship-yard",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: a ship yard station: a 380 metre horseshoe structure with three enormous rounded arches in sequence around one deep open workshop hall. an internal pair of gantry arms holds tools around a tiny ship in the hall. orange-red arches, white workshop walls, aqua floor and pipes. four round landing pads outside along the sides, tanks and radiators underneath. use the coral skin: coral red, aqua, warm white, yellow accents and dark green shadows. a small wrench symbol at the hall shows the player action. whole station visible in three-quarter view from above, isolated in dark space. chunky matte toy forms. attached reference is for playful feel only; copy no shape. 2048 by 1152 landscape, no crop. no other ui.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/station/station-ship-yard-meadow.webp",
+        "source": "agents/sam/scratch/style/station-ship-yard.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "station-gas-skimmer",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: a gas skimmer station: a 350 metre flying bowl with three very broad rounded trumpet scoops around a central mint-green separator drum, thick white rings and round lit windows. three long fat pipes connect scoops to the drum. a thin long tether descends from the underside toward a distant enormous gas giant barely visible at the lower edge; the station is tiny beside the planet. four round docking pads around the waist, dish and mast on top. use the mint skin: mint green, white, honey yellow accents, deep green shadows. one little cargo ship at a pad and a small fuel droplet symbol above the separator show the player action. whole station visible in three-quarter view from above, isolated in dark space. chunky matte toy forms. attached reference is for playful feel only; copy no shape. 2048 by 1152 landscape, no crop. no other ui.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/station/station-gas-skimmer-meadow.webp",
+        "source": "agents/sam/scratch/style/station-gas-skimmer.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "station-icarus",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nsubject: icarus, a toy antimatter station close to a star. a broad stacked triple sun shield, like three shallow round umbrellas, faces the enormous star at the left edge. behind the shields sit a compact plant of fat white reactor cylinders, coral pipes and a small control hall. six long dark green radiator fins fan out behind the plant. a huge shallow butter-yellow emitter dish faces away from the star toward the right, with a narrow pale beam leaving its centre. the station spans 500 metres; a tiny ship by its sheltered berth shows the scale. the star is immense and only its edge fits. meadow palette: soft red, pastel green, butter yellow, milk white, deep forest green. above the sheltered control hall a small rounded card says 'icarus' and 'beam booked'. show where the player books a beam. no other words. original toy forms; attached reference is only for the playful feel. whole station visible, three-quarter view from above. 2048 by 1152 landscape.",
+        "anchor": [
+            "sketches/direction-2026-10-06/starbirds-globe-station.webp"
+        ],
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/station/station-icarus-meadow.webp",
+        "source": "agents/sam/scratch/style/station-icarus.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    }
+]

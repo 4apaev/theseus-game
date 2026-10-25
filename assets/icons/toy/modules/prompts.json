@@ -1,0 +1,133 @@
+{
+    "reactor-mk1.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone equipment icon, not a modified scene from the reference. one squat red reactor drum with pastel green collars, a butter yellow heart-shaped power window and two milk white cable plugs, no world. the whole image contains ONLY this detached piece of equipment, no other object. no rock, no planet, no world, no station, no building, no landscape, no ship. use the attached reference only for broad toy shading; copy no composition or shape. extremely simple rounded silhouette with three large components at most. broad matte colour planes, two shade values. view from 35 degrees above, square 1024 px sprite, centred with 15 percent clear margin, upper-left light, soft contact shadow, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8,
+        "derivedFrom": "assets/concepts/toy/sprites/module-reactor.png"
+    },
+    "cruise-mk1.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone equipment icon, not a modified scene from the reference. one fat red cruise engine with a milk white shell, pastel green mounting collar and a single huge dark green nozzle, no world. the whole image contains ONLY this detached piece of equipment, no other object. no rock, no planet, no world, no station, no building, no landscape, no ship. use the attached reference only for broad toy shading; copy no composition or shape. extremely simple rounded silhouette with three large components at most. broad matte colour planes, two shade values. view from 35 degrees above, square 1024 px sprite, centred with 15 percent clear margin, upper-left light, soft contact shadow, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8,
+        "derivedFrom": "assets/concepts/toy/sprites/module-cruise-drive.png"
+    },
+    "maneuver-mk1.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone inventory toy icon, not a modified scene from the reference. one compact milk white manifold with three short red thruster nozzles pointing in different directions, green collars and yellow mounting foot, no world. the whole image contains ONLY this detached item. no rock base, planet, world, station, building, landscape or ship. use the attached reference only for broad toy shading; copy no composition or shape. very simple rounded silhouette with a few large components. broad matte colour planes, two shade values. view from 35 degrees above, square 1024 px sprite, centred with 15 percent clear margin, upper-left light, soft contact shadow, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8,
+        "derivedFrom": "assets/concepts/toy/sprites/module-maneuver.png"
+    },
+    "cargo-mk1.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone inventory toy icon, not a modified scene from the reference. one bulbous red cargo pod with pastel green rounded clamps, milk white latch and butter yellow handle, no world. the whole image contains ONLY this detached item. no rock base, planet, world, station, building, landscape or ship. use the attached reference only for broad toy shading; copy no composition or shape. very simple rounded silhouette with a few large components. broad matte colour planes, two shade values. view from 35 degrees above, square 1024 px sprite, centred with 15 percent clear margin, upper-left light, soft contact shadow, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8,
+        "derivedFrom": "assets/concepts/toy/sprites/module-cargo.png"
+    },
+    "ansible-mk1.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone inventory toy icon, not a modified scene from the reference. one milk white round dish on a short bent red stem, green mounting puck and butter yellow receiver bead, no world. the whole image contains ONLY this detached item. no rock base, planet, world, station, building, landscape or ship. use the attached reference only for broad toy shading; copy no composition or shape. very simple rounded silhouette with a few large components. broad matte colour planes, two shade values. view from 35 degrees above, square 1024 px sprite, centred with 15 percent clear margin, upper-left light, soft contact shadow, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8,
+        "derivedFrom": "assets/concepts/toy/sprites/module-antenna.png"
+    },
+    "reactor-mk2.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone ship module toy icon, not a modified scene from the reference. a larger squat red reactor cylinder with doubled pastel green collars, two butter yellow heart-shaped power windows and two milk white cable plugs. the whole image contains ONLY this detached equipment. no rock, planet, world, station, building, landscape or complete ship. the attached reference supplies only broad toy shading, no copied shape or layout. very simple rounded silhouette, only a few large components, one clear identifying feature that reads at 48 px. broad matte colour planes, two shade values, no bright white specular spots. 3/4 view from 35 degrees above, square 512 px icon, centred with 15 percent clear margin, same upper-left light, soft contact shadow inside icon, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8
+    },
+    "cruise-mk2.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone ship module toy icon, not a modified scene from the reference. one oversized red double barrel engine with milk white shell collars, two pastel green mounting rings, two huge dark forest green nozzles and butter yellow handles. the whole image contains ONLY this detached equipment. no rock, planet, world, station, building, landscape or complete ship. the attached reference supplies only broad toy shading, no copied shape or layout. very simple rounded silhouette, only a few large components, one clear identifying feature that reads at 48 px. broad matte colour planes, two shade values, no bright white specular spots. 3/4 view from 35 degrees above, square 512 px icon, centred with 15 percent clear margin, same upper-left light, soft contact shadow inside icon, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8
+    },
+    "maneuver-mk2.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone ship module toy icon, not a modified scene from the reference. one larger milk white manifold with four red short nozzles, doubled green collars and a butter yellow mounting puck. the whole image contains ONLY this detached equipment. no rock, planet, world, station, building, landscape or complete ship. the attached reference supplies only broad toy shading, no copied shape or layout. very simple rounded silhouette, only a few large components, one clear identifying feature that reads at 48 px. broad matte colour planes, two shade values, no bright white specular spots. 3/4 view from 35 degrees above, square 512 px icon, centred with 15 percent clear margin, same upper-left light, soft contact shadow inside icon, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8
+    },
+    "cargo-mk2.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone ship module toy icon, not a modified scene from the reference. one larger round red cargo case with double pastel green clamp bands, two milk white latches and an oversized butter yellow carrying handle. the whole image contains ONLY this detached equipment. no rock, planet, world, station, building, landscape or complete ship. the attached reference supplies only broad toy shading, no copied shape or layout. very simple rounded silhouette, only a few large components, one clear identifying feature that reads at 48 px. broad matte colour planes, two shade values, no bright white specular spots. 3/4 view from 35 degrees above, square 512 px icon, centred with 15 percent clear margin, same upper-left light, soft contact shadow inside icon, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8
+    },
+    "cargo-tank.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone ship module toy icon, not a modified scene from the reference. one pastel green horizontal pressure tank with red end caps and butter yellow valve. the whole image contains ONLY this detached equipment. no rock, planet, world, station, building, landscape or complete ship. the attached reference supplies only broad toy shading, no copied shape or layout. very simple rounded silhouette, only a few large components, one clear identifying feature that reads at 48 px. broad matte colour planes, two shade values, no bright white specular spots. 3/4 view from 35 degrees above, square 512 px icon, centred with 15 percent clear margin, same upper-left light, soft contact shadow inside icon, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8
+    },
+    "cargo-reefer.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone ship module toy icon, not a modified scene from the reference. one milk white cold cargo box with a big pastel green snowflake badge, red compressor and butter yellow latch. the whole image contains ONLY this detached equipment. no rock, planet, world, station, building, landscape or complete ship. the attached reference supplies only broad toy shading, no copied shape or layout. very simple rounded silhouette, only a few large components, one clear identifying feature that reads at 48 px. broad matte colour planes, two shade values, no bright white specular spots. 3/4 view from 35 degrees above, square 512 px icon, centred with 15 percent clear margin, same upper-left light, soft contact shadow inside icon, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8
+    },
+    "cargo-pen.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone ship module toy icon, not a modified scene from the reference. one low milk white livestock pen with pastel green rails and a plump red toy pig inside. the whole image contains ONLY this detached equipment. no rock, planet, world, station, building, landscape or complete ship. the attached reference supplies only broad toy shading, no copied shape or layout. very simple rounded silhouette, only a few large components, one clear identifying feature that reads at 48 px. broad matte colour planes, two shade values, no bright white specular spots. 3/4 view from 35 degrees above, square 512 px icon, centred with 15 percent clear margin, same upper-left light, soft contact shadow inside icon, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8
+    },
+    "radar-mk1.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone ship module toy icon, not a modified scene from the reference. one round pastel green radar bowl on a squat milk white base with a red scanning paddle. the whole image contains ONLY this detached equipment. no rock, planet, world, station, building, landscape or complete ship. the attached reference supplies only broad toy shading, no copied shape or layout. very simple rounded silhouette, only a few large components, one clear identifying feature that reads at 48 px. broad matte colour planes, two shade values, no bright white specular spots. 3/4 view from 35 degrees above, square 512 px icon, centred with 15 percent clear margin, same upper-left light, soft contact shadow inside icon, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8
+    },
+    "driver-mk1.png": {
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette: soft red, pastel green, butter yellow, rose, milk white and dark forest green accents only. create a NEW standalone ship module toy icon, not a modified scene from the reference. one stubby red electromagnetic cannon with two fat pastel green coils and a milk white barrel tip. the whole image contains ONLY this detached equipment. no rock, planet, world, station, building, landscape or complete ship. the attached reference supplies only broad toy shading, no copied shape or layout. very simple rounded silhouette, only a few large components, one clear identifying feature that reads at 48 px. broad matte colour planes, two shade values, no bright white specular spots. 3/4 view from 35 degrees above, square 512 px icon, centred with 15 percent clear margin, same upper-left light, soft contact shadow inside icon, true transparent background. no text or border.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-green.webp"
+        ],
+        "tool": "built-in imagegen",
+        "size": 512,
+        "alphaFit": 0.8
+    }
+}

@@ -44,9 +44,9 @@ def plates(name, cx, length, n, p, parent, top='shade', side=None, gap=.06):
     step = length / n
     for k in range(n):
         x = cx - length / 2 + step * (k + .5)
-        block(name + ' roof plate', (x, 0, HH / 2 + .03), (step - gap, HW - .9, .08), p[top], parent, .03)
+        block(name + ' roof plate', (x, 0, HH / 2 + .04 + .1 / 7.2), (step - gap, HW - .9, .08), p[top], parent, .03)
         if side:
-            for s in (-1, 1): block(name + ' flank plate', (x, s * (HW / 2 + .02), .1), (step - gap, .06, HH - 1.0), p[side], parent, .03)
+            for s in (-1, 1): block(name + ' flank plate', (x, s * (HW / 2 + .03 + .1 / 7.2), .1), (step - gap, .06, HH - 1.0), p[side], parent, .03)
 
 
 def far_treasure(p, root):
@@ -59,12 +59,12 @@ def far_treasure(p, root):
     block('bumper', (5.93, 0, -.62), (.14, 1.2, .3), p['dark'], hull, .04)
     slope = math.atan2(H2 + .02 - .32, 4.75 - 5.45)
     for y in (-.5, .5):
-        block('windscreen frame', (5.08, y, .68), (1.0, .9, .06), p['cream'], hull, .03, 1).rotation_euler.y = -(slope - math.pi)
-        block('windscreen', (5.1, y, .7), (.84, .74, .05), p['glass'], hull, .02, 1).rotation_euler.y = -(slope - math.pi)
+        block('windscreen frame', (5.13, y, .72), (1.0, .9, .06), p['cream'], hull, .03, 1).rotation_euler.y = -(slope - math.pi)
+        block('windscreen', (5.19, y, .765), (.84, .74, .05), p['glass'], hull, .02, 1).rotation_euler.y = -(slope - math.pi)
     for s in (-1, 1):
         y = s * (HW / 2 - .05)
         prism('side window frame', [(3.45, .34), (4.55, .34), (4.35, .86), (3.45, .9)], y - .03 * s, y + .01 * s, p['cream'], hull, 0)
-        prism('side window', [(3.55, .42), (4.45, .42), (4.28, .8), (3.55, .82)], y + .005 * s, y + .025 * s, p['glass'], hull, 0)
+        prism('side window', [(3.55, .42), (4.45, .42), (4.28, .8), (3.55, .82)], y + .045 * s, y + .065 * s, p['glass'], hull, 0)
         lamp('chin lamp', (5.72, s * .5, -.4), (.04, .26, .14), '+x', p, hull)
         lamp('cab lamp', (3.3, y + .02 * s, .18), (.36, .04, .1), '+y' if s > 0 else '-y', p, hull)
         vent('cheek vent', (4.3, s * (HW / 2 - .1), -.45), (.5, .05, .24), '+y' if s > 0 else '-y', p, hull)
@@ -80,11 +80,11 @@ def far_treasure(p, root):
     for s in (-1, 1):
         side = '+y' if s > 0 else '-y'
         y = s * (HW / 2 + .02)
-        block('forward band', (2.3, y, -.15), (1.2, .06, 1.1), p['teal'], hull, .04)
+        surfacePanel('forward band', (2.3, y, -.15), (1.2, .06, 1.1), p['teal'], hull, side, s * HW / 2)
         handle('forward handle', (1.9, y + .03 * s, .25), (1.9, y + .03 * s, -.45), (0, s, 0), p, hull)
-        vent('forward vent', (2.62, y, -.4), (.42, .05, .26), side, p, hull)
-        lamp('forward lamp', (2.7, y + .01 * s, .2), (.3, .04, .09), side, p, hull)
-        block('aft panel', (-1.75, y + .02 * s, -.35), (1.2, .06, .7), p['olive'], hull, .04)
+        vent('forward vent', (2.62, y + .09 * s, -.4), (.42, .05, .26), side, p, hull)
+        lamp('forward lamp', (2.7, y + .10 * s, .2), (.3, .04, .09), side, p, hull)
+        surfacePanel('aft panel', (-1.75, y, -.35), (1.2, .06, .7), p['olive'], hull, side, s * (HW / 2 + .06 + .1 / 7.2))
         lamp('aft lamp', (-1.3, y + .05 * s, .48), (.3, .04, .09), side, p, hull)
         lamp('keel lamp', (1.0, s * .55, -H2 - .16), (.3, .1, .04), '-z', p, hull)
         pipe('top pipe', [(2.95, s * .82, H2 + .02), (1.7, s * .82, H2 + .02), (1.52, s * .82, H2 + .2), (-.95, s * .82, H2 + .2), (-1.12, s * .82, H2 + .02), (-2.55, s * .82, H2 + .02)], .05, p['mustard'], hull, .14)

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "toy-nav-manifest",
+        "dir": "nav",
+        "file": "sector",
+        "subject": "one 2048 \u00d7 1152, 16:9 concept frame. a sector map as a spatial toy diorama: six distinct tiny lumpy rock station worlds on separate round tiles float on deep indigo. dotted mint routes connect the tiles. a fat cream cargo hauler with coral cockpit and mustard belly pods moves on one route with puffy bubble exhaust. a chunky cursor and brighter route dots show that the player can pick a route. generous space between worlds, clear route hierarchy, own station shapes. no copied reference panels or icons.",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions: oversized engines, bulbous cockpits,\ntiny round windows, fat pipes and bolts. soft toon shading with 2 or 3 tones and a\nsoft rim light. matte plastic: no gloss, no reflections, no texture noise, no grime.\nsaturated palette on deep indigo space: coral, mustard yellow, mint, teal,\nbubblegum pink, cream. small glowing lights in cyan and warm orange. space is deep\nindigo with small soft stars. not photographic, not realistic, no depth of field.\n\none 2048 \u00d7 1152, 16:9 concept frame. a sector map as a spatial toy diorama: six distinct tiny lumpy rock station worlds on separate round tiles float on deep indigo. dotted mint routes connect the tiles. a fat cream cargo hauler with coral cockpit and mustard belly pods moves on one route with puffy bubble exhaust. a chunky cursor and brighter route dots show that the player can pick a route. generous space between worlds, clear route hierarchy, own station shapes. no copied reference panels or icons."
+    },
+    {
+        "id": "toy-nav-manifest",
+        "dir": "nav",
+        "file": "manifest",
+        "subject": "one 2048 \u00d7 1152, 16:9 concept frame. six distinct tiny lumpy station worlds on round tiles form a spatial sector toy diorama. dotted routes connect them. the selected route is coral and holds a cream cargo hauler with mustard belly pods and puffy bubble exhaust. a chunky cream manifest card opens to the right of the selected route with simple readable lowercase text: cargo, 12 food, 4 parts, stops, outpost, relay, time, 6 h. bright flat cargo icons, a route endpoint pin and a rounded go button show the course selection flow. own panel and icon shapes.",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions: oversized engines, bulbous cockpits,\ntiny round windows, fat pipes and bolts. soft toon shading with 2 or 3 tones and a\nsoft rim light. matte plastic: no gloss, no reflections, no texture noise, no grime.\nsaturated palette on deep indigo space: coral, mustard yellow, mint, teal,\nbubblegum pink, cream. small glowing lights in cyan and warm orange. space is deep\nindigo with small soft stars. not photographic, not realistic, no depth of field.\n\none 2048 \u00d7 1152, 16:9 concept frame. six distinct tiny lumpy station worlds on round tiles form a spatial sector toy diorama. dotted routes connect them. the selected route is coral and holds a cream cargo hauler with mustard belly pods and puffy bubble exhaust. a chunky cream manifest card opens to the right of the selected route with simple readable lowercase text: cargo, 12 food, 4 parts, stops, outpost, relay, time, 6 h. bright flat cargo icons, a route endpoint pin and a rounded go button show the course selection flow. own panel and icon shapes."
+    },
+    {
+        "id": "toy-nav-variants-meadow",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette, use only soft red and pastel green, butter yellow, rose and milk white, on dark forest green space. one NEW horizontal landscape concept frame, 2048 \u00d7 1152, 16:9. a sector navigation screen as a playable toy diorama. five station worlds on round tiles, dotted paths connect them, one cargo hauler on a chosen route. a rounded manifest card opens to the right, with a simple cargo icon row, three stop dots and a clock: labels cargo, stops, time. the chosen route is wider and has a clear destination marker.  three-lobed green station worlds on round milk white tiles, round red route beads, a tall rounded butter yellow manifest block. a clear chosen route and one manifest card, calm empty space around the controls, a 3/4 view from above. no dense tables. the cargo hauler visibly travels along the selected path. the attached image is a reference for playful toy feel only. copy no bird, ship, station, planet, icon, panel or layout from it. broad matte colour planes, two or three tones, upper-left light, no texture noise. keep the whole composition inside the wide frame.",
+        "anchor": "sketches/direction-2026-10-06/starbirds-map-manifest.webp",
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/nav/sector-manifest-meadow.webp",
+        "source": "agents/sam/scratch/style/toy-nav-variants-meadow.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "toy-nav-variants-lagoon",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nlagoon palette, use only aqua and soft pink, peach and foam white, on dark lagoon teal space. one NEW horizontal landscape concept frame, 2048 \u00d7 1152, 16:9. a sector navigation screen as a playable toy diorama. five station worlds on round tiles, dotted paths connect them, one cargo hauler on a chosen route. a rounded manifest card opens to the right, with a simple cargo icon row, three stop dots and a clock: labels cargo, stops, time. the chosen route is wider and has a clear destination marker.  aqua bean-shaped station worlds on oval foam white tiles, peach capsule route marks, a wide pink pill-shaped manifest card. a clear chosen route and one manifest card, calm empty space around the controls, a 3/4 view from above. no dense tables. the cargo hauler visibly travels along the selected path. the attached image is a reference for playful toy feel only. copy no bird, ship, station, planet, icon, panel or layout from it. broad matte colour planes, two or three tones, upper-left light, no texture noise. keep the whole composition inside the wide frame.",
+        "anchor": "sketches/direction-2026-10-06/starbirds-map-manifest.webp",
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/nav/sector-manifest-lagoon.webp",
+        "source": "agents/sam/scratch/style/toy-nav-variants-lagoon.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    }
+]

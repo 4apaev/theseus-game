@@ -12,6 +12,7 @@ from mathutils import Vector
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import paintkit as kit
+import surfacecheck
 
 
 def fleetParts():
@@ -66,7 +67,7 @@ def illuminators(p, hull):
             for x in positions:
                 parts.append(kit.block('illuminator frame', (x, side * 1.175, z),
                     (.1, .026, .1), p['dark'], hull, .009))
-                parts.append(kit.block('illuminator pane', (x, side * 1.194, z),
+                parts.append(kit.block('illuminator pane', (x, side * 1.212, z),
                     (.07, .012, .07), p['lamp'], hull, .007))
             bpy.ops.object.select_all(action='DESELECT')
             for obj in parts:
@@ -79,7 +80,9 @@ def illuminators(p, hull):
             parts[0].name = f'porthole_{"port" if side > 0 else "starboard"}_{row + 1}'
 
 
-def validate(root, fleet):
+def validate(root, fleet, geometry=True):
+    if geometry:
+        surfacecheck.validate(root, 7.2)
     sockets = {obj.name: obj for obj in root.children if obj.name.startswith('socket_')}
     if len(sockets) != 5:
         raise ValueError('the hull needs five sockets')
@@ -116,7 +119,7 @@ def build():
     bpy.ops.wm.save_as_mainfile(filepath=str(source / 'far-treasure-b.blend'))
     kit.KEEP += ('porthole',)
     kit.consolidate_all(root)
-    validate(root, fleet)
+    validate(root, fleet, False)
     kit.export(root, exports / 'far-treasure-b.glb')
     info = {'name': 'far-treasure-b', 'triangles': kit.stats(root),
         'metres_per_unit': 7.2, 'illuminator_rows': 6,
@@ -128,4 +131,5 @@ def build():
     kit.render(root, 'far-treasure-b', 14, renders)
 
 
-build()
+if __name__ == '__main__':
+    build()

@@ -1,26 +1,15 @@
 {
     "plate": {
-        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. landscape 16:9, 2048 x 1152. a roofless pressurized ship rigging bay cutaway. a wide empty low ship cradle stands on the center floor under a tall cream and mustard gantry. the cradle has two low support rails and an open center for the separate 3d ship. the gantry crosses the upper rear area and does not block the ship. a compact tool wall occupies the left wall. two empty recessed alcoves on the back wall receive separate module racks. keep the foreground floor clear and broad blank cream wall panels for cards. no ship, modules, cargo, robots or people. no window planet. navy space outside the cutaway.",
+        "prompt": "stylized low-poly game art, in the style of the attached reference. big flat facets,\nchunky bevelled shapes, flat colour planes with 2 or 3 values per colour, crisp dark\noutlines. matte paint: no gloss, no reflection on any floor, no specular highlight,\nno bloom. a few flat paint chips and rust patches, no noise texture. palette: cream,\nteal, mustard, olive, rust, small orange lights, navy. warm key light from the upper\nleft, cool rim. space is near black navy with many small stars, no fog. not\nphotographic, not realistic, no depth of field.\n\noutpost rigging workshop interior, wide 16:9 plate, 2048 \u00d7 1152. orthographic cutaway at 42 degree azimuth and 29 degree elevation. large rectangular raised deck with left and rear walls, front open. left wall recedes from lower left toward upper middle; rear wall runs from upper middle toward right. cream walls, teal beams, mustard overhead gantry inside the hall. tool wall at left; two recessed bays in rear wall. left bay contains power rack with chunky cream and teal reactor modules; right bay contains drive rack with chunky rust and olive drive modules. racks stand inside the bays and share the room perspective. central empty bay for a 70 metre long ship with 19 metre beam: two parallel long low teal cradles run from lower left toward upper right. each cradle has flat mustard support top. cradle length about 70 metres, separation 12 metres, closer than ship beam. clear space above cradles; no ship painted into plate. keep cradles parallel and level at equal heights. simple broad matte grey floor panels, mustard edge lines, calm cream wall panels for cards. a few tied hoses and strapped boxes along edges. doors 3 metres and rails 1.1 metres give scale. no people, planet, interface, text or separate sprites. navy space around the cutaway, many small stars. attached platform is the sole style anchor.\n\ncritical cradle geometry: make the two support rails a CLOSE PAIR, not widely separated lanes. each is about six times longer than the perpendicular gap between their centre lines. in the 2048 \u00d7 1152 composition, the left support top runs from approximately (660, 650) to (1190, 330), the right support top from (745, 690) to (1275, 370). both rails have the same length and height. a single 19 metre wide ship must rest on both, the supports are 12 metres apart, their length is 70 metres. leave the rest of the deck clear. use only the attached platform as the style anchor.",
+        "anchor": "sketches/painted-parts-v1/platform-01.png",
         "tool": "built-in imagegen",
-        "source": "places/rigging/outpost/sources/plate.png",
-        "file": "plate.webp",
+        "file": "assets/places/rigging/outpost/plate.webp",
+        "source": "agents/sam/scratch/style/rigging.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
         "w": 2048,
         "h": 1152
-    },
-    "power-rack": {
-        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. one isolated full object, centered with transparent margins, true transparent background. no detached shadow or glow. one low industrial module rack for a rigging bay. cream thick frame, teal shelves, one squat sealed olive reactor module with dark coolant sockets, mustard pipes and orange lamps. no wall or scenery. one connected assembly.",
-        "tool": "built-in imagegen",
-        "source": "places/rigging/outpost/sources/power-rack.png",
-        "file": "parts/power-rack.webp",
-        "w": 2048,
-        "h": 1365
-    },
-    "drive-rack": {
-        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. one isolated full object, centered with transparent margins, true transparent background. no detached shadow or glow. one low industrial module rack for a rigging bay. cream thick frame, teal shelves, two rust and teal cylindrical propulsion modules with dark nozzles, mustard handles and orange lamps. no wall or scenery. one connected assembly.",
-        "tool": "built-in imagegen",
-        "source": "places/rigging/outpost/sources/drive-rack.png",
-        "file": "parts/drive-rack.webp",
-        "w": 2048,
-        "h": 1365
     }
 }

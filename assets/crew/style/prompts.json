@@ -1,0 +1,54 @@
+{
+    "pilot-rookie": {
+        "prompt": "stylized low-poly portrait, a caricature built from big flat angular facets, like a\nlow-poly bust with flat shading. flat colour planes, 3 values on the face, black\nshapes for the shadows, a bold dark outline, odd colour in the shadows (green,\nviolet). one big prop tells the trait. no skin detail, no pores, no soft modelling,\nnot a photograph, not an oil painting. behind the head one flat shape, a disc or a\nblock, on flat navy. no brush noise, no texture in the background. palette: cream,\nteal, mustard, olive, rust, navy.\n\nrookie pilot, woman age 23, dark brown skin, short black triangular hair, round cheeks, raised eyebrow, huge mischievous tooth-gap grin. one large mustard steering yoke across her chest in both hands, teal flight suit, cream disc on flat navy. cheerful overconfidence. tight chest-up vertical 3:4, 768 \u00d7 1024. warm light upper left, cool rim. the attached cargo is the sole style anchor. large polygon planes on the face and hands, simple hair wedges. no text.",
+        "anchor": "sketches/painted-parts-v1/cargo-01.png",
+        "tool": "built-in imagegen",
+        "file": "assets/crew/style/pilot-rookie.webp",
+        "source": "agents/sam/scratch/style/pilot-rookie.png",
+        "sourceSize": [
+            1086,
+            1448
+        ],
+        "w": 768,
+        "h": 1024
+    },
+    "engineer-veteran": {
+        "prompt": "stylized low-poly portrait, a caricature built from big flat angular facets, like a\nlow-poly bust with flat shading. flat colour planes, 3 values on the face, black\nshapes for the shadows, a bold dark outline, odd colour in the shadows (green,\nviolet). one big prop tells the trait. no skin detail, no pores, no soft modelling,\nnot a photograph, not an oil painting. behind the head one flat shape, a disc or a\nblock, on flat navy. no brush noise, no texture in the background. palette: cream,\nteal, mustard, olive, rust, navy.\n\nveteran engineer, woman age 55, dark brown skin, broad square jaw, silver buzz cut with white forelock, skeptical raised eyebrow, tiny crooked grin. one absurdly large mustard open-ended wrench hugged diagonally across her chest. teal coat, rust disc on flat navy. she knows this failure by heart. tight chest-up vertical 3:4, 768 \u00d7 1024. warm light upper left, cool rim. attached cargo is the sole style anchor. few large polygon planes, simple hair wedges. no text.",
+        "anchor": "sketches/painted-parts-v1/cargo-01.png",
+        "tool": "built-in imagegen",
+        "file": "assets/crew/style/engineer-veteran.webp",
+        "source": "agents/sam/scratch/style/engineer-veteran.png",
+        "sourceSize": [
+            1086,
+            1448
+        ],
+        "w": 768,
+        "h": 1024
+    },
+    "haggler-rookie": {
+        "prompt": "stylized low-poly portrait, a caricature built from big flat angular facets, like a\nlow-poly bust with flat shading. flat colour planes, 3 values on the face, black\nshapes for the shadows, a bold dark outline, odd colour in the shadows (green,\nviolet). one big prop tells the trait. no skin detail, no pores, no soft modelling,\nnot a photograph, not an oil painting. behind the head one flat shape, a disc or a\nblock, on flat navy. no brush noise, no texture in the background. palette: cream,\nteal, mustard, olive, rust, navy.\n\nrookie haggler, woman age 24, warm light-brown skin, short straight black bob, pointed chin, sly wink, huge tooth-gap smile. one face-size mustard coin with round hole pinched beside her cheek. rust jacket over cream shirt, one cream diagonal block on flat navy. she thinks she invented bargaining. tight chest-up vertical 3:4, 768 \u00d7 1024. warm light upper left, cool rim. attached cargo is the sole style anchor. few large polygon face planes, simple hair wedges. no text.",
+        "anchor": "sketches/painted-parts-v1/cargo-01.png",
+        "tool": "built-in imagegen",
+        "file": "assets/crew/style/haggler-rookie.webp",
+        "source": "agents/sam/scratch/style/haggler-rookie.png",
+        "sourceSize": [
+            1086,
+            1448
+        ],
+        "w": 768,
+        "h": 1024
+    },
+    "gunner-veteran": {
+        "prompt": "stylized low-poly portrait, a caricature built from big flat angular facets, like a\nlow-poly bust with flat shading. flat colour planes, 3 values on the face, black\nshapes for the shadows, a bold dark outline, odd colour in the shadows (green,\nviolet). one big prop tells the trait. no skin detail, no pores, no soft modelling,\nnot a photograph, not an oil painting. behind the head one flat shape, a disc or a\nblock, on flat navy. no brush noise, no texture in the background. palette: cream,\nteal, mustard, olive, rust, navy.\n\nveteran gunner, woman age 59, pale skin, severe silver bob shaved at one temple, broad broken nose, asymmetric wicked grin with one gold tooth, dry sideways glance. one huge chunky sighting scope across her chest, orange circular lens beside her face. rust padded coat, teal rectangle on flat navy. calm comic menace. tight chest-up vertical 3:4, 768 \u00d7 1024. warm light upper left, cool rim. attached cargo is the sole style anchor. age shown by a few black angular crease shapes, few large polygon planes, hair wedges. no text.",
+        "anchor": "sketches/painted-parts-v1/cargo-01.png",
+        "tool": "built-in imagegen",
+        "file": "assets/crew/style/gunner-veteran.webp",
+        "source": "agents/sam/scratch/style/gunner-veteran.png",
+        "sourceSize": [
+            1086,
+            1448
+        ],
+        "w": 768,
+        "h": 1024
+    }
+}

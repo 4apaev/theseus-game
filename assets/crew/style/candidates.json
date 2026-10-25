@@ -1,0 +1,30 @@
+[
+    {
+        "id": "pilot-rookie",
+        "seat": "pilot",
+        "experience": "rookie",
+        "ship_age_years": 23,
+        "file": "assets/crew/style/pilot-rookie.webp"
+    },
+    {
+        "id": "engineer-veteran",
+        "seat": "engineer",
+        "experience": "veteran",
+        "ship_age_years": 55,
+        "file": "assets/crew/style/engineer-veteran.webp"
+    },
+    {
+        "id": "haggler-rookie",
+        "seat": "haggler",
+        "experience": "rookie",
+        "ship_age_years": 24,
+        "file": "assets/crew/style/haggler-rookie.webp"
+    },
+    {
+        "id": "gunner-veteran",
+        "seat": "gunner",
+        "experience": "veteran",
+        "ship_age_years": 59,
+        "file": "assets/crew/style/gunner-veteran.webp"
+    }
+]

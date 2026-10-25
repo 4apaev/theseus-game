@@ -1,26 +1,15 @@
 {
     "plate": {
-        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. landscape 16:9, 2048 x 1152. a small roofless orbital comms office cutaway. two cream armored walls, a broad EMPTY foreground floor. two empty inset fixture bays on the back wall for a separate ansible console and a letter rack. a large reinforced window on the left wall shows only navy space and sparse stars, absolutely no planet. mustard conduit, teal door frame, orange lamps. broad calm cream wall panel for cards. no desks, consoles, racks, chairs, cargo, people or robots. navy space outside the cutaway.",
+        "prompt": "stylized low-poly game art, in the style of the attached reference. big flat facets,\nchunky bevelled shapes, flat colour planes with 2 or 3 values per colour, crisp dark\noutlines. matte paint: no gloss, no reflection on any floor, no specular highlight,\nno bloom. a few flat paint chips and rust patches, no noise texture. palette: cream,\nteal, mustard, olive, rust, small orange lights, navy. warm key light from the upper\nleft, cool rim. space is near black navy with many small stars, no fog. not\nphotographic, not realistic, no depth of field.\n\noutpost comms office interior, wide 16:9 plate, 2048 \u00d7 1152. orthographic cutaway at 42 degree azimuth and 29 degree elevation. rectangular raised floor, two walls at back and left, front open. left wall recedes from lower left to upper middle; back wall runs from upper middle toward right. cream walls with teal chunky beams, mustard pipes. large deep window fills left wall: near black navy space and many small stars, no planet. back wall contains a wide recessed console bay near the middle, a narrow recessed letter rack bay to its right, and a teal framed closed airlock at far right. console has chunky teal desk, small orange ansible display, two thick legs visibly touching the floor inside the bay. the letter rack contains a few cream envelopes in large square slots, anchored inside its wall bay, not floating outside it. broad clear matte muted cream-grey foreground floor, few large panels. calm wall card space. a tied cable and one rust patch at the edge. all furniture shares the room perspective. no people, text, interface or separate sprites. attached platform is the sole style anchor.",
+        "anchor": "sketches/painted-parts-v1/platform-01.png",
         "tool": "built-in imagegen",
-        "source": "places/comms/outpost/sources/plate.png",
-        "file": "plate.webp",
+        "file": "assets/places/comms/outpost/plate.webp",
+        "source": "agents/sam/scratch/style/comms.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
         "w": 2048,
         "h": 1152
-    },
-    "console": {
-        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. one isolated full object, centered with transparent margins, true transparent background. no detached shadow or glow. one compact ansible console. a squat teal and cream desk with a tilted dark glass terminal, three orange indicators, recessed mustard controls, a shielded cable coil and a small cream instrument housing. no chair, wall, backdrop, letters or scenery. one connected assembly.",
-        "tool": "built-in imagegen",
-        "source": "places/comms/outpost/sources/console.png",
-        "file": "parts/console.webp",
-        "w": 2048,
-        "h": 1707
-    },
-    "letter-rack": {
-        "prompt": "use case: stylized-concept. theseus painted industrial miniature, cream armored panels, matte teal frames, mustard rails, olive and rust accents, dark seams, restrained paint chips and tiny orange lamps. warm upper-left key, cool right rim. orthographic iso camera 42 degrees azimuth and 29 degrees elevation. no text, ui or watermark. one isolated full object, centered with transparent margins, true transparent background. no detached shadow or glow. one compact upright orbital letter rack. cream frame, teal back, a three by four bank of dark pigeonholes, each with one or two cream sealed paper envelopes, mustard clips, orange indicator lamps. no lettering, wall or scenery. one connected assembly.",
-        "tool": "built-in imagegen",
-        "source": "places/comms/outpost/sources/letter-rack.png",
-        "file": "parts/letter-rack.webp",
-        "w": 1960,
-        "h": 2048
     }
 }

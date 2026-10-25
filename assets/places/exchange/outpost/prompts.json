@@ -1,34 +1,15 @@
 {
     "plate": {
-        "prompt": "edit this exchange back plate. remove the trade counter and goods racks from the back left recess. remove the cargo lift fixtures from the right opening. leave both recesses empty, with simple teal metal rear panels. retain ALL architecture, wall panels, floor, framing, paint, camera, light, image dimensions and navy exterior. no new objects. these empty recesses receive separate transparent sprites. no text or planet.",
+        "prompt": "stylized low-poly game art, in the style of the attached reference. big flat facets,\nchunky bevelled shapes, flat colour planes with 2 or 3 values per colour, crisp dark\noutlines. matte paint: no gloss, no reflection on any floor, no specular highlight,\nno bloom. a few flat paint chips and rust patches, no noise texture. palette: cream,\nteal, mustard, olive, rust, small orange lights, navy. warm key light from the upper\nleft, cool rim. space is near black navy with many small stars, no fog. not\nphotographic, not realistic, no depth of field.\n\noutpost exchange interior, wide 16:9 plate, 2048 \u00d7 1152. orthographic cutaway at 42 degree azimuth and 29 degree elevation. rectangular raised floor, two walls at back and left, front open. left wall recedes from lower left to upper middle; back wall runs from upper middle toward right. cream walls, teal structural beams, mustard pipes and rails. back wall: a wide left recess contains the teal trade counter on the floor and a goods rack directly behind it, a calm cream wall panel in the middle, and a cargo lift inside the right opening. goods are chunky cream, olive and rust boxes strapped to shelving. the lift platform sits at floor height, entirely inside its frame. all furniture follows the same room perspective, built into its wall bay. broad uninterrupted matte dark teal-grey floor in the foreground, few large panels and flat mustard edge marks. wall panels stay calm for interface cards. a few tied bundles at edges and one repair patch. navy space around the cutaway, small stars. no planet, people, interface, text or separate furniture sprites. attached platform is the style anchor; keep its clear flat planes and simple bevels.",
+        "anchor": "sketches/painted-parts-v1/platform-01.png",
         "tool": "built-in imagegen",
-        "source": "places/exchange/outpost/sources/plate.png",
-        "file": "plate.webp",
+        "file": "assets/places/exchange/outpost/plate.webp",
+        "source": "agents/sam/scratch/style/exchange.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
         "w": 2048,
         "h": 1152
-    },
-    "counter": {
-        "prompt": "use case: stylized-concept. one isolated transparent sprite for the theseus exchange interior. painted industrial miniature, chunky cream armored panels, teal frames, mustard rails, olive and rust, dark seams, restrained paint chips, orange lights. warm upper-left key, cool right rim. orthographic iso 42 degrees azimuth, 29 degrees elevation. full object centered with transparent margins, no background, text, watermark, people, robots or ship. no detached shadow. a low trade counter, cream top, teal recessed front, small inset terminal, mustard handrail. one connected assembly.",
-        "tool": "built-in imagegen",
-        "source": "places/exchange/outpost/sources/counter.png",
-        "file": "parts/counter.webp",
-        "w": 2048,
-        "h": 1365
-    },
-    "goods-rack": {
-        "prompt": "use case: stylized-concept. one isolated transparent sprite for the theseus exchange interior. painted industrial miniature, chunky cream armored panels, teal frames, mustard rails, olive and rust, dark seams, restrained paint chips, orange lights. warm upper-left key, cool right rim. orthographic iso 42 degrees azimuth, 29 degrees elevation. full object centered with transparent margins, no background, text, watermark, people, robots or ship. no detached shadow. one wide steel goods rack, cream outer frame, teal shelf backs, three shelves of sealed olive rust and mustard shipping cases.",
-        "tool": "built-in imagegen",
-        "source": "places/exchange/outpost/sources/goods-rack.png",
-        "file": "parts/goods-rack.webp",
-        "w": 2048,
-        "h": 1639
-    },
-    "cargo-lift": {
-        "prompt": "use case: stylized-concept. one isolated transparent sprite for the theseus exchange interior. painted industrial miniature, chunky cream armored panels, teal frames, mustard rails, olive and rust, dark seams, restrained paint chips, orange lights. warm upper-left key, cool right rim. orthographic iso 42 degrees azimuth, 29 degrees elevation. full object centered with transparent margins, no background, text, watermark, people, robots or ship. no detached shadow. one compact cargo lift with cream vertical rails, teal motors, mustard frame and an empty low deck.",
-        "tool": "built-in imagegen",
-        "source": "places/exchange/outpost/sources/cargo-lift.png",
-        "file": "parts/cargo-lift.webp",
-        "w": 2048,
-        "h": 1365
     }
 }

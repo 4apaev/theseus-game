@@ -1,0 +1,50 @@
+[
+    {
+        "id": "toy-combat",
+        "dir": "combat",
+        "file": "approach-v2",
+        "subject": "one 2048 \u00d7 1152, 16:9 concept frame. a stubby coral wedge with cream armour plates, a huge mustard turret and an angry narrow teal cockpit approaches a small asymmetrical purple raider with mint engine pods across deep indigo. both turn with cyan to lilac puffy bubble exhaust. thin pastel soap-bubble shields surround the ships. a chunky target ring and a small rounded fire button show the player can select the raider and fire. visible five clip-on modules on the military hull: pink power capsule, teal cruise engine, coral maneuver pair, mustard cargo pod, cream utility instrument. readable separated silhouettes, no copied ships or icons. the raider is a flat asymmetrical purple boomerang hull with a pointed mint nose, two rear engine pods, one red visor and a small fin. it is recognizably a spacecraft with a bow and stern. no rock, asteroid, globe, sphere, station, building, landing pad or tower anywhere. references supply shading and colours only; ignore their subject matter.",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions: oversized engines, bulbous cockpits,\ntiny round windows, fat pipes and bolts. soft toon shading with 2 or 3 tones and a\nsoft rim light. matte plastic: no gloss, no reflections, no texture noise, no grime.\nsaturated palette on deep indigo space: coral, mustard yellow, mint, teal,\nbubblegum pink, cream. small glowing lights in cyan and warm orange. space is deep\nindigo with small soft stars. not photographic, not realistic, no depth of field.\n\none 2048 \u00d7 1152, 16:9 concept frame. a stubby coral wedge with cream armour plates, a huge mustard turret and an angry narrow teal cockpit approaches a small asymmetrical purple raider with mint engine pods across deep indigo. both turn with cyan to lilac puffy bubble exhaust. thin pastel soap-bubble shields surround the ships. a chunky target ring and a small rounded fire button show the player can select the raider and fire. visible five clip-on modules on the military hull: pink power capsule, teal cruise engine, coral maneuver pair, mustard cargo pod, cream utility instrument. readable separated silhouettes, no copied ships or icons. the raider is a flat asymmetrical purple boomerang hull with a pointed mint nose, two rear engine pods, one red visor and a small fin. it is recognizably a spacecraft with a bow and stern. no rock, asteroid, globe, sphere, station, building, landing pad or tower anywhere. references supply shading and colours only; ignore their subject matter.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-blue.webp"
+        ]
+    },
+    {
+        "id": "toy-combat",
+        "dir": "combat",
+        "file": "fight-v2",
+        "subject": "one 2048 \u00d7 1152, 16:9 concept frame. a stubby coral wedge with cream armour plates, a huge mustard turret and an angry narrow teal cockpit fights an asymmetrical purple raider with mint engine pods. a large orange puffy explosion pushes two popped purple panels away from the raider. pastel soap-bubble shields dent and ripple; cyan to lilac puffy bubble exhaust curves behind both turning ships. the military turret points at the raider, a chunky selected target ring and a small shield gauge show combat feedback. five clip-on modules remain visible on the military hull: pink power capsule, teal cruise engine, coral maneuver pair, mustard cargo pod, cream utility instrument. playful toy action, separated readable silhouettes, own ships and interface shapes. the raider is a flat asymmetrical purple boomerang hull with a pointed mint nose, two rear engine pods, one red visor and a small fin. it is recognizably a spacecraft with a bow and stern. no rock, asteroid, globe, sphere, station, building, landing pad or tower anywhere. references supply shading and colours only; ignore their subject matter.",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions: oversized engines, bulbous cockpits,\ntiny round windows, fat pipes and bolts. soft toon shading with 2 or 3 tones and a\nsoft rim light. matte plastic: no gloss, no reflections, no texture noise, no grime.\nsaturated palette on deep indigo space: coral, mustard yellow, mint, teal,\nbubblegum pink, cream. small glowing lights in cyan and warm orange. space is deep\nindigo with small soft stars. not photographic, not realistic, no depth of field.\n\none 2048 \u00d7 1152, 16:9 concept frame. a stubby coral wedge with cream armour plates, a huge mustard turret and an angry narrow teal cockpit fights an asymmetrical purple raider with mint engine pods. a large orange puffy explosion pushes two popped purple panels away from the raider. pastel soap-bubble shields dent and ripple; cyan to lilac puffy bubble exhaust curves behind both turning ships. the military turret points at the raider, a chunky selected target ring and a small shield gauge show combat feedback. five clip-on modules remain visible on the military hull: pink power capsule, teal cruise engine, coral maneuver pair, mustard cargo pod, cream utility instrument. playful toy action, separated readable silhouettes, own ships and interface shapes. the raider is a flat asymmetrical purple boomerang hull with a pointed mint nose, two rear engine pods, one red visor and a small fin. it is recognizably a spacecraft with a bow and stern. no rock, asteroid, globe, sphere, station, building, landing pad or tower anywhere. references supply shading and colours only; ignore their subject matter.",
+        "references": [
+            "sketches/direction-2026-10-06/starbirds-graph-blue.webp"
+        ]
+    },
+    {
+        "id": "toy-combat-variants-meadow",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nmeadow palette, use only soft red and pastel green, butter yellow, rose and milk white, on dark forest green space. one NEW horizontal landscape concept frame, 2048 \u00d7 1152, 16:9. a fight between an original stubby military wedge ship and a round pirate raider. shields form soft soap bubbles, puffy round explosions, two popped armour panels float nearby, round exhaust bubbles show the ships turn toward each other. a compact pair of shield and hull gauges sits at the upper corners, and a clear selected-target marker shows the player which ship they selected.  a wide red military wedge with one enormous turret against a green round raider with three fat engines, butter yellow and rose shields and puffs. exactly two complete original ships as the main actors, with clear space between them. no planet, station or world. the selected-target marker and gauges remain clear. only toy shields and puffs, no bodies. the attached image is a reference for playful toy feel only. copy no bird, ship, station, planet, icon, panel or layout from it. broad matte colour planes, two or three tones, upper-left light, no texture noise. keep the whole composition inside the wide frame.",
+        "anchor": "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp",
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/combat/ship-fight-meadow.webp",
+        "source": "agents/sam/scratch/style/toy-combat-variants-meadow.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    },
+    {
+        "id": "toy-combat-variants-lagoon",
+        "prompt": "toy-like game art, playful and colourful, like a set of painted vinyl toys in space.\nchunky rounded shapes, grotesque proportions, pushed but not too far: big engines,\nbulbous cockpits, small round windows, fat pipes and bolts. soft toon shading with\n2 or 3 tones and a soft rim light. matte plastic: no gloss, no reflections, no\ntexture noise, no grime. small glowing lights. space is dark with small soft stars.\nnot photographic, not realistic, no depth of field.\n\nlagoon palette, use only aqua and soft pink, peach and foam white, on dark lagoon teal space. one NEW horizontal landscape concept frame, 2048 \u00d7 1152, 16:9. a fight between an original stubby military wedge ship and a round pirate raider. shields form soft soap bubbles, puffy round explosions, two popped armour panels float nearby, round exhaust bubbles show the ships turn toward each other. a compact pair of shield and hull gauges sits at the upper corners, and a clear selected-target marker shows the player which ship they selected.  a squat aqua manta hull with one twin-barrel turret against a pink barrel raider with two peach side pods, foam white and peach shields and puffs. exactly two complete original ships as the main actors, with clear space between them. no planet, station or world. the selected-target marker and gauges remain clear. only toy shields and puffs, no bodies. the attached image is a reference for playful toy feel only. copy no bird, ship, station, planet, icon, panel or layout from it. broad matte colour planes, two or three tones, upper-left light, no texture noise. keep the whole composition inside the wide frame.",
+        "anchor": "sketches/direction-2026-10-06/starbirds-ship-exhaust.webp",
+        "tool": "built-in imagegen",
+        "file": "assets/concepts/toy/combat/ship-fight-lagoon.webp",
+        "source": "agents/sam/scratch/style/toy-combat-variants-lagoon.png",
+        "sourceSize": [
+            1672,
+            941
+        ],
+        "w": 2048,
+        "h": 1152
+    }
+]

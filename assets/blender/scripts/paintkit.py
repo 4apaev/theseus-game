@@ -183,6 +183,21 @@ def empty(name, parent=None, pos=(0, 0, 0)):
 AXES = {'+x': (0, 1), '-x': (0, -1), '+y': (1, 1), '-y': (1, -1), '+z': (2, 1), '-z': (2, -1)}
 
 
+def clearance(parent):
+    while parent is not None:
+        if 'surface_clearance' in parent:
+            return parent['surface_clearance']
+        parent = parent.parent
+    return .1 / 7.2
+
+
+def surfacePanel(name, at, size, material, parent, facing, surface, bevel=.02):
+    axis, sign = AXES[facing]
+    center = list(at)
+    center[axis] = surface + sign * (clearance(parent) + size[axis] / 2)
+    return block(name, center, size, material, parent, bevel)
+
+
 def lamp(name, center, size, facing, p, parent):
     """an orange strip in a dark frame, sunk into the paint"""
     axis, sign = AXES[facing]
@@ -190,7 +205,7 @@ def lamp(name, center, size, facing, p, parent):
     glow = [v * .72 for v in size]; glow[axis] = .07
     c = Vector(center)
     block(name + ' frame', c, frame, p['dark'], parent, .02, 1)
-    lit = Vector(center); lit[axis] += sign * .02
+    lit = Vector(center); lit[axis] += sign * (.03 + clearance(parent) + glow[axis] / 2)
     block(name, lit, glow, p['lamp'], parent, .015, 1)
 
 
@@ -206,16 +221,27 @@ def vent(name, center, size, facing, p, parent, slats=4):
     block(name, center, size, p['dark'], parent, .02, 1)
     long, cross = sorted((i for i in range(3) if i != axis), key=lambda i: -size[i])
     for k in range(slats):
-        c = Vector(center); c[axis] += sign * size[axis] * .5
+        c = Vector(center); c[axis] += sign * (size[axis] * .5 + clearance(parent) + .01)
         c[cross] += (k - (slats - 1) / 2) * size[cross] / slats
         span = [0, 0, 0]; span[axis], span[long], span[cross] = .02, size[long] * .85, size[cross] / (slats * 2.2)
         block(name + ' slat', c, span, p['black'], parent, 0)
 
 
 def antenna(name, base, height, p, parent, tip='lamp'):
-    barrel(name + ' foot', (base[0], base[1], base[2] + .06), .09, .12, p['dark'], parent, 'Z', sides=8)
-    barrel(name, (base[0], base[1], base[2] + height / 2), .025, height, p['dark'], parent, 'Z', sides=6, round_=0)
-    barrel(name + ' tip', (base[0], base[1], base[2] + height + .04), .045, .1, p[tip], parent, 'Z', sides=8, round_=0)
+    bm = bmesh.new()
+    rings = []
+    for z, radius in ((0, .09), (.12, .09), (.12, .025), (height - .3, .025), (height - .01, .044)):
+        rings.append([bm.verts.new((radius * math.cos(i * math.tau / 8),
+            radius * math.sin(i * math.tau / 8), z)) for i in range(8)])
+    bm.faces.new(list(reversed(rings[0])))
+    for lower, upper in zip(rings, rings[1:]):
+        for i in range(8):
+            j = (i + 1) % 8
+            bm.faces.new((lower[i], lower[j], upper[j], upper[i]))
+    bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
+    link(name, bm, p['dark'], parent, at=base)
+    barrel(name + ' tip', (base[0], base[1], base[2] + height + .04), .045, .1,
+        p[tip], parent, 'Z', sides=8, round_=0)
 
 
 def nozzle(name, center, radius, length, p, parent, rim='dark'):
@@ -330,9 +356,12 @@ def consolidate(assembly, deep=True):
                 meshes.append(c)
     walk(assembly)
     if len(meshes) < 2: return
+    graph = bpy.context.evaluated_depsgraph_get()
     for m in meshes:
-        with bpy.context.temp_override(object=m, active_object=m, selected_objects=[m], selected_editable_objects=[m]):
-            for mod in list(m.modifiers): bpy.ops.object.modifier_apply(modifier=mod.name)
+        if m.modifiers:
+            evaluated = m.evaluated_get(graph)
+            m.data = bpy.data.meshes.new_from_object(evaluated, depsgraph=graph)
+            m.modifiers.clear()
     bpy.ops.object.select_all(action='DESELECT')
     for m in meshes: m.select_set(True)
     bpy.context.view_layer.objects.active = meshes[0]
@@ -427,10 +456,16 @@ def toonify(size=14):
         mod.material_offset = len(obj.data.materials) - 1
 
 
-def render(root, name, size, out):
+def render(root, name, size, out, engine=None):
     scene = bpy.context.scene
     try: scene.render.engine = 'BLENDER_EEVEE'
     except TypeError: scene.render.engine = 'BLENDER_EEVEE_NEXT'
+    if engine:
+        scene.render.engine = engine
+        if engine == 'CYCLES':
+            scene.cycles.device = 'CPU'
+            scene.cycles.samples = 32
+            scene.cycles.use_denoising = True
     scene.render.resolution_x, scene.render.resolution_y = 1536, 1024
     scene.render.film_transparent = True
     scene.render.image_settings.file_format, scene.render.image_settings.color_mode = 'PNG', 'RGBA'
